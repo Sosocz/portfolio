@@ -6,6 +6,3 @@ __pycache__/
 
 # Temporary transfer files are not deployable assets.
 dist/assets/.chambre-sxsx-*
-
-# Rebuilt losslessly from chambre-sxsx.bin.gz by tools/prepare-github-checkout.py
-/dist/chambre-sxsx/chambre-sxsx.bin

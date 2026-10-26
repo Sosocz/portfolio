@@ -1,6 +1,6 @@
 const fs=require('node:fs'),path=require('node:path'),zlib=require('node:zlib'),crypto=require('node:crypto');
 const sharp=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/sharp');
-const dir=path.resolve(__dirname,'../dist/chambre-sxsx'),source=JSON.parse(fs.readFileSync(dir+'/chambre-sxsx.gltf'));
+const dir=path.resolve(__dirname,'../dist/chambre-sxsx'),{model:source,binary:sourceGeometry}=require('./read-room-source.cjs')(dir);
 const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
 (async()=>{
  const doc=structuredClone(source),checks=[];
@@ -23,7 +23,7 @@ const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
  }
  for(const tex of doc.textures||[]){const index=tex.source;if(index!==undefined&&doc.images[index].mimeType==='image/webp'){tex.extensions={...tex.extensions,EXT_texture_webp:{source:index}};delete tex.source;}}
  doc.extensionsUsed=[...new Set([...(doc.extensionsUsed||[]),'EXT_texture_webp'])];doc.extensionsRequired=[...new Set([...(doc.extensionsRequired||[]),'EXT_texture_webp'])];
- const binary=fs.readFileSync(dir+'/'+source.buffers[0].uri),compressed=zlib.gzipSync(binary,{level:9});
+ const binary=sourceGeometry,compressed=zlib.gzipSync(binary,{level:9});
  if(!zlib.gunzipSync(compressed).equals(binary))throw Error('Geometry mismatch');
  fs.writeFileSync(dir+'/chambre-sxsx.bin.gz',compressed);
  fs.writeFileSync(dir+'/chambre-sxsx.optimized.gltf',JSON.stringify(doc));

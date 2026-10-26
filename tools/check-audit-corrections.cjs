@@ -2,7 +2,7 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),crypto=require('node:crypto'),path=require('node:path');
 const root=path.resolve(__dirname,'../dist/chambre-sxsx'),bundle=fs.readFileSync(root+'/assets/interactive-room-Chi5jqhe.js','utf8');
 const loaderCode=bundle.slice(bundle.indexOf('async function loadRoomOptimized('),bundle.indexOf('const iS=r=>'));
-const original=JSON.parse(fs.readFileSync(root+'/chambre-sxsx.gltf'));
+const {model:original,binary:originalGeometry}=require('./read-room-source.cjs')(root);
 const model=JSON.parse(fs.readFileSync(root+'/chambre-sxsx.optimized.gltf'));
 for(const key of ['nodes','meshes','accessors','bufferViews','materials','scenes','animations','skins'])assert.deepEqual(model[key],original[key],key+' must retain original rendering data');
 const h=b=>crypto.createHash('sha256').update(b).digest('hex');
@@ -12,7 +12,7 @@ const h=b=>crypto.createHash('sha256').update(b).digest('hex');
   parsed++;const v=new DataView(buffer);assert.equal(v.getUint32(0,true),0x46546c67);assert.equal(v.getUint32(8,true),buffer.byteLength);
   const jsonLength=v.getUint32(12,true),json=JSON.parse(Buffer.from(buffer,20,jsonLength).toString().trim());
   assert(!json.buffers[0].uri);assert.deepEqual(json.meshes,original.meshes);
-  const bytes=Buffer.from(buffer,28+jsonLength,original.buffers[0].byteLength);assert.equal(h(bytes),h(fs.readFileSync(root+'/chambre-sxsx.bin')));return'optimized';
+  const bytes=Buffer.from(buffer,28+jsonLength,original.buffers[0].byteLength);assert.equal(h(bytes),h(originalGeometry));return'optimized';
  }};
  const context={URL,document:{baseURI:'https://portfolio.test/chambre-sxsx/'},iS:name=>'https://portfolio.test/chambre-sxsx/'+name,console,TextEncoder,Uint8Array,DataView,ArrayBuffer,DecompressionStream,Blob,Response,
  fetch:async url=>new Response(fs.readFileSync(root+'/'+url.split('/').at(-1)))};

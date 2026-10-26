@@ -2,7 +2,7 @@ import fs from 'node:fs';import assert from 'node:assert/strict';
 const {GLTFLoader,Vector3,PerspectiveCamera,Box3,createRoomMotion,Raycaster}=await import(process.argv[2]);
 globalThis.self={URL};globalThis.ProgressEvent=class{constructor(type,args){Object.assign(this,{type},args)}};globalThis.matchMedia=()=>({matches:true});
 const dir=process.cwd()+'/dist/chambre-sxsx/';
-const json=JSON.parse(fs.readFileSync(dir+'chambre-sxsx.gltf'));json.buffers[0].uri='data:application/octet-stream;base64,'+fs.readFileSync(dir+'chambre-sxsx.bin').toString('base64');
+const json=JSON.parse(fs.readFileSync(dir+'chambre-sxsx.gltf'));for(const buffer of json.buffers)buffer.uri='data:application/octet-stream;base64,'+fs.readFileSync(dir+buffer.uri).toString('base64');
 const loader=new GLTFLoader();loader.register(()=>({name:'QA_GEOMETRY_ONLY',loadTexture:()=>Promise.resolve(null)}));const {scene:root}=await loader.parseAsync(JSON.stringify(json),'');
 const camera=new PerspectiveCamera(40,1,.1,150),center=new Box3().setFromObject(root).getCenter(new Vector3());camera.position.copy(center).add(new Vector3(14,10,17).multiplyScalar(.86));camera.lookAt(center);camera.updateMatrixWorld(true);root.updateMatrixWorld(true);
 const events={};const canvas={getBoundingClientRect:()=>({left:0,top:0,width:800,height:800}),addEventListener:(name,fn)=>events[name]=fn,style:{}};const activations=[];
