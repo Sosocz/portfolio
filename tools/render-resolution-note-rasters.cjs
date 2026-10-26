@@ -1,3 +1,0 @@
-const sharp=require('sharp');const fs=require('node:fs');const path=require('node:path');
-const root=path.resolve(__dirname,'..');const source=path.join(root,'source-assets/resolution-notes/masters');const out=path.join(root,'dist/assets/resolution-notes');
-(async()=>{fs.mkdirSync(out,{recursive:true});for(const f of fs.readdirSync(source).filter(f=>f.endsWith('.svg'))){for(const [suffix,width,quality] of [['',1440,96],['-large',2304,98]])await sharp(path.join(source,f)).resize(width,Math.round(width*2/3)).webp({quality,effort:5,smartSubsample:true}).toFile(path.join(out,f.replace('.svg',suffix+'.webp')))}console.log('10 hover previews + 10 high-resolution reading versions ready.');})().catch(e=>{console.error(e);process.exit(1)});

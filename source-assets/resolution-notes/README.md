@@ -1,9 +1,0 @@
-# Resolution notes
-
-Ten report cards reproduce the approved fourth preview: a dark grid, three numbered phases, two short hints, the platform logo, and a restrained isometric illustration. Technical text is stored in cards.json and typeset as vector paths for crisp full-size viewing. Hover files are 1440×960 WebP; full-size reading uses a 2304×1536 WebP; editable vector masters stay in the source.
-
-These are summaries of public writeups, not screenshots of Sofiane’s own terminal. Sources are linked in the reader. The MIPS card is explicitly methodological because the challenge page is inaccessible from this environment; it avoids claiming an unverified exploit chain. Placeholder names and authentication prerequisites are stated on the individual cards.
-
-Art: generated with the built-in image-generation tool. The second art pass uses each official HTB machine avatar as identity/palette reference, not the Cobblestone visual as a universal material reference. Hercules uses bronze Cerberus and certificate keys; PingPong uses wood/rubber paddles and a trust trajectory; Eloquia uses an emerald glass/enamel lectern and database; Odyssey uses a wooden Greek ship and ocean glass. Cobblestone retains its approved voxel stone cube unchanged. Five separate Root-Me sculptures illustrate double-free allocation reuse, a Dog/DogHouse dangling pointer, two-half format writes, MIPS return-address memory, and stack overflow into a check variable. See art-briefs-v2.json for the prompt set. These are conceptual illustrations, not exploit diagrams. Art is resized without cropping and alpha is preserved. Earlier art remains in source history/files for reversibility.
-
-Typography: the site’s existing Mona Sans Variable; command text uses DejaVu Sans Mono. To regenerate SVGs, run tools/render-resolution-notes.py with fontTools and brotli available. Native hover timelines and scroll engines are preserved; only note-card positioning is clamped to the viewport.

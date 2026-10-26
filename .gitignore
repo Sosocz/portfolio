@@ -1,8 +1,0 @@
-
-/source-assets/badge-series/badge-*.svg
-
-__pycache__/
-
-
-# Temporary transfer files are not deployable assets.
-dist/assets/.chambre-sxsx-*

@@ -1,4 +1,0 @@
-// Native SVG typography and artwork are flattened once into light responsive assets.
-const fs=require('fs'),path=require('path'),sharp=require('sharp');
-const root=path.resolve(__dirname,'..'),src=path.join(root,'source-assets/badge-series'),out=path.join(root,'dist/assets/certs/color-series');fs.mkdirSync(out,{recursive:true});
-(async()=>{const files=fs.readdirSync(src).filter(f=>/^badge-\d\d\.svg$/.test(f));let total=0;for(const f of files){const n=f.slice(6,8),data=fs.readFileSync(path.join(src,f)),master=await sharp(data,{density:72}).png().toBuffer();for(const w of [640,1120,1630]){const result=await sharp(master).resize(w,Math.round(w*965/1630)).webp({quality:90,effort:4}).toFile(path.join(out,`badge-${n}-${w}.webp`));total+=result.size;}}console.log(JSON.stringify({badges:files.length,assets:files.length*3,totalBytes:total}));})().catch(e=>{console.error(e);process.exit(1)});
