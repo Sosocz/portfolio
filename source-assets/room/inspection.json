@@ -1,0 +1,2717 @@
+{
+  "version": [
+    5,
+    2,
+    45
+  ],
+  "frames": [
+    1,
+    480,
+    24
+  ],
+  "camera": "Cam\u00e9ra \u2014 chambre transparente",
+  "objects": [
+    {
+      "name": "Chambre SXSX \u2014 socle bleu et cailloux \u2014 sans d\u00e9cor ext\u00e9rieur",
+      "type": "EMPTY",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "polygons": 0,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Fish_Bowl_Glass",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -0.707342267036438,
+        -1.153733491897583,
+        1.2463078498840332
+      ],
+      "dimensions": [
+        1.0482627153396606,
+        1.0482627153396606,
+        0.8485022187232971
+      ],
+      "polygons": 736,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Computer_Glass",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.1995322704315186,
+        3.1928601264953613,
+        3.8113129138946533
+      ],
+      "dimensions": [
+        1.3973922729492188,
+        0.0430741086602211,
+        1.090755820274353
+      ],
+      "polygons": 132,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Screen",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.855480432510376,
+        1.4922170639038086,
+        4.491544723510742
+      ],
+      "dimensions": [
+        0.009839780628681183,
+        1.9191086292266846,
+        1.156877040863037
+      ],
+      "polygons": 82,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Fish_Bowl_Water",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -0.707342267036438,
+        -1.153733491897583,
+        1.2463078498840332
+      ],
+      "dimensions": [
+        0.8890795111656189,
+        0.8890795111656189,
+        0.6706491112709045
+      ],
+      "polygons": 192,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "About_Button_Third_Raycaster_Pointer_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -3.518258810043335,
+        -3.093583106994629,
+        4.686182498931885
+      ],
+      "dimensions": [
+        0.6618196368217468,
+        0.15787847340106964,
+        1.5761868953704834
+      ],
+      "polygons": 8394,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Contact_Button_Third_Raycaster_Pointer_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -3.5182461738586426,
+        -3.0933024883270264,
+        3.8315374851226807
+      ],
+      "dimensions": [
+        0.6633330583572388,
+        0.16526468098163605,
+        1.5524834394454956
+      ],
+      "polygons": 13297,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "My_Work_Button_Third_Raycaster_Pointer_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -3.518317699432373,
+        -3.093348264694214,
+        5.5362467765808105
+      ],
+      "dimensions": [
+        0.6591747999191284,
+        0.16630126535892487,
+        1.5436339378356934
+      ],
+      "polygons": 12047,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Hanging_Plank_1_Third",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -3.5604639053344727,
+        -2.11240291595459,
+        6.37126350402832
+      ],
+      "dimensions": [
+        0.4089396893978119,
+        0.15392132103443146,
+        2.2595815658569336
+      ],
+      "polygons": 290,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Hanging_Plank_2_Third",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -3.5946455001831055,
+        -3.0799379348754883,
+        6.2898640632629395
+      ],
+      "dimensions": [
+        0.40892493724823,
+        0.15397532284259796,
+        3.4320783615112305
+      ],
+      "polygons": 380,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Boba_Plushie_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.9210867881774902,
+        3.9784111976623535,
+        5.5917558670043945
+      ],
+      "dimensions": [
+        0.4367730915546417,
+        0.4364475905895233,
+        0.6665722727775574
+      ],
+      "polygons": 2816,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "GitHub_Fourth_Raycaster_Pointer_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.3095500469207764,
+        3.988424777984619,
+        5.618943214416504
+      ],
+      "dimensions": [
+        0.530501663684845,
+        0.5327779650688171,
+        0.08286140114068985
+      ],
+      "polygons": 10638,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Twitter_Fourth_Raycaster_Pointer_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.091518759727478,
+        3.991705894470215,
+        5.624607563018799
+      ],
+      "dimensions": [
+        0.5305038094520569,
+        0.5327779650688171,
+        0.08510781079530716
+      ],
+      "polygons": 26426,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "YouTube_Fourth_Raycaster_Pointer_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.694319486618042,
+        3.988758087158203,
+        5.62067985534668
+      ],
+      "dimensions": [
+        0.5305038094520569,
+        0.5327779650688171,
+        0.09180781990289688
+      ],
+      "polygons": 13242,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Computer_Fan_1_Fourth_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.482286214828491,
+        3.2264842987060547,
+        3.6708288192749023
+      ],
+      "dimensions": [
+        0.20373736321926117,
+        0.2113620638847351,
+        0.022499872371554375
+      ],
+      "polygons": 1078,
+      "animated": true,
+      "modifiers": []
+    },
+    {
+      "name": "Computer_Fan_2_Fourth_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -3.0735549926757812,
+        3.5640034675598145,
+        3.7556984424591064
+      ],
+      "dimensions": [
+        0.20373739302158356,
+        0.21136203408241272,
+        0.022499872371554375
+      ],
+      "polygons": 550,
+      "animated": true,
+      "modifiers": []
+    },
+    {
+      "name": "Computer_Fan_3_Fourth_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.143890380859375,
+        3.2264842987060547,
+        3.6708288192749023
+      ],
+      "dimensions": [
+        0.20373736321926117,
+        0.2113620638847351,
+        0.022499872371554375
+      ],
+      "polygons": 1078,
+      "animated": true,
+      "modifiers": []
+    },
+    {
+      "name": "Computer_Fan_4_Fourth_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -3.0735549926757812,
+        3.5640034675598145,
+        4.095363140106201
+      ],
+      "dimensions": [
+        0.20373739302158356,
+        0.21136203408241272,
+        0.022499872371554375
+      ],
+      "polygons": 1078,
+      "animated": true,
+      "modifiers": []
+    },
+    {
+      "name": "Computer_Fan_5_Fourth_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.8038614988327026,
+        3.2264842987060547,
+        3.6708288192749023
+      ],
+      "dimensions": [
+        0.20373736321926117,
+        0.2113620638847351,
+        0.022499872371554375
+      ],
+      "polygons": 1078,
+      "animated": true,
+      "modifiers": []
+    },
+    {
+      "name": "Chair_Top_Fourth",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -0.8156225681304932,
+        1.8196930885314941,
+        1.8063297271728516
+      ],
+      "dimensions": [
+        1.5575487613677979,
+        1.5321553945541382,
+        2.059509515762329
+      ],
+      "polygons": 2908,
+      "animated": true,
+      "modifiers": []
+    },
+    {
+      "name": "Flower_1_Fourth_Hover_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.8106417655944824,
+        -0.5301196575164795,
+        3.3598124980926514
+      ],
+      "dimensions": [
+        0.21663595736026764,
+        0.22275251150131226,
+        0.5301982164382935
+      ],
+      "polygons": 1680,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Flower_2_Fourth_Hover_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.9361519813537598,
+        -0.5630662441253662,
+        3.4006400108337402
+      ],
+      "dimensions": [
+        0.322910875082016,
+        0.28020399808883667,
+        0.6839365363121033
+      ],
+      "polygons": 1680,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Flower_3_Fourth_Hover_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.911349296569824,
+        -0.39965081214904785,
+        3.363163471221924
+      ],
+      "dimensions": [
+        0.2919153869152069,
+        0.32303327322006226,
+        0.7356483340263367
+      ],
+      "polygons": 1680,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Kirby_Third_Hover_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        1.4971851110458374,
+        1.1290980577468872,
+        0.5615203380584717
+      ],
+      "dimensions": [
+        1.1642061471939087,
+        1.1467249393463135,
+        1.0866776704788208
+      ],
+      "polygons": 3528,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Fish_Fourth_Hover_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -0.7188298106193542,
+        -1.153749942779541,
+        1.6547446250915527
+      ],
+      "dimensions": [
+        0.5532681941986084,
+        0.39613234996795654,
+        0.38110432028770447
+      ],
+      "polygons": 2076,
+      "animated": true,
+      "modifiers": []
+    },
+    {
+      "name": "Hour_Hand_First",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -3.242617130279541,
+        0.7311044335365295,
+        6.389797210693359
+      ],
+      "dimensions": [
+        0.021029220893979073,
+        0.03992518410086632,
+        0.16031722724437714
+      ],
+      "polygons": 264,
+      "animated": true,
+      "modifiers": []
+    },
+    {
+      "name": "Minute_Hand_First",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -3.242617130279541,
+        0.7311044335365295,
+        6.389797210693359
+      ],
+      "dimensions": [
+        0.021028636023402214,
+        0.04045586287975311,
+        0.265009343624115
+      ],
+      "polygons": 264,
+      "animated": true,
+      "modifiers": []
+    },
+    {
+      "name": "Lamp_First_Hover_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -0.7746963500976562,
+        3.1963257789611816,
+        0.525822639465332
+      ],
+      "dimensions": [
+        0.864093005657196,
+        0.864093005657196,
+        1.1739311218261719
+      ],
+      "polygons": 864,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Flower_4_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.9047656059265137,
+        -1.528212308883667,
+        3.9923110008239746
+      ],
+      "dimensions": [
+        0.21244652569293976,
+        0.2360239326953888,
+        0.511614203453064
+      ],
+      "polygons": 1656,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Flower_5_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.866481304168701,
+        -1.4670660495758057,
+        4.036025524139404
+      ],
+      "dimensions": [
+        0.16073815524578094,
+        0.14393286406993866,
+        0.33948346972465515
+      ],
+      "polygons": 1656,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Egg_1_Fourth_Hover_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -3.0663273334503174,
+        2.2840147018432617,
+        6.566259860992432
+      ],
+      "dimensions": [
+        0.13968637585639954,
+        0.13035236299037933,
+        0.14331674575805664
+      ],
+      "polygons": 160,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Egg_2_Fourth_Hover_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.995638370513916,
+        2.4089534282684326,
+        6.566259860992432
+      ],
+      "dimensions": [
+        0.14620137214660645,
+        0.15303239226341248,
+        0.16033315658569336
+      ],
+      "polygons": 160,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Egg_3_Fourth_Hover_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -3.1353724002838135,
+        2.410597324371338,
+        6.566259860992432
+      ],
+      "dimensions": [
+        0.1412298083305359,
+        0.15655554831027985,
+        0.16033315658569336
+      ],
+      "polygons": 160,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Pencil_1_Fourth_Hover_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.677374839782715,
+        -1.6113746166229248,
+        2.8640429973602295
+      ],
+      "dimensions": [
+        0.08705468475818634,
+        0.05386313796043396,
+        0.31949305534362793
+      ],
+      "polygons": 56,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Pencil_2_Fourth_Hover_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.7118799686431885,
+        -1.5681464672088623,
+        2.8584201335906982
+      ],
+      "dimensions": [
+        0.04613392800092697,
+        0.05121631175279617,
+        0.32148540019989014
+      ],
+      "polygons": 56,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Pencil_3_Fourth_Hover_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.6531877517700195,
+        -1.5403709411621094,
+        2.8623275756835938
+      ],
+      "dimensions": [
+        0.08471542596817017,
+        0.05832993984222412,
+        0.32067763805389404
+      ],
+      "polygons": 56,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Name_Platform_Third",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        1.3178311586380005,
+        4.2185959815979,
+        3.3757505416870117
+      ],
+      "dimensions": [
+        1.7043753862380981,
+        0.20286467671394348,
+        0.06148360297083855
+      ],
+      "polygons": 23,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Bulb_1_Fourth_Raycaster_Hover_2",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.845806360244751,
+        -0.3303428888320923,
+        5.621179103851318
+      ],
+      "dimensions": [
+        0.19289708137512207,
+        0.1630866378545761,
+        0.27701902389526367
+      ],
+      "polygons": 704,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Bulb_2_Fourth_Raycaster_Hover_2",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.7871639728546143,
+        0.16284435987472534,
+        5.583133697509766
+      ],
+      "dimensions": [
+        0.18859855830669403,
+        0.16359682381153107,
+        0.2778856158256531
+      ],
+      "polygons": 704,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Bulb_3_Fourth_Raycaster_Hover_2",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.7715721130371094,
+        0.6596176028251648,
+        5.642429828643799
+      ],
+      "dimensions": [
+        0.1716690957546234,
+        0.1873890906572342,
+        0.2769254446029663
+      ],
+      "polygons": 704,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Bulb_4_Fourth_Raycaster_Hover_2",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.7960381507873535,
+        1.1298863887786865,
+        5.809530735015869
+      ],
+      "dimensions": [
+        0.17649489641189575,
+        0.20986583828926086,
+        0.27514660358428955
+      ],
+      "polygons": 704,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Bulb_5_Fourth_Raycaster_Hover_2",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.873116970062256,
+        1.5737183094024658,
+        6.01035737991333
+      ],
+      "dimensions": [
+        0.17235881090164185,
+        0.20986972749233246,
+        0.2750856876373291
+      ],
+      "polygons": 704,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Bulb_6_Fourth_Raycaster_Hover_2",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -3.1190602779388428,
+        2.499246597290039,
+        6.189002990722656
+      ],
+      "dimensions": [
+        0.22314272820949554,
+        0.2174014300107956,
+        0.26200437545776367
+      ],
+      "polygons": 704,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Bulb_7_Fourth_Raycaster_Hover_2",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.8497350215911865,
+        2.680576801300049,
+        5.861952781677246
+      ],
+      "dimensions": [
+        0.21260498464107513,
+        0.21731767058372498,
+        0.26531898975372314
+      ],
+      "polygons": 704,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Bulb_8_Fourth_Raycaster_Hover_2",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.602586269378662,
+        3.027254581451416,
+        5.606592655181885
+      ],
+      "dimensions": [
+        0.1928330957889557,
+        0.17581741511821747,
+        0.27765727043151855
+      ],
+      "polygons": 704,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Bulb_9_Fourth_Raycaster_Hover_2",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.443498134613037,
+        3.4796030521392822,
+        5.5000433921813965
+      ],
+      "dimensions": [
+        0.19369767606258392,
+        0.16317971050739288,
+        0.27714836597442627
+      ],
+      "polygons": 704,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Slipper_1_Fourth_Hover_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.116384506225586,
+        1.6377650499343872,
+        0.525822639465332
+      ],
+      "dimensions": [
+        0.8605691194534302,
+        0.6203052401542664,
+        0.31149208545684814
+      ],
+      "polygons": 1376,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Slipper_2_Fourth_Hover_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.7326161861419678,
+        2.420043468475342,
+        0.5236759185791016
+      ],
+      "dimensions": [
+        0.8583517074584961,
+        0.6249940395355225,
+        0.31147536635398865
+      ],
+      "polygons": 1296,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Coffee_Mug_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.592550277709961,
+        0.2670802175998688,
+        3.090867757797241
+      ],
+      "dimensions": [
+        0.33141782879829407,
+        0.44446778297424316,
+        0.3348633050918579
+      ],
+      "polygons": 782,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Poro_Raycaster_Hover_Fourth",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.648266553878784,
+        0.8428993225097656,
+        3.4736227989196777
+      ],
+      "dimensions": [
+        0.314346581697464,
+        0.2973460257053375,
+        0.33556658029556274
+      ],
+      "polygons": 12386,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "MrRabbit_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.6456141471862793,
+        2.2521800994873047,
+        3.461087226867676
+      ],
+      "dimensions": [
+        0.2682468295097351,
+        0.27504846453666687,
+        0.32582205533981323
+      ],
+      "polygons": 1752,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "MrRabbit_Son_Raycaster_Fourth_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.705759048461914,
+        2.0096435546875,
+        3.464841365814209
+      ],
+      "dimensions": [
+        0.18010088801383972,
+        0.1856875717639923,
+        0.20707368850708008
+      ],
+      "polygons": 1828,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Seaweed_1_Hover_Third_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        3.3275835514068604,
+        4.308013439178467,
+        -0.5999771356582642
+      ],
+      "dimensions": [
+        0.2948817312717438,
+        0.27493321895599365,
+        1.1672015190124512
+      ],
+      "polygons": 1728,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Seaweed_2_Hover_Third_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        3.1906239986419678,
+        3.040619134902954,
+        -0.6718118190765381
+      ],
+      "dimensions": [
+        0.24567164480686188,
+        0.2890164852142334,
+        0.8334724307060242
+      ],
+      "polygons": 1728,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Seaweed_3_Hover_Third_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        3.2453696727752686,
+        3.6089401245117188,
+        -0.4528343975543976
+      ],
+      "dimensions": [
+        0.40283921360969543,
+        0.47925880551338196,
+        1.3926386833190918
+      ],
+      "polygons": 1728,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Seaweed_4_Hover_Third_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        3.5440032482147217,
+        1.2347341775894165,
+        -0.5409587621688843
+      ],
+      "dimensions": [
+        0.13663269579410553,
+        0.2570987045764923,
+        0.8858145475387573
+      ],
+      "polygons": 1728,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Seaweed_5_Hover_Third_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        2.951960325241089,
+        -2.2046921253204346,
+        -0.7766697406768799
+      ],
+      "dimensions": [
+        0.3234330415725708,
+        0.15835055708885193,
+        0.7024796009063721
+      ],
+      "polygons": 1728,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Seaweed_6_Hover_Third_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        2.44466495513916,
+        -2.4912753105163574,
+        -0.4355831742286682
+      ],
+      "dimensions": [
+        0.4200587868690491,
+        0.36511439085006714,
+        1.4518615007400513
+      ],
+      "polygons": 1728,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Seaweed_7_Hover_Third_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        1.9573503732681274,
+        -2.609302043914795,
+        -0.5608429908752441
+      ],
+      "dimensions": [
+        0.24604915082454681,
+        0.3397789001464844,
+        1.1135423183441162
+      ],
+      "polygons": 1728,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Seaweed_8_Hover_Third_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -0.9637925624847412,
+        -2.9367265701293945,
+        -0.514277458190918
+      ],
+      "dimensions": [
+        0.27056780457496643,
+        0.15997420251369476,
+        0.8615573644638062
+      ],
+      "polygons": 1728,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Seaweed_9_Hover_Third_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.3631649017333984,
+        -2.506401538848877,
+        -0.20923203229904175
+      ],
+      "dimensions": [
+        0.5328208208084106,
+        0.2511662244796753,
+        1.3991351127624512
+      ],
+      "polygons": 1728,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Seaweed_10_Hover_Third_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.6862952709198,
+        -2.678671360015869,
+        -0.35830727219581604
+      ],
+      "dimensions": [
+        0.36228811740875244,
+        0.3523755669593811,
+        1.309657096862793
+      ],
+      "polygons": 1728,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Seaweed_11_Hover_Third_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -3.315704345703125,
+        -2.683589458465576,
+        0.02974522113800049
+      ],
+      "dimensions": [
+        0.6877629160881042,
+        0.6785854697227478,
+        2.244098663330078
+      ],
+      "polygons": 1728,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Seaweed_12_Hover_Third_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -3.4362292289733887,
+        -3.0861692428588867,
+        -0.7221198081970215
+      ],
+      "dimensions": [
+        0.37348857522010803,
+        0.20663641393184662,
+        0.7614314556121826
+      ],
+      "polygons": 1728,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Box_1_Hover_Fourth_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.5649781227111816,
+        0.5763297080993652,
+        0.8269674777984619
+      ],
+      "dimensions": [
+        1.1471350193023682,
+        0.9085773825645447,
+        0.6177150011062622
+      ],
+      "polygons": 344,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Box_2_Hover_Fourth_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.448514461517334,
+        0.5659615993499756,
+        1.3892366886138916
+      ],
+      "dimensions": [
+        1.1584031581878662,
+        1.0655640363693237,
+        0.5088828206062317
+      ],
+      "polygons": 346,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Box_3_Hover_Fourth_Raycaster",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.3839848041534424,
+        0.5359430313110352,
+        1.8086285591125488
+      ],
+      "dimensions": [
+        0.672552227973938,
+        0.5480830669403076,
+        0.3463132977485657
+      ],
+      "polygons": 468,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Rock_1_Third_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        2.363529920578003,
+        6.425403118133545,
+        -1.3371281623840332
+      ],
+      "dimensions": [
+        2.242978811264038,
+        2.0205018520355225,
+        1.2135605812072754
+      ],
+      "polygons": 290,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Rock_2_Third_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        3.713412046432495,
+        2.354970932006836,
+        -0.807651162147522
+      ],
+      "dimensions": [
+        0.8575905561447144,
+        1.0062240362167358,
+        0.6129595041275024
+      ],
+      "polygons": 226,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Rock_3_Third_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        4.449821949005127,
+        -0.4838852882385254,
+        -1.074744462966919
+      ],
+      "dimensions": [
+        0.6693799495697021,
+        1.4003896713256836,
+        0.3283218443393707
+      ],
+      "polygons": 344,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Rock_4_Third_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        3.5104236602783203,
+        -0.49099791049957275,
+        -0.8794901371002197
+      ],
+      "dimensions": [
+        0.750918447971344,
+        1.5606110095977783,
+        0.48924481868743896
+      ],
+      "polygons": 248,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Rock_5_Third_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.12076357007026672,
+        -2.68627667427063,
+        -0.7973804473876953
+      ],
+      "dimensions": [
+        1.4928094148635864,
+        0.9356141686439514,
+        0.7767930030822754
+      ],
+      "polygons": 360,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Rock_6_Third_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.1074116230010986,
+        -3.1385269165039062,
+        -0.8126571774482727
+      ],
+      "dimensions": [
+        1.309701681137085,
+        1.1511752605438232,
+        0.800146758556366
+      ],
+      "polygons": 320,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Rock_7_Third_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -5.3227152824401855,
+        -1.7996270656585693,
+        -1.1713688373565674
+      ],
+      "dimensions": [
+        1.704841136932373,
+        2.323854923248291,
+        1.2234175205230713
+      ],
+      "polygons": 290,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Frame_1_Second_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.8406896591186523,
+        -1.3330981731414795,
+        5.947628021240234
+      ],
+      "dimensions": [
+        0.20063535869121552,
+        0.4186534583568573,
+        0.462307870388031
+      ],
+      "polygons": 932,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Frame_2_Second_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.933535575866699,
+        -0.5230934619903564,
+        5.787319183349609
+      ],
+      "dimensions": [
+        0.298215389251709,
+        0.5815572738647461,
+        0.5408770442008972
+      ],
+      "polygons": 932,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Frame_3_Second_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.9066011905670166,
+        -0.8788126707077026,
+        4.858358383178711
+      ],
+      "dimensions": [
+        0.1788320392370224,
+        0.4148847162723541,
+        0.46066123247146606
+      ],
+      "polygons": 1132,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Cactus_Raycaster_Fourth_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.913743734359741,
+        -0.20144271850585938,
+        4.847076892852783
+      ],
+      "dimensions": [
+        0.39917123317718506,
+        0.44986197352409363,
+        0.601787269115448
+      ],
+      "polygons": 3106,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Flower_Basket_Raycaster_Hover_Fourth",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.1736931800842285,
+        -1.1141393184661865,
+        2.2833681106567383
+      ],
+      "dimensions": [
+        0.6633671522140503,
+        0.6376954317092896,
+        0.808807373046875
+      ],
+      "polygons": 30480,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Headphones_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.1232500076293945,
+        -0.258312463760376,
+        3.0792248249053955
+      ],
+      "dimensions": [
+        0.8758195042610168,
+        1.015610933303833,
+        0.9256609082221985
+      ],
+      "polygons": 9942,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Mouth_Raycaster_Hover_Fourth",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.858780026435852,
+        2.7047698497772217,
+        3.1613519191741943
+      ],
+      "dimensions": [
+        0.4064679741859436,
+        0.2910006046295166,
+        0.1600019484758377
+      ],
+      "polygons": 1902,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_1_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.0271096229553223,
+        1.1344246864318848,
+        3.246727466583252
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_2_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.0271096229553223,
+        1.3416225910186768,
+        3.246727466583252
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_3_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.0271096229553223,
+        1.5488207340240479,
+        3.246727466583252
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_4_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.0271096229553223,
+        1.7560186386108398,
+        3.246727466583252
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_5_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.0271096229553223,
+        1.9632166624069214,
+        3.246727466583252
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_6_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.9117391109466553,
+        1.1344246864318848,
+        3.242755651473999
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_7_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.9117391109466553,
+        1.3416225910186768,
+        3.242755651473999
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_8_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.9117391109466553,
+        1.5488207340240479,
+        3.242755651473999
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_9_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.9117391109466553,
+        1.7560186386108398,
+        3.242755651473999
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_10_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.9117391109466553,
+        1.9632166624069214,
+        3.242755651473999
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_11_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.7963685989379883,
+        1.1344246864318848,
+        3.238783836364746
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_12_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.7963685989379883,
+        1.3416225910186768,
+        3.238783836364746
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_13_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.7963685989379883,
+        1.5488207340240479,
+        3.238783836364746
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_14_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.7963685989379883,
+        1.7560186386108398,
+        3.238783836364746
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_15_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.7963685989379883,
+        1.9632166624069214,
+        3.238783836364746
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_16_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.6809979677200317,
+        1.1344246864318848,
+        3.234812021255493
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_17_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.6809979677200317,
+        1.3416225910186768,
+        3.234812021255493
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_18_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.6809979677200317,
+        1.5488207340240479,
+        3.234812021255493
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_19_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.6809979677200317,
+        1.7560186386108398,
+        3.234812021255493
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_20_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.6809979677200317,
+        1.9632166624069214,
+        3.234812021255493
+      ],
+      "dimensions": [
+        0.09860548377037048,
+        0.09866571426391602,
+        0.0694207176566124
+      ],
+      "polygons": 142,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Keyboard_21_Fourth_Raycaster_Hover",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.5406814813613892,
+        1.5400404930114746,
+        3.2348721027374268
+      ],
+      "dimensions": [
+        0.10332116484642029,
+        0.679257869720459,
+        0.0689498782157898
+      ],
+      "polygons": 110,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Book_1_Fourth",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.4485487937927246,
+        3.6137354373931885,
+        4.3687615394592285
+      ],
+      "dimensions": [
+        0.8940925598144531,
+        0.9153804779052734,
+        0.27344632148742676
+      ],
+      "polygons": 2428,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Book_2_Fourth",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.4485487937927246,
+        3.6137354373931885,
+        4.3687615394592285
+      ],
+      "dimensions": [
+        0.5829384922981262,
+        0.6683192253112793,
+        0.20939278602600098
+      ],
+      "polygons": 2428,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Pencil_Holder_Fourth",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.4485487937927246,
+        3.6137354373931885,
+        4.3687615394592285
+      ],
+      "dimensions": [
+        0.33199405670166016,
+        0.33199405670166016,
+        0.27170705795288086
+      ],
+      "polygons": 302,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "First",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.8497350215911865,
+        2.680576801300049,
+        5.861952781677246
+      ],
+      "dimensions": [
+        7.382033824920654,
+        7.768089294433594,
+        8.845806121826172
+      ],
+      "polygons": 21610,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Second",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.8497352600097656,
+        2.680576801300049,
+        5.861952781677246
+      ],
+      "dimensions": [
+        0.9176273345947266,
+        0.00679779052734375,
+        1.3866353034973145
+      ],
+      "polygons": 10,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Third",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -0.383465439081192,
+        1.1289615631103516,
+        -0.516595721244812
+      ],
+      "dimensions": [
+        11.4446439743042,
+        11.4446439743042,
+        5.5054168701171875
+      ],
+      "polygons": 60076,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Fourth",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -2.4485487937927246,
+        3.6137354373931885,
+        4.3687615394592285
+      ],
+      "dimensions": [
+        3.2878761291503906,
+        5.922556400299072,
+        6.080288410186768
+      ],
+      "polygons": 64248,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Sofiane \u2014 PC Figurine",
+      "type": "EMPTY",
+      "hidden": false,
+      "location": [
+        -1.475836157798767,
+        3.2263190746307373,
+        4.581674098968506
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "polygons": 0,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Scene",
+      "type": "EMPTY",
+      "hidden": false,
+      "location": [
+        0.0,
+        -0.03999999910593033,
+        0.38999998569488525
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "polygons": 0,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Sofiane asset HAIR_GAP_INTERNAL_BACKING",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -0.02440360188484192,
+        -0.0,
+        0.0010654926300048828
+      ],
+      "dimensions": [
+        0.2670266628265381,
+        0.25393620133399963,
+        0.13738003373146057
+      ],
+      "polygons": 3999,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Sofiane asset HAIR_GAP_TOP_RECESSED_INFILL",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -0.02440360188484192,
+        -0.0,
+        0.0010654926300048828
+      ],
+      "dimensions": [
+        0.05081292241811752,
+        0.08394791185855865,
+        0.07554422318935394
+      ],
+      "polygons": 1330,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Sofiane asset HAIR_ONLY_GAP_CAPS",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -0.02440360188484192,
+        -0.0,
+        0.0010654926300048828
+      ],
+      "dimensions": [
+        0.3181074559688568,
+        0.29041245579719543,
+        0.1488979309797287
+      ],
+      "polygons": 4000,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Sofiane asset HAIR_ONLY_WISPS",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -0.02440360188484192,
+        -0.0,
+        0.0010654926300048828
+      ],
+      "dimensions": [
+        0.318691223859787,
+        0.18620546162128448,
+        0.10477600991725922
+      ],
+      "polygons": 7999,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Sofiane_Seat_Anchor",
+      "type": "EMPTY",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.03999999910593033,
+        -0.38999998569488525
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "polygons": 0,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Sofiane asset Sofiane_Working_Monolithic",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.3456587791442871,
+        0.4451611638069153,
+        0.812997579574585
+      ],
+      "polygons": 65000,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Sofiane asset V2_BEARD_SHORT_FIBRES",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -0.02440360188484192,
+        -0.0,
+        0.0010654926300048828
+      ],
+      "dimensions": [
+        0.19896312057971954,
+        0.18468624353408813,
+        0.12455615401268005
+      ],
+      "polygons": 47034,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Sofiane asset V2_BROW_SHORT_FIBRES",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -0.02440360188484192,
+        -0.0,
+        0.0010654926300048828
+      ],
+      "dimensions": [
+        0.17488831281661987,
+        0.04780442640185356,
+        0.07603767514228821
+      ],
+      "polygons": 9480,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Sofiane asset V2_GOOD_IDEAS_BOUCLE",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.11651992052793503,
+        0.025144290179014206,
+        0.09472550451755524
+      ],
+      "polygons": 22982,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Sofiane contact shadow",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -1.5008361339569092,
+        3.25131893157959,
+        4.585674285888672
+      ],
+      "dimensions": [
+        0.3199999928474426,
+        0.0,
+        0.2600000202655792
+      ],
+      "polygons": 2,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Server rack \u2014 replaces piano",
+      "type": "EMPTY",
+      "hidden": false,
+      "location": [
+        1.649999976158142,
+        2.940000057220459,
+        0.5270000100135803
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "polygons": 0,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Scene.001",
+      "type": "EMPTY",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "polygons": 0,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "server-rack",
+      "type": "EMPTY",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "polygons": 0,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "server-rack_body",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.03263455629348755,
+        0.0
+      ],
+      "dimensions": [
+        1.0346895456314087,
+        1.724482536315918,
+        3.450000047683716
+      ],
+      "polygons": 19060,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "server-rack_door",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        -0.2879999876022339,
+        -0.47136545181274414,
+        0.07000000029802322
+      ],
+      "dimensions": [
+        1.0174446105957031,
+        0.12290231138467789,
+        3.2247824668884277
+      ],
+      "polygons": 2328,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "server-rack_door_glass",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.2879999876022339,
+        0.5040000081062317,
+        -0.07000000029802322
+      ],
+      "dimensions": [
+        0.8346495628356934,
+        0.010346967726945877,
+        3.0523340702056885
+      ],
+      "polygons": 124,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "server-rack_led_glow",
+      "type": "EMPTY",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.03263455629348755,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "polygons": 0,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "server-rack_led_glow_1",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.5083774328231812,
+        0.004828581586480141,
+        2.7489373683929443
+      ],
+      "polygons": 3360,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "server-rack_led_glow_2",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.008277501910924911,
+        0.004828581586480141,
+        1.8181480169296265
+      ],
+      "polygons": 1400,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "server-rack_led_glow_3",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.5601118803024292,
+        0.004828581586480141,
+        2.7489373683929443
+      ],
+      "polygons": 980,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Sun",
+      "type": "LIGHT",
+      "hidden": false,
+      "location": [
+        -1.5,
+        -3.0,
+        7.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "polygons": 0,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Node_131",
+      "type": "EMPTY",
+      "hidden": false,
+      "location": [
+        1.649999976158142,
+        2.940000057220459,
+        0.5270000100135803
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "polygons": 0,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Point",
+      "type": "LIGHT",
+      "hidden": false,
+      "location": [
+        -1.0,
+        2.0,
+        4.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "polygons": 0,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "sxsx \u2014 wooden window name",
+      "type": "EMPTY",
+      "hidden": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "polygons": 0,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "sxsx_\u2014_window_lettering",
+      "type": "MESH",
+      "hidden": false,
+      "location": [
+        0.7402361631393433,
+        4.215400218963623,
+        3.4078314304351807
+      ],
+      "dimensions": [
+        0.6027839183807373,
+        0.0737999975681305,
+        0.16270001232624054
+      ],
+      "polygons": 29584,
+      "animated": false,
+      "modifiers": []
+    },
+    {
+      "name": "Cam\u00e9ra \u2014 chambre transparente",
+      "type": "CAMERA",
+      "hidden": false,
+      "location": [
+        13.581875801086426,
+        -15.578850746154785,
+        12.974947929382324
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "polygons": 0,
+      "animated": false,
+      "modifiers": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Image_0",
+      "size": [
+        1440,
+        862
+      ],
+      "packed": true,
+      "path": ""
+    },
+    {
+      "name": "Image_1",
+      "size": [
+        4096,
+        4096
+      ],
+      "packed": true,
+      "path": ""
+    },
+    {
+      "name": "Image_10",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "path": ""
+    },
+    {
+      "name": "Image_11",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "path": ""
+    },
+    {
+      "name": "Image_12",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "path": ""
+    },
+    {
+      "name": "Image_13",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "path": ""
+    },
+    {
+      "name": "Image_14",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "path": ""
+    },
+    {
+      "name": "Image_15",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "path": ""
+    },
+    {
+      "name": "Image_2",
+      "size": [
+        4096,
+        4096
+      ],
+      "packed": true,
+      "path": ""
+    },
+    {
+      "name": "Image_3",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "path": ""
+    },
+    {
+      "name": "Image_4",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "path": ""
+    },
+    {
+      "name": "Image_5",
+      "size": [
+        4096,
+        4096
+      ],
+      "packed": true,
+      "path": ""
+    },
+    {
+      "name": "Image_6",
+      "size": [
+        4096,
+        4096
+      ],
+      "packed": true,
+      "path": ""
+    },
+    {
+      "name": "Image_7",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "path": ""
+    },
+    {
+      "name": "Image_8",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "path": ""
+    },
+    {
+      "name": "Image_9",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "path": ""
+    },
+    {
+      "name": "Render Result",
+      "size": [
+        0,
+        0
+      ],
+      "packed": false,
+      "path": ""
+    },
+    {
+      "name": "Viewer Node",
+      "size": [
+        256,
+        256
+      ],
+      "packed": false,
+      "path": ""
+    }
+  ],
+  "actions": [
+    {
+      "name": "Chair_Top_FourthAction",
+      "range": [
+        1.0,
+        480.0
+      ]
+    },
+    {
+      "name": "Computer_Fan_1_Fourth_RaycasterAction",
+      "range": [
+        1.0,
+        480.0
+      ]
+    },
+    {
+      "name": "Computer_Fan_2_Fourth_RaycasterAction",
+      "range": [
+        1.0,
+        480.0
+      ]
+    },
+    {
+      "name": "Computer_Fan_3_Fourth_RaycasterAction",
+      "range": [
+        1.0,
+        480.0
+      ]
+    },
+    {
+      "name": "Computer_Fan_4_Fourth_RaycasterAction",
+      "range": [
+        1.0,
+        480.0
+      ]
+    },
+    {
+      "name": "Computer_Fan_5_Fourth_RaycasterAction",
+      "range": [
+        1.0,
+        480.0
+      ]
+    },
+    {
+      "name": "Fish_Fourth_Hover_RaycasterAction",
+      "range": [
+        1.0,
+        480.0
+      ]
+    },
+    {
+      "name": "Hour_Hand_FirstAction",
+      "range": [
+        1.0,
+        480.0
+      ]
+    },
+    {
+      "name": "Material_2Action",
+      "range": [
+        1.0,
+        480.0
+      ]
+    },
+    {
+      "name": "Minute_Hand_FirstAction",
+      "range": [
+        1.0,
+        480.0
+      ]
+    }
+  ]
+}

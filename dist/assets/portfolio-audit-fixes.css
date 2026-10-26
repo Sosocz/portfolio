@@ -1,0 +1,10 @@
+/* Accessibility and stability only; original template layout is retained. */
+.portfolio-skip{position:fixed;top:10px;left:10px;z-index:2147483647;transform:translateY(-200%);background:#111;color:#fff;padding:12px 18px;font:16px system-ui;text-decoration:underline}
+.portfolio-skip:focus{transform:none}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible,summary:focus-visible{outline:3px solid #11846b!important;outline-offset:4px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.f1-highlight-mouse-over-reveal{display:none!important}}
+/* Keep the original signature position near the heading, without covering it. */
+.calendar-hero-layout{position:relative}
+.calendar-hero-rive-w{width:clamp(110px,14vw,200px);right:1rem;bottom:-3.5rem;pointer-events:none}
+.calendar-hero-layout{position:relative!important}
+.calendar-hero-rive-w{width:clamp(110px,14vw,200px)!important;right:1rem!important;bottom:-3.5rem!important;left:auto!important;top:auto!important;transform:none!important}

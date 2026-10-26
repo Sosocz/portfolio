@@ -1,0 +1,170 @@
+[
+  {
+    "id": "ha-pra",
+    "title": "Cluster Hyper-V, quorum et PRA",
+    "intro": "Concevoir une continuité de service, puis démontrer sa reprise par des tests mesurés.",
+    "tags": [
+      "Hyper-V",
+      "Quorum",
+      "PRA",
+      "RTO / RPO"
+    ],
+    "nodes": [
+      "Nœud Hyper-V 1",
+      "Nœud Hyper-V 2",
+      "Témoin indépendant",
+      "Sauvegarde séparée"
+    ],
+    "choices": "Prévoir deux nœuds, un stockage compatible et un témoin de quorum. Séparer les réseaux de management, de migration et de stockage. Sauvegarder hors du domaine de panne du cluster : la haute disponibilité ne remplace pas une sauvegarde.",
+    "work": "Vérifier les prérequis et dimensionner la maquette avant la création du cluster. Préparer le rapport Test-Cluster, une procédure de bascule et un retour arrière. Une maquette sur un seul hôte permet des tests fonctionnels ; elle ne prouve pas la résistance à la panne de cet hôte.",
+    "command": "Test-Cluster -Node HV01,HV02",
+    "tests": [
+      [
+        "Perte d’un nœud",
+        "RTO cible : ≤ 5 min",
+        "Chronologie et journaux de bascule"
+      ],
+      [
+        "Restauration isolée",
+        "RTO : ≤ 60 min / RPO : ≤ 4 h",
+        "Intégrité des données et accès validés"
+      ],
+      [
+        "Perte d’un lien",
+        "Quorum cohérent",
+        "Scénario, état du quorum et reprise"
+      ]
+    ],
+    "deliverables": "Schéma des domaines de panne, rapport de validation, plan de changement, mesures RTO/RPO et procédure de restauration.",
+    "ref": "https://learn.microsoft.com/en-us/windows-server/failover-clustering/create-failover-cluster",
+    "ref_label": "Microsoft Learn : validation et création d’un cluster",
+    "status": "Architecture cible - à réaliser",
+    "objectives": "Les critères ci-dessous sont proposés. Les mesures et preuves restent à produire."
+  },
+  {
+    "id": "reseau-ad",
+    "title": "Segmentation réseau et accès privilégiés",
+    "intro": "Réduire les mouvements latéraux et maîtriser les droits d’administration.",
+    "tags": [
+      "VLAN / ACL",
+      "Active Directory",
+      "Windows LAPS",
+      "MFA"
+    ],
+    "nodes": [
+      "Management",
+      "Serveurs",
+      "Utilisateurs",
+      "Lab isolé"
+    ],
+    "choices": "Créer des zones dédiées et une matrice de flux autorisés. Refuser les échanges interzones non justifiés. Séparer les comptes d’administration et les comptes usuels, organiser les OU et les GPO, puis restreindre l’accès distant à une passerelle ou un VPN adapté.",
+    "work": "Préparer Windows LAPS après vérification des prérequis AD : schéma, permissions de lecture et mécanisme de protection des mots de passe. Tester la rotation et l’audit. Sur une maquette Cisco compatible, étudier DHCP snooping, Dynamic ARP Inspection et BPDU Guard, avec les exceptions nécessaires.",
+    "command": "Matrice de flux → ACL → tests autorisé / refusé",
+    "tests": [
+      [
+        "Accès inter-VLAN",
+        "Seuls les flux documentés passent",
+        "Captures des tests positifs et négatifs"
+      ],
+      [
+        "Lecture du secret LAPS",
+        "Refus pour un compte non habilité",
+        "Audit sans exposer le mot de passe"
+      ],
+      [
+        "Accès distant",
+        "Comptes et sources maîtrisés",
+        "Test d’authentification et révocation"
+      ]
+    ],
+    "deliverables": "Matrice de flux, règles commentées, GPO exportées, revue des habilitations et dossier de durcissement.",
+    "ref": "https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-scenarios-windows-server-active-directory",
+    "ref_label": "Microsoft Learn : prérequis et déploiement Windows LAPS",
+    "status": "Architecture cible - à réaliser",
+    "objectives": "Les critères ci-dessous sont proposés. Les mesures et preuves restent à produire."
+  },
+  {
+    "id": "automatisation",
+    "title": "Infrastructure as code et déploiement contrôlé",
+    "intro": "Passer d’une installation manuelle à une configuration reproductible et vérifiable.",
+    "tags": [
+      "Ansible",
+      "PowerShell",
+      "Git",
+      "Idempotence"
+    ],
+    "nodes": [
+      "Git / revue",
+      "Contrôles",
+      "Maquette",
+      "Promotion"
+    ],
+    "choices": "Versionner la configuration de GLPI, Zabbix et des services associés. Structurer les rôles Ansible et les scripts PowerShell avec paramètres, contrôles des prérequis et journalisation. Garder les secrets hors du dépôt et des sorties de test.",
+    "work": "Exécuter les contrôles statiques, puis le mode check avant les tests de maquette. Vérifier la prise en charge de ce mode par les modules utilisés. Tester l’idempotence par une seconde application, un échec volontaire de configuration et la restauration de l’état précédent avant toute promotion.",
+    "command": "ansible-playbook site.yml --check --limit lab",
+    "tests": [
+      [
+        "Deuxième application",
+        "Aucun changement attendu",
+        "Journal de la seconde passe"
+      ],
+      [
+        "Configuration invalide",
+        "Promotion bloquée",
+        "Échec identifié et diagnostic conservé"
+      ],
+      [
+        "Retour arrière",
+        "Service rétabli",
+        "Contrôle fonctionnel après restauration"
+      ]
+    ],
+    "deliverables": "Dépôt documenté, inventaire de maquette, scripts réutilisables, traces de tests et procédure de retour arrière.",
+    "ref": "https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_intro.html",
+    "ref_label": "Ansible : playbooks, idempotence et mode check",
+    "status": "Architecture cible - à réaliser",
+    "objectives": "Les critères ci-dessous sont proposés. Les mesures et preuves restent à produire."
+  },
+  {
+    "id": "observabilite",
+    "title": "Observabilité, SLO et réponse aux incidents",
+    "intro": "Relier les métriques techniques à la disponibilité réelle du service et à une procédure de réponse.",
+    "tags": [
+      "Zabbix",
+      "SLO / SLI",
+      "Runbooks",
+      "OWASP ASVS"
+    ],
+    "nodes": [
+      "Parcours GLPI / RDP",
+      "Mesures / logs",
+      "Alerte qualifiée",
+      "Runbook / reprise"
+    ],
+    "choices": "Superviser les parcours utiles, pas seulement les ports ouverts. Prévoir un superviseur indépendant du serveur GLPI. Collecter disponibilité, capacité et événements de sécurité ; organiser les dépendances, la gravité et les temporisations des alertes.",
+    "work": "Définir un SLI, une période de mesure et un SLO proposé de 99,9 %. Sur 30 jours, cela représente un budget théorique de 43 min 12 s d’indisponibilité. Sélectionner les contrôles ASVS applicables, documenter les écarts et préparer un exercice d’incident : détection, confinement, preuves, reprise et compte rendu.",
+    "command": "SLO cible : 99,9 % / 30 jours — objectif, pas résultat",
+    "tests": [
+      [
+        "Arrêt d’un service",
+        "Détection cible : ≤ 2 min",
+        "Horodatage, alerte et reprise"
+      ],
+      [
+        "Incident simulé",
+        "Runbook exécuté dans la maquette",
+        "Compte rendu et preuves anonymisées"
+      ],
+      [
+        "Contrôle applicatif",
+        "Exigence ASVS choisie vérifiée",
+        "Écart, correction et re-test"
+      ]
+    ],
+    "deliverables": "Catalogue des alertes, définition du SLI/SLO, runbooks, matrice de contrôles et rapport d’exercice.",
+    "ref": "https://owasp.org/projects/asvs",
+    "ref_label": "OWASP : Application Security Verification Standard",
+    "status": "Architecture cible - à réaliser",
+    "objectives": "Les critères ci-dessous sont proposés. Les mesures et preuves restent à produire."
+  }
+]

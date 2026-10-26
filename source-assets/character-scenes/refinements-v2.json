@@ -1,0 +1,41 @@
+{
+  "method": "Localized built-in image edits, backpack from Sofiane's supplied reference; SG interior composited from retrieved Granite lobby photograph.",
+  "scenes": [
+    {
+      "slug": "01-franklin-v2",
+      "generated_path": "/workspace/scratch/83bebcd0a5d2/generated_images/exec-20be9a53-0e93-474e-9b43-5b1986eabeff.png",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image1 is the APPROVED image to edit. Keep the entire photographic background, Tour Franklin facade, FRANKLIN sign, stairs, rails, lamps, surrounding buildings, light, colors, framing and all pixels outside the avatar unchanged as closely as possible. Make ONLY these avatar changes: keep his same body location and ascending walking pose with the closed laptop, but turn his head and upper body naturally toward the building entrance so we see mostly the BACK of his curly head and a slight side profile at most. He must NOT look at camera or turn back smiling. Add a small practical black backpack worn on BOTH shoulders on his back, faithfully based on image2: black nylon rectangular fold-over flap, two vertical webbing strips, slim horizontal front zip pocket, black side pockets, understated and not oversized. Same exact avatar, cream knitted polo, taupe pants, shoes, brown curls and sunglasses on top. Retain the laptop in hand if visible naturally. No other changes. Same portrait image dimensions and same composition. Preserve the approved photograph; do not generate a different environment. No text overlays.",
+      "edit_target": "/workspace/scratch/83bebcd0a5d2/footer-source/source-assets/character-scenes/01-franklin.png"
+    },
+    {
+      "slug": "02-helpline-v2",
+      "generated_path": "/workspace/scratch/83bebcd0a5d2/generated_images/exec-f907ff50-b618-4e30-99da-c3c2265939b7.png",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image1 is the APPROVED image. Preserve the ENTIRE photographic background and framing exactly: HELPLINE by everience building and sign, tree, glass grids, bollards, pavement, light and every architectural detail. Change ONLY the avatar: add a small black commuter backpack worn on both shoulders, based faithfully on image2's black nylon rectangular flap, two narrow vertical black webbing strips, slim front zip pocket and discreet side pockets. Bag should sit on his back with proper straps and not be giant. Keep his current pose, coffee cup, character identity and clothing. Relax his mouth to a neutral calm expression, less broad smile; keep his gaze to the side toward the entrance area, away from camera. Same exact position and scale. Do not redraw the scene, change the building, rearrange bollards, add props or change colors. Same output dimensions, one portrait image.",
+      "edit_target": "/workspace/scratch/83bebcd0a5d2/footer-source/source-assets/character-scenes/02-helpline.png"
+    },
+    {
+      "slug": "04-etudes-v2",
+      "generated_path": "/workspace/scratch/83bebcd0a5d2/generated_images/exec-15418f57-bed4-46be-b7e2-6f862a104eb5.png",
+      "prompt": "Use case: precise-object-edit. Image1 is the APPROVED composition, perform a tiny localized edit. Preserve all other pixels, lighting, colors and original portrait dimensions as faithfully as possible. Do not regenerate or redesign this image. Change ONLY the avatar facial expression: replace the smile with a natural concentrated neutral closed mouth, gently attentive eyebrows, gaze focused DOWN on the notebook and pen, not toward camera. Calm serious study mood, no anger, no exaggeration. Keep the exact same eye design, face, curls, glasses, beard and overall identity. Do not change head position, hands, posture, body, clothes, notebook, laptop screen, desk, window, furniture, plants or anything else.",
+      "edit_target": "/workspace/scratch/83bebcd0a5d2/footer-source/source-assets/character-scenes/04-etudes.png"
+    },
+    {
+      "slug": "05-reseau-v2",
+      "generated_path": "/workspace/scratch/83bebcd0a5d2/generated_images/exec-9b065f0c-2529-4f06-a75c-329f633bcbee.png",
+      "prompt": "Use case: precise-object-edit. Image1 is the APPROVED composition, perform a tiny localized edit. Preserve all other pixels, lighting, colors and original portrait dimensions as faithfully as possible. Do not regenerate or redesign this image. Change ONLY the avatar facial expression: a focused professional neutral mouth, no smile, slight concentration in the brows, eyes still looking DOWN at the Ethernet connector. Calm serious practical work, no anger or exaggerated expression. Preserve exact face identity, eyes design, curls, sunglasses and beard. Do not change hands, cable, switch, laptop, body, outfit, pose, crop, room, shadow or any object.",
+      "edit_target": "/workspace/scratch/83bebcd0a5d2/footer-source/source-assets/character-scenes/05-reseau.png"
+    },
+    {
+      "slug": "06-support-reunion-v2",
+      "generated_path": "/workspace/scratch/83bebcd0a5d2/generated_images/exec-4f95cd3c-e6d4-4e59-af76-b2f191f0ca8c.png",
+      "prompt": "Use case: precise-object-edit. Image1 is the APPROVED composition, perform a tiny localized edit. Preserve all other pixels, lighting, colors and original portrait dimensions as faithfully as possible. Do not regenerate or redesign this image. Change ONLY the pixels INSIDE the wall mounted TELEVISION display rectangle, leaving its black bezel untouched. Replace the plain blue screen with a subtle professional desktop wallpaper: a tasteful smooth abstract blue and pale mint ribbon landscape, natural screen brightness, no text, no icons, no logos, no windows. Correct perspective on the TV panel and slight screen reflection. Absolutely preserve the avatar and facial expression exactly, his hands, laptop, tabletop equipment, blue walls, patterned glass, hanging light, chairs, all furniture, framing, light and every other pixel. The user explicitly says do not touch anything except the TV screen.",
+      "edit_target": "/workspace/scratch/83bebcd0a5d2/footer-source/source-assets/character-scenes/06-support-reunion.png"
+    },
+    {
+      "slug": "03-societe-generale-v2",
+      "generated_path": "/workspace/scratch/83bebcd0a5d2/generated_images/exec-2e47a718-723d-4bc0-b848-d895b7b37410.png",
+      "prompt": "Use case: compositing / identity-preserve. Create ONE vertical editorial photograph using image1 as the faithful REAL Société Générale GRANITE interior background. Keep the exact creamy beige stone walls and floor, large GRANITE lettering above the opening, recessed ceiling lights, central escalator void with rounded pale stone balustrade, stainless escalators, wall displays and background glazed doors and plants. Use a portrait crop/compose from this real view retaining the GRANITE sign and escalators; do not invent a grand futuristic lobby. Image2 shows the exact approved 3D male avatar: same brown curly hair, short beard, brown eyes, sunglasses on head, cream knitted polo, loose taupe trousers, brown-white sneakers. Place this SAME avatar naturally walking away into the lobby, near the left edge of the pale stone balustrade, seen from a three-quarter back angle; he is looking toward GRANITE, NOT looking back at camera, relaxed professional neutral expression if any profile visible. Add the small black backpack from image3 worn on his back on both shoulders: black nylon rectangular foldover flap, two vertical webbing strips and slim zipped front pocket, compact commuter size. He can carry the same plain laptop sleeve from image2 at his side. Correct human scale and local soft warm lighting, contact shadow, photoreal architecture while avatar alone remains stylized 3D. No extra logos or text overlays, no neon, no smiling at camera, no huge backpack. Match the understated real photographic aesthetic of the approved outdoor SG scene. Center-safe avatar and GRANITE sign for a narrow portrait portfolio card. One portrait image.",
+      "edit_target": "/workspace/scratch/83bebcd0a5d2/location-refs/granite-lobby.jpg"
+    }
+  ]
+}

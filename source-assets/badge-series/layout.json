@@ -1,0 +1,26 @@
+{
+  "width": 1630,
+  "height": 965,
+  "titleSize": 104,
+  "titleX": 115,
+  "titleBaselines": [
+    465,
+    580
+  ],
+  "subtitleSize": 65,
+  "subtitleY": 690,
+  "ownerSize": 43,
+  "ownerY": 843,
+  "badgeSlot": [
+    1240,
+    140,
+    285,
+    300
+  ],
+  "logoSlot": [
+    115,
+    150,
+    680,
+    160
+  ]
+}

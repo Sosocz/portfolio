@@ -1,0 +1,22 @@
+/* Final mint theme: UI, neutral backgrounds and existing Rive artwork. */
+:root,html{--color--lime:#38E4B2!important;--color--lime-off:#7eedcd!important;--color--lime-zero:#38E4B200!important;--color--dark-green:#23252B!important;--color--dark-green-tint-1:#383B43!important;--color--dark-green-tint-2:#555B66!important;--color--green-off-white-1:#DFE2E9!important;--color--green-off-white-2:#B1B7C3!important;--color--grey-on-track:#B9BFCA!important;--color--grey-1:#ECEEF3!important;--color--green-light:#ECEEF3!important;--color--grey-2:#C9CED8!important}
+canvas[data-rive-file="btn-ui"],canvas[data-rive-file="signature"],canvas[data-rive-file="phrases"],canvas[data-rive-file="circuits"],canvas[data-rive-file="logo"],img[src*="ln4-hw-signature"],img[src*="collabs-rive-placeholder"],img[src*="sofiane-signature"]{filter:url("#portfolio-mint")}
+
+
+
+/* Native Rive loader, adapted from the original page-transition artboard. */
+.transition-w[data-sofiane-loader]{display:flex;background:#38e4b2;color:#23252b;overflow:hidden;transform:none}
+.transition-w[data-sofiane-loader].sg-rive-ready{background:transparent}
+.transition-w[data-sofiane-loader] .transition-rive{display:flex;align-items:center;justify-content:center}
+.transition-w[data-sofiane-loader] canvas[data-rive-primary]{display:block;width:100%;height:100%}
+.sofiane-loader-fallback{position:absolute;width:64px;height:auto}
+.sg-rive-ready .sofiane-loader-fallback{display:none}
+/* Raster arrow buttons use the same mint mapping; their dark glyphs stay dark. */
+.btn-w img[src$="btn-arrow.png"],.btn-w img[src$="btn-arrow-rotate.png"]{filter:url("#portfolio-mint")}
+
+/* Native-detail transparent busts sit in the original side slots; no rectangular side crop. */
+.otot-home-bg.sofiane-duality{overflow:hidden}
+.otot-home-bg.sofiane-duality .otot-home-img-w{overflow:visible}
+.otot-home-bg.sofiane-duality .otot-home-img{position:absolute;max-width:none;width:auto;object-fit:contain;top:0;bottom:auto}
+.otot-home-bg.sofiane-duality .otot-home-img-w.is-1 .otot-home-img{height:135%;left:-25%}
+.otot-home-bg.sofiane-duality .otot-home-img-w.is-2 .otot-home-img{height:115%;left:0}

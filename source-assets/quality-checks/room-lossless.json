@@ -1,0 +1,105 @@
+{
+  "method": "lossless WebP textures and gzip geometry; no resizing, mesh reduction, material or camera changes",
+  "before": 47255424,
+  "after": 23289559,
+  "geometry": {
+    "before": 20779984,
+    "after": 10591545,
+    "sha256": "cfb9f17f99c1fef33b4178f622edfe39f4704ffeb18a00347243ff5144ea9d2d",
+    "decompressedSha256": "cfb9f17f99c1fef33b4178f622edfe39f4704ffeb18a00347243ff5144ea9d2d"
+  },
+  "textures": [
+    {
+      "source": "textures/model-00.png",
+      "optimized": "textures/model-00.lossless.webp",
+      "width": 1440,
+      "height": 862,
+      "before": 1333944,
+      "after": 519830,
+      "visiblePixelDifferences": 0,
+      "rgbaIdentical": true
+    },
+    {
+      "source": "textures/model-01.png",
+      "optimized": "textures/model-01.lossless.webp",
+      "width": 2048,
+      "height": 2048,
+      "before": 5669971,
+      "after": 2610514,
+      "visiblePixelDifferences": 0,
+      "rgbaIdentical": true
+    },
+    {
+      "source": "textures/model-02.png",
+      "optimized": "textures/model-02.lossless.webp",
+      "width": 2048,
+      "height": 2048,
+      "before": 7057367,
+      "after": 3308746,
+      "visiblePixelDifferences": 0,
+      "rgbaIdentical": true
+    },
+    {
+      "source": "textures/model-03.png",
+      "optimized": "textures/model-03.lossless.webp",
+      "width": 1024,
+      "height": 1024,
+      "before": 560512,
+      "after": 228506,
+      "visiblePixelDifferences": 0,
+      "rgbaIdentical": true
+    },
+    {
+      "source": "textures/model-04.png",
+      "optimized": "textures/model-04.lossless.webp",
+      "width": 1024,
+      "height": 1024,
+      "before": 560512,
+      "after": 228506,
+      "visiblePixelDifferences": 0,
+      "rgbaIdentical": true
+    },
+    {
+      "source": "textures/model-05.png",
+      "optimized": "textures/model-05.lossless.webp",
+      "width": 2048,
+      "height": 2048,
+      "before": 6555953,
+      "after": 2784132,
+      "visiblePixelDifferences": 0,
+      "rgbaIdentical": true
+    },
+    {
+      "source": "textures/model-06.png",
+      "optimized": "textures/model-06.lossless.webp",
+      "width": 2048,
+      "height": 2048,
+      "before": 2852241,
+      "after": 1352246,
+      "visiblePixelDifferences": 0,
+      "rgbaIdentical": true
+    },
+    {
+      "source": "textures/model-08.png",
+      "optimized": "textures/model-08.png",
+      "width": 128,
+      "height": 128,
+      "before": 24732,
+      "after": 24732,
+      "visiblePixelDifferences": 0,
+      "unchangedOriginal": true,
+      "rgbaIdentical": true
+    },
+    {
+      "source": "textures/model-15.png",
+      "optimized": "textures/model-15.lossless.webp",
+      "width": 1024,
+      "height": 1024,
+      "before": 383156,
+      "after": 163750,
+      "visiblePixelDifferences": 0,
+      "rgbaIdentical": true
+    }
+  ],
+  "transparentAtlasPolicy": "Original PNG retained whenever any raw RGBA byte would change, including fully transparent pixels"
+}

@@ -1,0 +1,230 @@
+[
+  {
+    "id": "htb-hercules",
+    "row": "778",
+    "platform": "HTB",
+    "title": "HERCULES",
+    "subtitle": "WINDOWS · INSANE",
+    "art": "hercules-v2",
+    "steps": [
+      "SSO · INJECTION LDAP",
+      "DROITS AD & MOUVEMENT LATÉRAL",
+      "AD CS ESC3 · DÉLÉGATION RBCD"
+    ],
+    "prompt": "$",
+    "commands": [
+      "nmap -sV -p 389,443,5986 hercules.htb",
+      "certipy find -u USER@hercules.htb -k"
+    ],
+    "note": "USER = compte du lab · session Kerberos requise",
+    "source_name": "HACKPUNTES · JAVIER OLMEDO",
+    "source_url": "https://hackpuntes.com/posts/hackthebox/machines/hercules-writeup/",
+    "index": 1,
+    "status": "USER + ROOT VALIDÉS"
+  },
+  {
+    "id": "htb-pingpong",
+    "row": "891",
+    "platform": "HTB",
+    "title": "PINGPONG",
+    "subtitle": "WINDOWS · INSANE",
+    "art": "pingpong-v2",
+    "steps": [
+      "AD CS · ESC13 & ACCÈS WINRM",
+      "PIVOT INTER-FORÊTS & KERBEROS",
+      "DÉLÉGATION · ESC4 PUIS ESC1"
+    ],
+    "prompt": "PS>",
+    "commands": [
+      "nltest /domain_trusts",
+      "Get-ADTrust -Filter *"
+    ],
+    "note": "Depuis le lab Windows · module ActiveDirectory",
+    "source_name": "0xBBUDDHA · RÉSUMÉ PINGPONG",
+    "source_url": "https://0xbbuddha.fr/writeups/pingpong",
+    "index": 2,
+    "status": "USER + ROOT VALIDÉS"
+  },
+  {
+    "id": "htb-eloquia",
+    "row": "817",
+    "platform": "HTB",
+    "title": "ELOQUIA",
+    "subtitle": "WINDOWS · INSANE",
+    "art": "eloquia-v2",
+    "steps": [
+      "OAUTH · LIER UNE IDENTITÉ",
+      "SQLITE · CHARGEMENT DE DLL",
+      "DPAPI & SERVICE PRIVILÉGIÉ"
+    ],
+    "prompt": "sql>",
+    "commands": [
+      "SELECT sqlite_version();",
+      "PRAGMA database_list;"
+    ],
+    "note": "Dans SQL Explorer · deux pistes d’énumération",
+    "source_name": "THREATNINJA · TERMINAL TROUBLE",
+    "source_url": "https://threatninja.net/hack-the-box-eloquia-machine-walkthrough-insane-difficulty/",
+    "secondary_source": "https://www.terminaltrouble.com/",
+    "index": 3,
+    "status": "USER + ROOT VALIDÉS"
+  },
+  {
+    "id": "htb-odyssey",
+    "row": "954",
+    "platform": "HTB",
+    "title": "ODYSSEY",
+    "subtitle": "WINDOWS · INSANE",
+    "art": "odyssey-v2",
+    "steps": [
+      "MONGODB & IDENTITÉS WEBAUTHN",
+      "RENDERER · PASSERELLE LINUX",
+      "PIVOT MSSQL & DROITS dMSA"
+    ],
+    "prompt": "$",
+    "commands": [
+      "nmap -sV -p 3000 $TARGET",
+      "curl -I http://aegis.korvia.htb:3000/"
+    ],
+    "note": "TARGET = IP du lab · nom d’hôte à configurer",
+    "source_name": "RUNE · RAPPORT HTB / ROGUE",
+    "source_url": "https://rune.foo/writing/htb-odyssey",
+    "index": 4,
+    "status": "USER + ROOT VALIDÉS"
+  },
+  {
+    "id": "htb-cobblestone",
+    "row": "691",
+    "platform": "HTB",
+    "title": "COBBLESTONE",
+    "subtitle": "LINUX · INSANE",
+    "art": "cobblestone",
+    "steps": [
+      "ÉNUMÉRATION DES VHOSTS",
+      "SQLi · XSS · TWIG SSTI",
+      "COBBLER · ÉLÉVATION ROOT"
+    ],
+    "prompt": "$",
+    "commands": [
+      "curl -I http://vote.cobblestone.htb",
+      "ss -ltnp"
+    ],
+    "note": "En-têtes web, puis services locaux après accès",
+    "source_name": "IPPSEC · WALKTHROUGH COBBLESTONE",
+    "source_url": "https://www.youtube.com/watch?v=zLCxUiQcHC0",
+    "index": 5,
+    "status": "USER + ROOT VALIDÉS"
+  },
+  {
+    "id": "rootme-double-free",
+    "platform": "ROOT-ME",
+    "title": "DOUBLE FREE",
+    "subtitle": "ELF x64 · APP-SYSTÈME",
+    "art": "rootme-double-free-v2",
+    "steps": [
+      "SUIVRE LES BLOCS LIBÉRÉS",
+      "RÉALLOUER HUMAN ET ZOMBIE",
+      "DÉTOURNER UN APPEL INDIRECT"
+    ],
+    "prompt": "(gdb)",
+    "commands": [
+      "break suicide",
+      "info functions prayChuck"
+    ],
+    "note": "Binaire chargé dans GDB · repérer les fonctions",
+    "source_name": "WYV3RN · ANALYSE DU CODE SOURCE",
+    "source_url": "https://wyv3rn.tistory.com/28",
+    "index": 6,
+    "status": "CHALLENGE VALIDÉ"
+  },
+  {
+    "id": "rootme-use-after-free",
+    "platform": "ROOT-ME",
+    "title": "USE AFTER FREE",
+    "subtitle": "ELF x86 · APP-SYSTÈME",
+    "art": "rootme-use-after-free-v2",
+    "steps": [
+      "LIBÉRER L’OBJET DOG",
+      "RÉUTILISER LE BLOC AVEC DOGHOUSE",
+      "REDIRIGER LE POINTEUR BARK"
+    ],
+    "prompt": "(gdb)",
+    "commands": [
+      "break death",
+      "info functions bringBackTheFlag"
+    ],
+    "note": "Binaire chargé dans GDB · observer les pointeurs",
+    "source_name": "TYMYRDDIN · CODE DU CHALLENGE",
+    "source_url": "https://red.tymyrddin.dev/docs/through/buffer-overflow/root-me/elf-86-free-basic",
+    "index": 7,
+    "status": "CHALLENGE VALIDÉ"
+  },
+  {
+    "id": "rootme-format-string-2",
+    "platform": "ROOT-ME",
+    "title": "FORMAT STRING",
+    "subtitle": "ELF x86 · BASIC 2",
+    "art": "rootme-format-string-v2",
+    "steps": [
+      "TROUVER L’OFFSET DE FORMAT",
+      "SCINDER L’ÉCRITURE AVEC %hn",
+      "FAIRE ATTEINDRE 0xdeadbeef À CHECK"
+    ],
+    "prompt": "$",
+    "commands": [
+      "./ch14 'AAAA.%08x.%08x.%08x'",
+      "gdb -q ./ch14"
+    ],
+    "note": "Observer le format puis analyser snprintf",
+    "source_name": "CHANIN · WYV3RN · WRITEUPS ROOT-ME",
+    "source_url": "https://chanin-diary.tistory.com/32",
+    "secondary_source": "https://wyv3rn.tistory.com/21",
+    "index": 8,
+    "status": "CHALLENGE VALIDÉ"
+  },
+  {
+    "id": "rootme-mips-no-nx",
+    "platform": "ROOT-ME",
+    "title": "MIPS · NO NX",
+    "subtitle": "ELF MIPS · STACK BUFFER OVERFLOW",
+    "art": "rootme-mips-no-nx-v2",
+    "steps": [
+      "VÉRIFIER L’ARCHITECTURE & L’ENDIANNESS",
+      "LOCALISER LE RETOUR SAUVÉ $ra",
+      "ÉTUDIER LA PILE EXÉCUTABLE"
+    ],
+    "prompt": "$",
+    "commands": [
+      "readelf -h ./chall",
+      "readelf -l ./chall"
+    ],
+    "note": "chall = binaire local · repères méthodologiques",
+    "source_name": "GNU BINUTILS · ANALYSE ELF",
+    "source_url": "https://sourceware.org/binutils/docs/binutils/readelf.html",
+    "methodological": true,
+    "index": 9,
+    "status": "CHALLENGE VALIDÉ"
+  },
+  {
+    "id": "rootme-stack-overflow-3",
+    "platform": "ROOT-ME",
+    "title": "STACK OVERFLOW",
+    "subtitle": "ELF x86 · BASIC 3",
+    "art": "rootme-stack-overflow-v2",
+    "steps": [
+      "SUIVRE LA BOUCLE DE SAISIE",
+      "DÉPASSER LES LIMITES DU BUFFER",
+      "MODIFIER CHECK · ATTEINDRE SHELL"
+    ],
+    "prompt": "(gdb)",
+    "commands": [
+      "disassemble main",
+      "disassemble shell"
+    ],
+    "note": "Binaire ch16 chargé dans GDB · lire le contrôle",
+    "source_name": "L1NK3DHOUSE · CODE DU CHALLENGE",
+    "source_url": "https://showlinkroom.me/2017/11/20/Root-me-App-System01/",
+    "index": 10,
+    "status": "CHALLENGE VALIDÉ"
+  }
+]

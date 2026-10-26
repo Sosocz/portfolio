@@ -1,0 +1,694 @@
+{
+  "1": {
+    "source": "dist/assets/certs/survol/cert-01-htb-cybernetics-survol.webp",
+    "colors": [
+      {
+        "rgb": [
+          38,
+          56,
+          72
+        ],
+        "hex": "#263848",
+        "samples": 5465
+      },
+      {
+        "rgb": [
+          3,
+          120,
+          232
+        ],
+        "hex": "#0378E8",
+        "samples": 2562
+      },
+      {
+        "rgb": [
+          3,
+          89,
+          152
+        ],
+        "hex": "#035998",
+        "samples": 1648
+      },
+      {
+        "rgb": [
+          39,
+          230,
+          248
+        ],
+        "hex": "#27E6F8",
+        "samples": 24
+      },
+      {
+        "rgb": [
+          3,
+          87,
+          0
+        ],
+        "hex": "#035700",
+        "samples": 20
+      }
+    ]
+  },
+  "2": {
+    "source": "dist/assets/certs/survol/cert-02-htb-offshore-survol.webp",
+    "colors": [
+      {
+        "rgb": [
+          252,
+          1,
+          55
+        ],
+        "hex": "#FC0137",
+        "samples": 11782
+      },
+      {
+        "rgb": [
+          34,
+          52,
+          68
+        ],
+        "hex": "#223444",
+        "samples": 3934
+      },
+      {
+        "rgb": [
+          86,
+          115,
+          147
+        ],
+        "hex": "#567393",
+        "samples": 2867
+      },
+      {
+        "rgb": [
+          168,
+          1,
+          51
+        ],
+        "hex": "#A80133",
+        "samples": 1912
+      },
+      {
+        "rgb": [
+          88,
+          41,
+          68
+        ],
+        "hex": "#582944",
+        "samples": 962
+      }
+    ]
+  },
+  "3": {
+    "source": "dist/assets/certs/survol/cert-03-htb-dante-survol.webp",
+    "colors": [
+      {
+        "rgb": [
+          250,
+          120,
+          5
+        ],
+        "hex": "#FA7805",
+        "samples": 5459
+      },
+      {
+        "rgb": [
+          35,
+          52,
+          69
+        ],
+        "hex": "#233445",
+        "samples": 3696
+      },
+      {
+        "rgb": [
+          167,
+          88,
+          2
+        ],
+        "hex": "#A75802",
+        "samples": 1283
+      },
+      {
+        "rgb": [
+          87,
+          57,
+          27
+        ],
+        "hex": "#57391B",
+        "samples": 621
+      },
+      {
+        "rgb": [
+          153,
+          179,
+          203
+        ],
+        "hex": "#99B3CB",
+        "samples": 425
+      }
+    ]
+  },
+  "4": {
+    "source": "dist/assets/certs/survol/cert-04-htb-zephyr-survol.webp",
+    "colors": [
+      {
+        "rgb": [
+          2,
+          88,
+          73
+        ],
+        "hex": "#025849",
+        "samples": 6193
+      },
+      {
+        "rgb": [
+          4,
+          166,
+          121
+        ],
+        "hex": "#04A679",
+        "samples": 1334
+      },
+      {
+        "rgb": [
+          3,
+          244,
+          232
+        ],
+        "hex": "#03F4E8",
+        "samples": 1333
+      },
+      {
+        "rgb": [
+          35,
+          53,
+          69
+        ],
+        "hex": "#233545",
+        "samples": 1039
+      },
+      {
+        "rgb": [
+          212,
+          136,
+          21
+        ],
+        "hex": "#D48815",
+        "samples": 274
+      }
+    ]
+  },
+  "5": {
+    "source": "dist/assets/certs/survol/cert-05-fortigate-operator-survol.webp",
+    "colors": [
+      {
+        "rgb": [
+          238,
+          46,
+          36
+        ],
+        "hex": "#EE2E24",
+        "samples": 16026
+      },
+      {
+        "rgb": [
+          81,
+          197,
+          213
+        ],
+        "hex": "#51C5D5",
+        "samples": 6640
+      },
+      {
+        "rgb": [
+          67,
+          127,
+          190
+        ],
+        "hex": "#437FBE",
+        "samples": 4925
+      },
+      {
+        "rgb": [
+          229,
+          104,
+          106
+        ],
+        "hex": "#E5686A",
+        "samples": 29
+      },
+      {
+        "rgb": [
+          67,
+          14,
+          13
+        ],
+        "hex": "#430E0D",
+        "samples": 12
+      }
+    ]
+  },
+  "6": {
+    "source": "dist/assets/certs/survol/cert-06-oracle-ai-foundations-survol.webp",
+    "colors": [
+      {
+        "rgb": [
+          85,
+          38,
+          37
+        ],
+        "hex": "#552625",
+        "samples": 2788
+      },
+      {
+        "rgb": [
+          216,
+          136,
+          87
+        ],
+        "hex": "#D88857",
+        "samples": 1573
+      },
+      {
+        "rgb": [
+          182,
+          69,
+          70
+        ],
+        "hex": "#B64546",
+        "samples": 1437
+      },
+      {
+        "rgb": [
+          36,
+          55,
+          71
+        ],
+        "hex": "#243747",
+        "samples": 994
+      },
+      {
+        "rgb": [
+          70,
+          30,
+          34
+        ],
+        "hex": "#461E22",
+        "samples": 35
+      }
+    ]
+  },
+  "7": {
+    "source": "dist/assets/certs/survol/cert-07-cisco-cyber-defense-survol.webp",
+    "colors": [
+      {
+        "rgb": [
+          11,
+          37,
+          73
+        ],
+        "hex": "#0B2549",
+        "samples": 1084
+      },
+      {
+        "rgb": [
+          3,
+          180,
+          231
+        ],
+        "hex": "#03B4E7",
+        "samples": 990
+      },
+      {
+        "rgb": [
+          103,
+          121,
+          148
+        ],
+        "hex": "#677994",
+        "samples": 62
+      }
+    ]
+  },
+  "8": {
+    "source": "dist/assets/certs/survol/cert-08-cisco-ethical-hacker-survol.webp",
+    "colors": [
+      {
+        "rgb": [
+          11,
+          37,
+          73
+        ],
+        "hex": "#0B2549",
+        "samples": 1107
+      },
+      {
+        "rgb": [
+          3,
+          180,
+          230
+        ],
+        "hex": "#03B4E6",
+        "samples": 820
+      },
+      {
+        "rgb": [
+          117,
+          134,
+          156
+        ],
+        "hex": "#75869C",
+        "samples": 58
+      }
+    ]
+  },
+  "9": {
+    "source": "dist/assets/certs/survol/cert-09-cisco-networking-basics-survol.webp",
+    "colors": [
+      {
+        "rgb": [
+          11,
+          38,
+          74
+        ],
+        "hex": "#0B264A",
+        "samples": 1020
+      },
+      {
+        "rgb": [
+          3,
+          181,
+          231
+        ],
+        "hex": "#03B5E7",
+        "samples": 985
+      },
+      {
+        "rgb": [
+          117,
+          134,
+          155
+        ],
+        "hex": "#75869B",
+        "samples": 39
+      }
+    ]
+  },
+  "10": {
+    "source": "dist/assets/certs/survol/cert-10-cisco-network-addressing-survol.webp",
+    "colors": [
+      {
+        "rgb": [
+          11,
+          38,
+          73
+        ],
+        "hex": "#0B2649",
+        "samples": 948
+      },
+      {
+        "rgb": [
+          4,
+          180,
+          230
+        ],
+        "hex": "#04B4E6",
+        "samples": 910
+      },
+      {
+        "rgb": [
+          106,
+          123,
+          148
+        ],
+        "hex": "#6A7B94",
+        "samples": 41
+      },
+      {
+        "rgb": [
+          184,
+          204,
+          236
+        ],
+        "hex": "#B8CCEC",
+        "samples": 1
+      }
+    ]
+  },
+  "11": {
+    "source": "dist/assets/certs/survol/cert-11-cisco-networking-devices-survol.webp",
+    "colors": [
+      {
+        "rgb": [
+          11,
+          38,
+          74
+        ],
+        "hex": "#0B264A",
+        "samples": 992
+      },
+      {
+        "rgb": [
+          3,
+          181,
+          231
+        ],
+        "hex": "#03B5E7",
+        "samples": 991
+      },
+      {
+        "rgb": [
+          21,
+          108,
+          154
+        ],
+        "hex": "#156C9A",
+        "samples": 42
+      }
+    ]
+  },
+  "12": {
+    "source": "dist/assets/certs/survol/cert-12-cisco-network-defense-survol.webp",
+    "colors": [
+      {
+        "rgb": [
+          11,
+          38,
+          73
+        ],
+        "hex": "#0B2649",
+        "samples": 957
+      },
+      {
+        "rgb": [
+          4,
+          181,
+          231
+        ],
+        "hex": "#04B5E7",
+        "samples": 915
+      },
+      {
+        "rgb": [
+          105,
+          122,
+          147
+        ],
+        "hex": "#697A93",
+        "samples": 43
+      }
+    ]
+  },
+  "13": {
+    "source": "dist/assets/certs/survol/cert-13-cisco-junior-cyber-analyst-survol.webp",
+    "colors": [
+      {
+        "rgb": [
+          11,
+          38,
+          73
+        ],
+        "hex": "#0B2649",
+        "samples": 1001
+      },
+      {
+        "rgb": [
+          4,
+          181,
+          232
+        ],
+        "hex": "#04B5E8",
+        "samples": 953
+      },
+      {
+        "rgb": [
+          117,
+          133,
+          155
+        ],
+        "hex": "#75859B",
+        "samples": 43
+      },
+      {
+        "rgb": [
+          187,
+          207,
+          241
+        ],
+        "hex": "#BBCFF1",
+        "samples": 1
+      }
+    ]
+  },
+  "14": {
+    "source": "dist/assets/certs/survol/cert-14-fortinet-ngfw-survol.webp",
+    "colors": [
+      {
+        "rgb": [
+          238,
+          46,
+          36
+        ],
+        "hex": "#EE2E24",
+        "samples": 16614
+      },
+      {
+        "rgb": [
+          81,
+          199,
+          214
+        ],
+        "hex": "#51C7D6",
+        "samples": 6542
+      },
+      {
+        "rgb": [
+          67,
+          127,
+          193
+        ],
+        "hex": "#437FC1",
+        "samples": 5838
+      },
+      {
+        "rgb": [
+          74,
+          11,
+          7
+        ],
+        "hex": "#4A0B07",
+        "samples": 126
+      },
+      {
+        "rgb": [
+          156,
+          40,
+          39
+        ],
+        "hex": "#9C2827",
+        "samples": 15
+      }
+    ]
+  },
+  "15": {
+    "source": "dist/assets/certs/survol/cert-15-oracle-foundations-survol.webp",
+    "colors": [
+      {
+        "rgb": [
+          85,
+          38,
+          36
+        ],
+        "hex": "#552624",
+        "samples": 2503
+      },
+      {
+        "rgb": [
+          216,
+          136,
+          87
+        ],
+        "hex": "#D88857",
+        "samples": 1643
+      },
+      {
+        "rgb": [
+          169,
+          69,
+          70
+        ],
+        "hex": "#A94546",
+        "samples": 1484
+      },
+      {
+        "rgb": [
+          36,
+          55,
+          70
+        ],
+        "hex": "#243746",
+        "samples": 708
+      },
+      {
+        "rgb": [
+          84,
+          31,
+          35
+        ],
+        "hex": "#541F23",
+        "samples": 88
+      }
+    ]
+  },
+  "16": {
+    "source": "dist/assets/certs/survol/cert-16-htb-wanderer-survol.webp",
+    "colors": [
+      {
+        "rgb": [
+          44,
+          53,
+          69
+        ],
+        "hex": "#2C3545",
+        "samples": 4520
+      },
+      {
+        "rgb": [
+          215,
+          247,
+          7
+        ],
+        "hex": "#D7F707",
+        "samples": 3205
+      },
+      {
+        "rgb": [
+          252,
+          89,
+          69
+        ],
+        "hex": "#FC5945",
+        "samples": 2862
+      },
+      {
+        "rgb": [
+          72,
+          103,
+          27
+        ],
+        "hex": "#48671B",
+        "samples": 1839
+      },
+      {
+        "rgb": [
+          252,
+          188,
+          41
+        ],
+        "hex": "#FCBC29",
+        "samples": 321
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+.c.home-hero{position:relative}
+.room-hero-poster{position:absolute;left:50%;top:50%;width:min(80vw,80vh);height:min(80vw,80vh);max-width:none;object-fit:contain;transform:translate(-50%,-50%);pointer-events:none;z-index:1;opacity:1;transition:opacity .45s ease}
+.room-hero-poster.is-live{opacity:0;visibility:hidden;transition:opacity .45s ease,visibility 0s .45s}
+@media(max-width:767px){.room-hero-poster{width:92vw;height:92vw;top:48%}}
+@media(prefers-reduced-motion:reduce){.room-hero-poster{transition:none}}
+.room-interaction{display:none;position:absolute;left:50%;top:50%;width:min(80vw,80vh);height:min(80vw,80vh);transform:translate(-50%,-50%);z-index:2;touch-action:pan-y;cursor:grab;outline-offset:-5px;border-radius:12px}
+[data-room-live] .room-interaction{display:block}
+.room-interaction[data-cursor=link]{cursor:pointer}.room-interaction[data-cursor=object]{cursor:crosshair}.room-interaction.is-dragging{cursor:grabbing}
+.room-controls{position:absolute;left:50%;bottom:5%;transform:translateX(-50%);display:flex;align-items:center;gap:8px;z-index:3;white-space:nowrap;font:inherit;font-size:12px;line-height:1.2}
+.room-controls a,.room-controls button{color:#dfe2e9;background:#23252be8;border:1px solid #dfe2e933;border-radius:20px;padding:8px 11px;text-decoration:none;font:inherit;cursor:pointer}
+.room-controls a:hover,.room-controls button:hover{border-color:#38e4b2;color:#38e4b2}
+.room-controls [data-room-action]{display:none;min-width:32px;padding:8px}
+[data-room-live] .room-controls [data-room-action]{display:block}
+.room-hint{display:none;position:absolute;bottom:2.5%;left:50%;transform:translateX(-50%);z-index:2;white-space:nowrap;font-size:10px;color:#b6bdc2;pointer-events:none}
+[data-room-live] .room-hint{display:block}
+.room-tooltip{position:absolute;left:50%;bottom:12%;transform:translateX(-50%);z-index:3;background:#23252be8;color:#38e4b2;border-radius:12px;padding:6px 12px;font-size:12px;pointer-events:none}
+@media(max-width:767px){.room-interaction{width:92vw;height:92vw;top:48%}.room-controls{bottom:8%;gap:5px}.room-controls a{padding:7px 9px;font-size:11px}.room-hint{bottom:4%}}
+/* The native canvas marker must not intercept the room controls above it. */
+.c.home-hero>[data-gl="head"]{pointer-events:none}
+.room-interaction:focus-visible{outline:2px solid #38e4b2}
+
+/* Keep the original composition: interactions live on the 3D objects. */
+.room-controls,.room-hint,.room-tooltip{display:none!important}

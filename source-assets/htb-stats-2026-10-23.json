@@ -1,0 +1,432 @@
+{
+  "as_of": "2026-10-23",
+  "source": "Hack The Box authenticated API",
+  "profile": {
+    "username": "sXsx98",
+    "rank": "Pro Hacker",
+    "rank_global": 462,
+    "rank_france": 22,
+    "points": 582,
+    "user_flags": 44,
+    "root_flags": 42,
+    "machines_rooted": 42,
+    "hard_rooted": 7,
+    "insane_rooted": 5
+  },
+  "highlights": [
+    {
+      "id": 778,
+      "name": "Hercules",
+      "os": "Windows",
+      "difficultyText": "Insane",
+      "difficulty": 88,
+      "authUserInUserOwns": true,
+      "authUserInRootOwns": true
+    },
+    {
+      "id": 891,
+      "name": "PingPong",
+      "os": "Windows",
+      "difficultyText": "Insane",
+      "difficulty": 85,
+      "authUserInUserOwns": true,
+      "authUserInRootOwns": true
+    },
+    {
+      "id": 817,
+      "name": "Eloquia",
+      "os": "Windows",
+      "difficultyText": "Insane",
+      "difficulty": 81,
+      "authUserInUserOwns": true,
+      "authUserInRootOwns": true
+    },
+    {
+      "id": 954,
+      "name": "Odyssey",
+      "os": "Windows",
+      "difficultyText": "Insane",
+      "difficulty": 78,
+      "authUserInUserOwns": true,
+      "authUserInRootOwns": true
+    },
+    {
+      "id": 691,
+      "name": "Cobblestone",
+      "os": "Linux",
+      "difficultyText": "Insane",
+      "difficulty": 63,
+      "authUserInUserOwns": true,
+      "authUserInRootOwns": true
+    },
+    {
+      "id": 930,
+      "name": "DarkZeroReturns",
+      "os": "Windows",
+      "difficultyText": "Hard",
+      "difficulty": 78,
+      "authUserInUserOwns": true,
+      "authUserInRootOwns": true
+    },
+    {
+      "id": 808,
+      "name": "Fries",
+      "os": "Windows",
+      "difficultyText": "Hard",
+      "difficulty": 74,
+      "authUserInUserOwns": true,
+      "authUserInRootOwns": true
+    },
+    {
+      "id": 844,
+      "name": "Pirate",
+      "os": "Windows",
+      "difficultyText": "Hard",
+      "difficulty": 67,
+      "authUserInUserOwns": true,
+      "authUserInRootOwns": true
+    },
+    {
+      "id": 951,
+      "name": "Ghostlink",
+      "os": "Windows",
+      "difficultyText": "Hard",
+      "difficulty": 65,
+      "authUserInUserOwns": true,
+      "authUserInRootOwns": true
+    },
+    {
+      "id": 912,
+      "name": "Nimbus",
+      "os": "Linux",
+      "difficultyText": "Hard",
+      "difficulty": 62,
+      "authUserInUserOwns": true,
+      "authUserInRootOwns": true
+    }
+  ],
+  "season_machines": [
+    {
+      "id": 984,
+      "name": "Layover",
+      "os": "Linux",
+      "difficulty_text": "Medium",
+      "is_released": true,
+      "is_owned_user": true,
+      "is_owned_root": true
+    },
+    {
+      "id": 987,
+      "name": "Touch",
+      "os": "Windows",
+      "difficulty_text": "Easy",
+      "is_released": true,
+      "is_owned_user": true,
+      "is_owned_root": true
+    },
+    {
+      "id": 990,
+      "name": "Stream",
+      "os": "Linux",
+      "difficulty_text": "Medium",
+      "is_released": true,
+      "is_owned_user": true,
+      "is_owned_root": true
+    },
+    {
+      "id": 993,
+      "name": "Autopilot",
+      "os": "Windows",
+      "difficulty_text": "Insane",
+      "is_released": true,
+      "is_owned_user": false,
+      "is_owned_root": false
+    },
+    {
+      "id": 999,
+      "name": "DutyBound",
+      "os": "Linux",
+      "difficulty_text": "Medium",
+      "is_released": false
+    },
+    {
+      "id": 1002,
+      "name": "Takeoff",
+      "os": "Linux",
+      "difficulty_text": "Medium",
+      "is_released": false
+    },
+    {
+      "id": 1005,
+      "name": "Unclaimed",
+      "os": "Windows",
+      "difficulty_text": "Medium",
+      "is_released": false
+    }
+  ],
+  "seasons": [
+    {
+      "league": "Silver",
+      "rank": 1986,
+      "next_rank": {
+        "id": 3,
+        "title": "Ruby",
+        "requirement": 40
+      },
+      "total_ranks": 5663,
+      "rank_suffix": "th",
+      "total_season_points": 175,
+      "flags_to_next_rank": {
+        "obtained": 3,
+        "total": 5
+      },
+      "total_season_flags": {
+        "obtained": 6,
+        "total": 18
+      },
+      "total_season_bloods": 0,
+      "user_owns": 3,
+      "user_bloods": 0,
+      "root_owns": 3,
+      "root_bloods": 0,
+      "season_id": 21,
+      "season_name": "Season 12",
+      "season_content_id": "a2b6666f-e8b4-4cb7-a465-e6af7f295910"
+    },
+    {
+      "league": "Ruby",
+      "rank": 1908,
+      "next_rank": {
+        "id": 4,
+        "title": "Platinum",
+        "requirement": 65
+      },
+      "total_ranks": 12396,
+      "rank_suffix": "th",
+      "total_season_points": 505,
+      "flags_to_next_rank": null,
+      "total_season_flags": {
+        "obtained": 16,
+        "total": 26
+      },
+      "total_season_bloods": 0,
+      "user_owns": 9,
+      "user_bloods": 0,
+      "root_owns": 7,
+      "root_bloods": 0,
+      "season_id": 15,
+      "season_name": "Season 11",
+      "season_content_id": "a1bafd3c-317c-4f25-97d6-b324141ab80a"
+    },
+    {
+      "league": null,
+      "rank": null,
+      "next_rank": {
+        "id": 1,
+        "title": "Bronze",
+        "requirement": 0
+      },
+      "total_ranks": null,
+      "rank_suffix": null,
+      "total_season_points": 0,
+      "flags_to_next_rank": null,
+      "total_season_flags": {
+        "obtained": 0,
+        "total": 26
+      },
+      "total_season_bloods": 0,
+      "season_id": 13,
+      "season_name": "Season 10",
+      "season_content_id": "a16cb36f-8d4d-4d96-b9c1-80b6082a7b74"
+    },
+    {
+      "league": null,
+      "rank": null,
+      "next_rank": {
+        "id": 1,
+        "title": "Bronze",
+        "requirement": 0
+      },
+      "total_ranks": null,
+      "rank_suffix": null,
+      "total_season_points": 0,
+      "flags_to_next_rank": null,
+      "total_season_flags": {
+        "obtained": 0,
+        "total": 26
+      },
+      "total_season_bloods": 0,
+      "season_id": 9,
+      "season_name": "Season 9",
+      "season_content_id": "a16cb36c-7b3a-42d8-b9db-fc41687f517e"
+    },
+    {
+      "league": null,
+      "rank": null,
+      "next_rank": {
+        "id": 1,
+        "title": "Bronze",
+        "requirement": 0
+      },
+      "total_ranks": null,
+      "rank_suffix": null,
+      "total_season_points": 0,
+      "flags_to_next_rank": null,
+      "total_season_flags": {
+        "obtained": 0,
+        "total": 26
+      },
+      "total_season_bloods": 0,
+      "season_id": 8,
+      "season_name": "Season 8",
+      "season_content_id": "a16cb370-dcc7-428e-a8d5-720ad58137cd"
+    },
+    {
+      "league": null,
+      "rank": null,
+      "next_rank": {
+        "id": 1,
+        "title": "Bronze",
+        "requirement": 0
+      },
+      "total_ranks": null,
+      "rank_suffix": null,
+      "total_season_points": 0,
+      "flags_to_next_rank": null,
+      "total_season_flags": {
+        "obtained": 0,
+        "total": 26
+      },
+      "total_season_bloods": 0,
+      "season_id": 7,
+      "season_name": "Season 7",
+      "season_content_id": "a16cb370-10f2-4f75-924d-340da8607295"
+    },
+    {
+      "league": null,
+      "rank": null,
+      "next_rank": {
+        "id": 1,
+        "title": "Bronze",
+        "requirement": 0
+      },
+      "total_ranks": null,
+      "rank_suffix": null,
+      "total_season_points": 0,
+      "flags_to_next_rank": null,
+      "total_season_flags": {
+        "obtained": 0,
+        "total": 26
+      },
+      "total_season_bloods": 0,
+      "season_id": 6,
+      "season_name": "Season 6",
+      "season_content_id": "a16cb36d-15a7-4933-9c8b-2863abe70f4e"
+    },
+    {
+      "league": null,
+      "rank": null,
+      "next_rank": {
+        "id": 1,
+        "title": "Bronze",
+        "requirement": 0
+      },
+      "total_ranks": null,
+      "rank_suffix": null,
+      "total_season_points": 0,
+      "flags_to_next_rank": null,
+      "total_season_flags": {
+        "obtained": 0,
+        "total": 26
+      },
+      "total_season_bloods": 0,
+      "season_id": 5,
+      "season_name": "Season 5",
+      "season_content_id": "a16cb36c-c87d-4a50-8ce4-6c1ace521100"
+    },
+    {
+      "league": null,
+      "rank": null,
+      "next_rank": {
+        "id": 1,
+        "title": "Bronze",
+        "requirement": 0
+      },
+      "total_ranks": null,
+      "rank_suffix": null,
+      "total_season_points": 0,
+      "flags_to_next_rank": null,
+      "total_season_flags": {
+        "obtained": 0,
+        "total": 26
+      },
+      "total_season_bloods": 0,
+      "season_id": 4,
+      "season_name": "Season 4",
+      "season_content_id": "a16cb36d-e044-4ce3-a759-0fe7a952fb02"
+    },
+    {
+      "league": null,
+      "rank": null,
+      "next_rank": {
+        "id": 1,
+        "title": "Bronze",
+        "requirement": 0
+      },
+      "total_ranks": null,
+      "rank_suffix": null,
+      "total_season_points": 0,
+      "flags_to_next_rank": null,
+      "total_season_flags": {
+        "obtained": 0,
+        "total": 24
+      },
+      "total_season_bloods": 0,
+      "season_id": 3,
+      "season_name": "Open Beta Season III",
+      "season_content_id": "a16cb36e-7fd7-42be-b5bb-5b1cfde79819"
+    },
+    {
+      "league": null,
+      "rank": null,
+      "next_rank": {
+        "id": 1,
+        "title": "Bronze",
+        "requirement": 0
+      },
+      "total_ranks": null,
+      "rank_suffix": null,
+      "total_season_points": 0,
+      "flags_to_next_rank": null,
+      "total_season_flags": {
+        "obtained": 0,
+        "total": 26
+      },
+      "total_season_bloods": 0,
+      "season_id": 2,
+      "season_name": "Open Beta Season II",
+      "season_content_id": "a16cb36c-2cd5-40ab-ab57-c80fc41f8180"
+    },
+    {
+      "league": null,
+      "rank": null,
+      "next_rank": {
+        "id": 1,
+        "title": "Bronze",
+        "requirement": 0
+      },
+      "total_ranks": null,
+      "rank_suffix": null,
+      "total_season_points": 0,
+      "flags_to_next_rank": null,
+      "total_season_flags": {
+        "obtained": 0,
+        "total": 26
+      },
+      "total_season_bloods": 0,
+      "season_id": 1,
+      "season_name": "Open Beta Season",
+      "season_content_id": "a16cb36c-88cf-49a1-b2fc-bd700118ad0c"
+    }
+  ]
+}

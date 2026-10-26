@@ -1,0 +1,4 @@
+Contact: mailto:sofiane.ghazal2@gmail.com
+Expires: 2027-10-26T00:00:00Z
+Preferred-Languages: fr, en
+Canonical: https://sofiane-portfolio.cosmicvenus18.chatgpt.site/.well-known/security.txt

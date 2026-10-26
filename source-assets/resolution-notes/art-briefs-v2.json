@@ -1,0 +1,69 @@
+{
+  "tool": "Built-in image_gen",
+  "purpose": "Distinct machine-avatar-inspired editorial sculptures; unchanged report-card layout; preserve Cobblestone.",
+  "briefs": [
+    {
+      "art": "hercules-v2",
+      "avatar": "dist/assets/htb-machines/778.webp",
+      "subject": "A sculptural three-headed Cerberus guardian made from burnished dark bronze and blackened steel, each dog head distinct, subtle red light in eyes, one angular hood silhouette behind. Three finely engraved brass authentication keys linked by a red silk thread suggest directory identities, certificate delegation. Based on Hercules/Cerberus reference, not columns or cubes. Rich warm bronze, oxblood, charcoal.",
+      "background": "transparent",
+      "constraints": "One complete isolated composition, 12% margin, no text/UI/backdrop, no voxel style."
+    },
+    {
+      "art": "pingpong-v2",
+      "avatar": "dist/assets/htb-machines/891.webp",
+      "subject": "Two elegant table-tennis paddles, one black rubber one deep red rubber, natural laminated wood handles, a white porcelain ball travelling between them on a slender luminous green curved trajectory. Two small polished silver key rings hang on opposite handles to suggest cross-forest trust and certificate delegation. Recognizable ping-pong first, subtle cyber metaphor. Smooth sporting materials, no stone.",
+      "background": "transparent",
+      "constraints": "One complete isolated composition, 12% margin, no text/UI/backdrop, no voxel style."
+    },
+    {
+      "art": "eloquia-v2",
+      "avatar": "dist/assets/htb-machines/817.webp",
+      "subject": "An elegant green enameled orator podium with two curved chrome microphones, a sculptural folding speech ribbon made of translucent emerald glass emerging above it. Under the podium a partly exposed polished steel database cylinder and small brass identity key suggest OAuth and SQLite. Inspired by reference green public speaker at lectern. Glossy green enamel, glass, chrome; not stone.",
+      "background": "transparent",
+      "constraints": "One complete isolated composition, 12% margin, no text/UI/backdrop, no voxel style."
+    },
+    {
+      "art": "odyssey-v2",
+      "avatar": "dist/assets/htb-machines/954.webp",
+      "subject": "A sculptural ancient Greek wooden ship with a single ivory sail, bronze spiral prow and small crimson fabric pennant, riding a curling wave made of translucent deep turquoise glass. Three tiny brass mooring rings connected by a copper route line evoke multiple identity pivots and gateways. Reference Odyssey ship and sea visual identity. Beautiful wood grain, bronze, ocean glass, no cubes.",
+      "background": "transparent",
+      "constraints": "One complete isolated composition, 12% margin, no text/UI/backdrop, no voxel style."
+    },
+    {
+      "art": "rootme-double-free-v2",
+      "avatar": null,
+      "subject": "A surreal polished aluminium twin-clamp mechanism pulling the very same amber translucent memory allocation capsule from two opposite sides; capsule split into two offset ghost impressions connected by red fine threads. Small abstract human upright token and hunched zombie token etched in metal at the clamps, all part of one coherent collectible object. Metaphor for Human/Zombie allocation reuse and double-free. Brushed aluminium, amber resin, restrained vermilion. No microchip, no cubes.",
+      "background": "transparent",
+      "constraints": "One complete isolated composition, 12% margin, no text/UI/backdrop, no voxel style."
+    },
+    {
+      "art": "rootme-use-after-free-v2",
+      "avatar": null,
+      "subject": "A sculptural miniature doghouse made from warm bent plywood and frosted cyan glass. A pale blue translucent dog silhouette partly replaced by a solid copper doghouse-shaped memory insert; an old frayed copper pointer cable still connects to the ghost dog and bends toward the new insert. Evoke dangling pointer and reused Dog/DogHouse allocation, Bark redirection. Distinct playful-but-sophisticated industrial design. No microchip, no stone.",
+      "background": "transparent",
+      "constraints": "One complete isolated composition, 12% margin, no text/UI/backdrop, no voxel style."
+    },
+    {
+      "art": "rootme-format-string-v2",
+      "avatar": null,
+      "subject": "A long curled ribbon of perforated ivory paper threaded through a miniature dark graphite mechanical typewriter carriage, with two precise copper print heads aimed at separate halves of one ruby glass target window. A few clean abstract typographic percent marks embossed into metal keys, avoid other text. Evoke format-string two-half writes. Sculptural editorial object, paper, graphite, copper, ruby. No memory chip, no cubes.",
+      "background": "transparent",
+      "constraints": "One complete isolated composition, 12% margin, no text/UI/backdrop, no voxel style."
+    },
+    {
+      "art": "rootme-mips-no-nx-v2",
+      "avatar": null,
+      "subject": "A cutaway sculptural MIPS-inspired retro workstation processor assembly: an upright ceramic ivory architectural register bank with thin brushed brass horizontal traces, a bright blue flexible ribbon looping from a lower exposed red glass memory channel back to an upper brass return-address contact. Small alternating byte-like ceramic tiles evoke endianness without labels. Refined 1990s workstation hardware materials, ivory ceramic, ultramarine, brass. Not a generic flat microchip, no stone cubes.",
+      "background": "transparent",
+      "constraints": "One complete isolated composition, 12% margin, no text/UI/backdrop, no voxel style."
+    },
+    {
+      "art": "rootme-stack-overflow-v2",
+      "avatar": null,
+      "subject": "A tall narrow stack of deep blue translucent glass memory trays held in a slim brushed steel frame; vivid lime fluid overflows the highest tray, crosses a thin red boundary and flows into one small brass control toggle on the side. Tangible metaphor for input overflowing a stack buffer and changing a check variable. Architectural product sculpture, liquid glass and brushed steel, distinct vertical silhouette. No microchip, no stone cubes.",
+      "background": "transparent",
+      "constraints": "One complete isolated composition, 12% margin, no text/UI/backdrop, no voxel style."
+    }
+  ]
+}

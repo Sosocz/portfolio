@@ -1,0 +1,302 @@
+[
+  {
+    "source": "https://cdn.prod.website-files.com/67b5a02dc5d338960b17a7e9/67b6113a220f85ad6497495a_Brier-Bold.woff2",
+    "local": "/assets/vendor/ef0cde57907c.woff2",
+    "sha256": "29e02a38804299f651616500e6081190a92ad271312e94a7647002e1130bfefe"
+  },
+  {
+    "source": "https://cdn.prod.website-files.com/67b5a02dc5d338960b17a7e9/67bc6274c5b4108b123aa4d5_MonaSans-VariableFont_wdth%2Cwght.woff2",
+    "local": "/assets/vendor/e59cf54669a4.woff2",
+    "sha256": "b1805bff4463df0a5c4226c3ebf4a217adfe7fb41285bcafd51d165bcffa7115"
+  },
+  {
+    "source": "https://cdn.prod.website-files.com/67b5a02dc5d338960b17a7e9/js/lando-offbrand.schunk.7321a5097fb66f41.js",
+    "local": "/assets/vendor/a3375a13163d.js",
+    "sha256": "52929dca1ed69df4a7f6168cb47958dc07be27550be8031f73815d1a31a6892a"
+  },
+  {
+    "source": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67b5a02dc5d338960b17a7e9",
+    "local": "/assets/vendor/bc2d2832c2e7.js",
+    "sha256": "f7f6a5894f1d19ddad6fa392b2ece2c5e578cbf7da4ea805b6885eb6985b6e3d"
+  },
+  {
+    "source": "https://cdn.prod.website-files.com/67b5a02dc5d338960b17a7e9/js/lando-offbrand.751e0867.148dc658e77a3916.js",
+    "local": "/assets/vendor/bf569b186ad4.js",
+    "sha256": "bb4c0003021f8855c2d9103c5436247c47b3a969b7d7607714e7451f40304549"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/fonts/Brier-Bold-02.webp",
+    "local": "/assets/gl/fonts/Brier-Bold-02.webp",
+    "sha256": "315c7787a3bda3e8aa66c6486879101e67fa3aead0fbead2b2f98e684c7b9c03"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/fonts/Brier-Bold-msdf.json",
+    "local": "/assets/gl/fonts/Brier-Bold-msdf.json",
+    "sha256": "2b1aa7261e9b336c7dd6546bc67f7f07cfb99dac63692925de4700dfbc4df125"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/fonts/MonaSans-Bold-02.webp",
+    "local": "/assets/gl/fonts/MonaSans-Bold-02.webp",
+    "sha256": "7d3c5880d2066d86c19a30e1882b8b930308ec1e4c80ddee2f68fb5c968d9320"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/fonts/MonaSans-Bold-msdf.json",
+    "local": "/assets/gl/fonts/MonaSans-Bold-msdf.json",
+    "sha256": "78dfe3a7fe6137379b52d3c0e6bb331f84d51e7b05d4e14bcfd6164f5143b352"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/hdri/studio_small_08_1k--light.hdr",
+    "local": "/assets/gl/hdri/studio_small_08_1k--light.hdr",
+    "sha256": "7d1ca2300066e820d3aff8693abe6f8a3d2d509b06d7ad1cbd3c49b37c97ba66"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/hdri/studio_small_08_1k--faded.hdr",
+    "local": "/assets/gl/hdri/studio_small_08_1k--faded.hdr",
+    "sha256": "fbf3d36f26ff7d5e41397c7abb8add17b45e93c333176d1141b1d21e0d15a345"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/hdri/studio_small_08_1k--dark.hdr",
+    "local": "/assets/gl/hdri/studio_small_08_1k--dark.hdr",
+    "sha256": "1e27cdeddab59943acb0fa02f25389ba26d98b5cdd7d440f978063672fd1d014"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/models/helmet-21.glb",
+    "local": "/assets/gl/models/helmet-21.glb",
+    "sha256": "b18a32362bc59433059cc184b25454fe9014e28a9f902229c22ed2293824be47"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/models/disco-02.glb",
+    "local": "/assets/gl/models/disco-02.glb",
+    "sha256": "6fb1665522b2dc642bc318e9c7e010410eec2be5f660e3cb7ab3446ddaf6776f"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/models/tracks/tracks-06-test.glb",
+    "local": "/assets/gl/models/tracks/tracks-06-test.glb",
+    "sha256": "b4a4b89d4b8ee0c25204aed83015bb3f3619209ba2bb7947107ba4e38341b2a1"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/models/sotd.glb",
+    "local": "/assets/gl/models/sotd.glb",
+    "sha256": "70839b47bc6dd5d77840140312d1f44f1ea712021681d54677c20a507ad7b95b"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/head/webp/diffuse.webp",
+    "local": "/assets/gl/textures/head/webp/diffuse.webp",
+    "sha256": "bf70585200a8c951381aec34f0d8f636646e5bdef74786994f0d1c872d695928"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/head/webp/depth.webp",
+    "local": "/assets/gl/textures/head/webp/depth.webp",
+    "sha256": "2a523e14c1f99642cbe9f7587e0eb01cb61f5060605ef22c8ae34f21eec55068"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/head/webp/alpha.webp",
+    "local": "/assets/gl/textures/head/webp/alpha.webp",
+    "sha256": "093addbe941d4a472e8ffadb76935a6292f4901fc60ab5da83f67ccabffdc714"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/head/webp/normal.webp",
+    "local": "/assets/gl/textures/head/webp/normal.webp",
+    "sha256": "9d496062bb17fddcf779aaeeecd33f40d85ffe1da94513719191b7447f0b7b72"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/head/webp/roughness.webp",
+    "local": "/assets/gl/textures/head/webp/roughness.webp",
+    "sha256": "2c90e020dde81ac825c17897b938f52685c902d55745c73a36f62462fbd9e813"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/head/webp/shadow.webp",
+    "local": "/assets/gl/textures/head/webp/shadow.webp",
+    "sha256": "3c8bd97d6956702fd038870046927a0fc9d7af4528d9a3f18ca76864e10b4a58"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/head/webp/shadow-softer-edit.webp",
+    "local": "/assets/gl/textures/head/webp/shadow-softer-edit.webp",
+    "sha256": "569b77abda492ff0a8f40cb54871d0aea0e86345d07af3d5e5d53507d427a32a"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/head/webp/shadow-to-zip-edit.webp",
+    "local": "/assets/gl/textures/head/webp/shadow-to-zip-edit.webp",
+    "sha256": "345464b61c92adedb5602914fa10fb3b51edddc26f0bcf5fd38ca676bc4e0583"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/helmet/webp/gold/Norris_Helmet_mat_BaseColor.webp",
+    "local": "/assets/gl/textures/helmet/webp/gold/Norris_Helmet_mat_BaseColor.webp",
+    "sha256": "6435f7f1b9f78234c0c3a2e2ce34e1afcf033671977871043bfd737902f7e624"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/helmet/webp/disco/Norris_Helmet_mat_BaseColor.webp",
+    "local": "/assets/gl/textures/helmet/webp/disco/Norris_Helmet_mat_BaseColor.webp",
+    "sha256": "75b79b9550900efb9e07c096fdcf3385c37ffa7a25cbe33ee6055b23969ccf69"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/helmet/webp/Norris_Helmet_mat_Normal.webp",
+    "local": "/assets/gl/textures/helmet/webp/Norris_Helmet_mat_Normal.webp",
+    "sha256": "e552f799a1aaf3ce22feac6e767b3994f75fea8fc1bfe7bc6ad79cb50ff10e10"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/helmet/webp/Norris_Helmet_mat_Roughness.webp",
+    "local": "/assets/gl/textures/helmet/webp/Norris_Helmet_mat_Roughness.webp",
+    "sha256": "ae289e11044f851c041e65e59e6e63778135fcd4c1e381c638a517c0b39e29e1"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/helmet/webp/Norris_Helmet_mat_Metallic.webp",
+    "local": "/assets/gl/textures/helmet/webp/Norris_Helmet_mat_Metallic.webp",
+    "sha256": "710753f445d423154535b1c6d57842a232e35aa3d3da1d237f8d1c8c681cb629"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/glass/webp/Norris_Glass_mat_BaseColor.webp",
+    "local": "/assets/gl/textures/glass/webp/Norris_Glass_mat_BaseColor.webp",
+    "sha256": "f5352e5aaaa8d801c04fb4ff5d073119feca446b0e70ee71bb15712fb052b9c4"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/glass/webp/Norris_Glass_mat_Normal.webp",
+    "local": "/assets/gl/textures/glass/webp/Norris_Glass_mat_Normal.webp",
+    "sha256": "74951d6b56f6a058766e7e2dbfe55b3901f0160ef89291cf5ae755c60bf69683"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/glass/webp/Norris_Glass_mat_Roughness.webp",
+    "local": "/assets/gl/textures/glass/webp/Norris_Glass_mat_Roughness.webp",
+    "sha256": "1196d72d0a3b8e57fa64ef472b1fa0907b303fb8dce46cab887bfc7d074387bf"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/glass/webp/Norris_Glass_mat_Metallic.webp",
+    "local": "/assets/gl/textures/glass/webp/Norris_Glass_mat_Metallic.webp",
+    "sha256": "63f05cb10d8744b95f2f8aae20e888d5d909c0cf7c84882587fabd6509f117d6"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/plastic/plastic__matcap-02.webp",
+    "local": "/assets/gl/textures/plastic/plastic__matcap-02.webp",
+    "sha256": "aa5b808fbd173d9fc2e28e2d55fa56c164679e8c27d514dd6a20bcd6db154e86"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/helmet/webp/disco/disco_matcap-01.webp",
+    "local": "/assets/gl/textures/helmet/webp/disco/disco_matcap-01.webp",
+    "sha256": "caee75c1eb255a93dc472ca46294423c5a66fdd509ad91b3fbca5c0d8b61abb0"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/helmet/webp/disco/disco_mask-01.webp",
+    "local": "/assets/gl/textures/helmet/webp/disco/disco_mask-01.webp",
+    "sha256": "669d07a36ecb0dbe2ac0ebf73a43fceb6f83b2cda898e3a6b2e232ddda824973"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/helmet/webp/disco/disco_lens-flare-15.webp",
+    "local": "/assets/gl/textures/helmet/webp/disco/disco_lens-flare-15.webp",
+    "sha256": "066be7f6a4fbf888dbe66299da3450767860df3a422ad93e9b69ca8126f1dccc"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/noise/noise-03.webp",
+    "local": "/assets/gl/textures/noise/noise-03.webp",
+    "sha256": "52f6706ecfb2741552731146cfabec9babe3842a7dfea87d71ffac955ed555ef"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/tracks/lando__matcap-02.webp",
+    "local": "/assets/gl/textures/tracks/lando__matcap-02.webp",
+    "sha256": "51da258300297ffdad7f965b917f3b24de5048fa5dcd8bc85c5e5d76cf20457b"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/not-found/webp/not-found-alpha-6.webp",
+    "local": "/assets/gl/textures/not-found/webp/not-found-alpha-6.webp",
+    "sha256": "be5081596e7fb4c0a93b522703e1be8ecc91a177d517eab864c603cdea629a6c"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/head/ktx2/diffuse.ktx2",
+    "local": "/assets/gl/textures/head/ktx2/diffuse.ktx2",
+    "sha256": "2b89ba9f6e8f1e9d9d353e3c31a1cffbf9e71a04eae865445c9b8a89084c87cd"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/head/ktx2/depth.ktx2",
+    "local": "/assets/gl/textures/head/ktx2/depth.ktx2",
+    "sha256": "9f4ed4eacfd30e9bc38cfc867934ac7657a1b2535393ea1c1f74fb9025625ca7"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/head/ktx2/alpha.ktx2",
+    "local": "/assets/gl/textures/head/ktx2/alpha.ktx2",
+    "sha256": "206a408f9b49b5dc109608fab8311dc5e0b384341c9c625ead652cef5f4211d7"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/head/ktx2/roughness.ktx2",
+    "local": "/assets/gl/textures/head/ktx2/roughness.ktx2",
+    "sha256": "d88724e50bb373d5b3e2b1d381a7ec71cdd52bacc088eef65048066a846517e1"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/head/ktx2/shadow.ktx2",
+    "local": "/assets/gl/textures/head/ktx2/shadow.ktx2",
+    "sha256": "8cfcb6186a1f961054434a70d4f697d5a52ce180c7ca423e1110c33c1dee8727"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/head/ktx2/shadow-softer-edit.ktx2",
+    "local": "/assets/gl/textures/head/ktx2/shadow-softer-edit.ktx2",
+    "sha256": "e99bbc33977ab3e144959108e5ac8d88dee6ac46a514fd8b39e9ada404def9de"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/head/ktx2/shadow-to-zip-edit.ktx2",
+    "local": "/assets/gl/textures/head/ktx2/shadow-to-zip-edit.ktx2",
+    "sha256": "9d40ba05704a8959b3e7b255a2d3a53a5db07062bd59ec4119b88e078a48cd9f"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/helmet/ktx2/gold/Norris_Helmet_mat_BaseColor.ktx2",
+    "local": "/assets/gl/textures/helmet/ktx2/gold/Norris_Helmet_mat_BaseColor.ktx2",
+    "sha256": "ff78a1d8edef644a0ed24c9bdc49e7ad757ee19e933dbb736cc3d715a5c8a025"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/helmet/ktx2/disco/Norris_Helmet_mat_BaseColor.ktx2",
+    "local": "/assets/gl/textures/helmet/ktx2/disco/Norris_Helmet_mat_BaseColor.ktx2",
+    "sha256": "2fbbbc30f194c153de025f65a2debf3a5256f20748bd15050d7645f657f5164c"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/helmet/ktx2/Norris_Helmet_mat_Roughness.ktx2",
+    "local": "/assets/gl/textures/helmet/ktx2/Norris_Helmet_mat_Roughness.ktx2",
+    "sha256": "7f581b4299a48b13bfa924c6dc1a92c825a0c72391a2da8737823a02e965ec4b"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/helmet/ktx2/Norris_Helmet_mat_Metallic.ktx2",
+    "local": "/assets/gl/textures/helmet/ktx2/Norris_Helmet_mat_Metallic.ktx2",
+    "sha256": "d7bc79d58c5e4e0500c572b193c301cb6a62eb8824141c3d9bdfc6baf87ba5a3"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/glass/ktx2/Norris_Glass_mat_BaseColor.ktx2",
+    "local": "/assets/gl/textures/glass/ktx2/Norris_Glass_mat_BaseColor.ktx2",
+    "sha256": "854fce3a654f9b1656b39911266022983a87fcf3b01a5d04dba07773b4899458"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/glass/ktx2/Norris_Glass_mat_Roughness.ktx2",
+    "local": "/assets/gl/textures/glass/ktx2/Norris_Glass_mat_Roughness.ktx2",
+    "sha256": "0f0f63a34366ad398d20cabf8efcbd8ba67a2e0235c2f468417768b67fd01119"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/glass/ktx2/Norris_Glass_mat_Metallic.ktx2",
+    "local": "/assets/gl/textures/glass/ktx2/Norris_Glass_mat_Metallic.ktx2",
+    "sha256": "279fbd41bd284fcdad41409fca738a931b385c7137bea89b57a820a17085d8da"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/textures/helmet/ktx2/disco/disco_mask-01.ktx2",
+    "local": "/assets/gl/textures/helmet/ktx2/disco/disco_mask-01.ktx2",
+    "sha256": "760191ddeb61f76d7c44b50e58cbec2e9a0e3d11d16b99617c68695728e1eab8"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/draco/draco_decoder.js",
+    "local": "/assets/gl/draco/draco_decoder.js",
+    "sha256": "30e4d486fa020737af10e3c56197693e5b904bdc05b8bfa5d7b06751dec6da04"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/draco/draco_wasm_wrapper.js",
+    "local": "/assets/gl/draco/draco_wasm_wrapper.js",
+    "sha256": "e8049906ef3f8f75d3456c22a3f31bfdfe5b5b5bd09ccdec613b9e9a49d554d8"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/draco/draco_decoder.wasm",
+    "local": "/assets/gl/draco/draco_decoder.wasm",
+    "sha256": "c55a594e8ffd18426d36b27fea9618af3df5e173640a3e56d46f09d76f0574f2"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/basis/basis_transcoder.js",
+    "local": "/assets/gl/basis/basis_transcoder.js",
+    "sha256": "8478b5b6d6b74e7d3082b89f6417321d8d1dc0307f2b30d4484bb11b441696a1"
+  },
+  {
+    "source": "https://lando.itsoffbrand.io/gl/basis/basis_transcoder.wasm",
+    "local": "/assets/gl/basis/basis_transcoder.wasm",
+    "sha256": "6cf17dc889352c42e9acf8897107978d127005fe3386c36a0e3845e27967630a"
+  }
+]

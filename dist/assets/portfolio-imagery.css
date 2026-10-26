@@ -1,0 +1,49 @@
+/* Keep the native template's portrait slots, with uncropped character proportions. */
+.otot-home-bg.sofiane-duality .otot-home-img-w.is-1 .otot-home-img,
+.otot-home-bg.sofiane-duality .otot-home-img-w.is-2 .otot-home-img{
+  height:100%;width:100%;left:0;top:0;object-fit:contain;object-position:center bottom;
+}
+/* Dedicated landscape art replaces the old oversized vertical portrait.
+   The template's portrait zoom is intentionally neutralized for this banner. */
+.s.is-otot-end.is-sofiane-transition{background:#151b1a;isolation:isolate}
+.is-otot-end.is-sofiane-transition .otot-home-end-img-w{
+  width:100%;height:auto;min-height:0;max-height:78svh;aspect-ratio:1664 / 941;
+  display:block;position:relative;overflow:hidden;background:#151b1a;
+}
+.is-otot-end.is-sofiane-transition .image.is-otot-home-end{
+  position:absolute;inset:0;width:100%;height:100%;max-width:none;
+  object-fit:cover;object-position:50% 46%;transform:none!important;
+}
+@media(max-width:767px){
+ .otot-home-bg.sofiane-duality .otot-home-img-w.is-1{left:-.5rem}
+ .otot-home-bg.sofiane-duality .otot-home-img-w.is-2{right:-.5rem}
+ .is-otot-end.is-sofiane-transition .otot-home-end-img-w{aspect-ratio:4 / 3;max-height:none}
+ .is-otot-end.is-sofiane-transition .image.is-otot-home-end{object-position:48% 45%}
+}
+@media(max-width:767px){
+ /* A quiet header area keeps the fixed signature away from the character's face. */
+ .is-otot-end.is-sofiane-transition .otot-home-end-img-w{height:calc(75vw + 72px);aspect-ratio:auto}
+ .is-otot-end.is-sofiane-transition .image.is-otot-home-end{top:72px;height:calc(100% - 72px)}
+}
+/* Long French headings stay in the clear space between both portrait silhouettes. */
+.is-otot-home .otot-home-layout{width:min(68vw,960px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,4vw,64px)}
+.is-otot-home .otot-home-text-w .text-impact-reg-brier,
+.is-otot-home .otot-home-text-w .text-impact-reg-mona{font-size:clamp(32px,4vw,64px);line-height:1.04}
+.is-otot-home .otot-home-text-rive{width:11rem;height:8rem;right:0}
+@media(max-width:767px){
+ .is-otot-home .otot-home-layout{width:100%;gap:20px}
+ .is-otot-home .otot-home-text-w .text-impact-reg-brier,
+ .is-otot-home .otot-home-text-w .text-impact-reg-mona{font-size:clamp(22px,5.1vw,38px)}
+ .is-otot-home .otot-home-inner{padding-top:6rem;min-height:100svh}
+ .otot-home-bg.sofiane-duality .otot-home-img-w.is-1,
+ .otot-home-bg.sofiane-duality .otot-home-img-w.is-2{height:48svh}
+ .is-otot-home .otot-home-text-rive{width:7rem;height:5rem}
+}
+.is-otot-home .otot-home-text-col{transform:none!important}
+.is-otot-home .otot-home-text-w{width:100%}
+.is-otot-home .otot-home-p-w{width:min(100%,19rem)}
+.is-otot-home .otot-home-text-rive{top:-4rem;right:0;width:8rem;height:4rem}
+@media(max-width:767px){
+ .is-otot-home .otot-home-inner{padding-top:140px}
+ .is-otot-home .otot-home-text-rive{display:none}
+}
