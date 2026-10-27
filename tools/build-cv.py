@@ -72,8 +72,8 @@ line('Pratique personnelle en cybersécurité : Hack The Box, HTB Academy et Roo
 
 section('Formation')
 education('Bachelor Administrateur Cybersécurité - Bac+3','2025 - 2026','EPITA - Campus Cyber | Diplôme obtenu en 2026 | Titre de niveau 6')
-education('BTS SIO - Option SISR','2023 - 2025','Lycée Jean-Jacques Rousseau, Montmorency | Formation terminée en 2025')
-education('Licence AES - Administration économique et sociale','2023 - 2024','Université Paris 8 | Parcours universitaire')
+education('BTS SIO - Option SISR','Sept. 2023 - 2025','Lycée Jean-Jacques Rousseau, Montmorency | Diplôme obtenu en 2025')
+education('Licence AES - Administration économique et sociale','Sept. 2022 - 2023','Université Paris 8 | Parcours universitaire')
 education('Baccalauréat STMG - Gestion et Finance','2021 - 2022','Lycée Eugène Delacroix, Drancy')
 line('Projet de formation : cycle ingénieur IRSM au CNAM - Bac+5, à venir.',size=9.6,bold=True,after=2)
 line('Informatique, réseaux, systèmes et multimédia - CYC9104A.',size=9.0,color=MUTED,after=0)
