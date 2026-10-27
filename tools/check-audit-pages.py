@@ -31,5 +31,5 @@ for page in ['index.html','off-track/index.html','on-track/index.html','calendar
 assert 'noindex' not in (r/'calendar/index.html').read_text()
 # Keep original backgrounds, interactive camera, quality settings, and all template hooks.
 s=(r/'portfolio-runtime.js').read_text();assert 'new RQ({canvas:"canvas.gl"})' in s and 'portfolio-no-legacy-3d' not in s
-room=(r/'chambre-sxsx/assets/interactive-room-Chi5jqhe.js').read_text();assert 'Math.min(devicePixelRatio,2)' in room and 'antialias:!0' in room and 'multiplyScalar(.86)' in room
+room=(r/'chambre-sxsx/assets/interactive-room-Chi5jqhe.js').read_text();assert 'Math.min(devicePixelRatio,2)' in room and 'antialias:!0' in room and 'multiplyScalar(1.02)' in room
 print(f'PASS: {count} documents; strong script CSP, no executable inline scripts or event handlers, internal links and anchors valid, native Projects navigation, French/indexable Formation, no displayed sports Rive, background and 3D render quality preserved.')

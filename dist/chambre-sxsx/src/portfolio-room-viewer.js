@@ -13,7 +13,7 @@ const renderer=new THREE.WebGLRenderer({alpha:true,antialias:true,preserveDrawin
 renderer.setClearColor(0,0);renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(innerWidth,innerHeight);document.body.append(renderer.domElement);
 const scene=new THREE.Scene();scene.background=null;
 const camera=new THREE.PerspectiveCamera(40,innerWidth/innerHeight,.1,150);
-const roomViewOffset=new THREE.Vector3(14,10,17).multiplyScalar(.86);
+const roomViewOffset=new THREE.Vector3(14,10,17).multiplyScalar(1.02);
 const controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.enablePan=false;controls.enableZoom=false;controls.minDistance=controls.maxDistance=roomViewOffset.length();controls.minPolarAngle=.85;controls.maxPolarAngle=1.35;controls.minAzimuthAngle=.20;controls.maxAzimuthAngle=1.15;
 window.SXSXRoomPageScroll?.bind(controls);
 const ambient=new THREE.HemisphereLight(0xdde9e8,0x967557,.9);scene.add(ambient);
