@@ -93,7 +93,7 @@ def palette_glow(a):
   shapes.append(f'<ellipse cx="{x}" cy="{y}" rx="260" ry="190" fill="url(#{ident})"/>')
  return '<defs>'+''.join(defs)+'</defs>'+''.join(shapes)
 
-def compose(a):
+def compose(a, destination=None):
  n=a['n'];color=COLORS[a['brand']];art=SOURCE/(a['art']+'.webp');title=' '.join(a['title']);title_size=a.get('title_size',LAYOUT['titleSize'])
  for line in a['title']:assert width(line,title_size,'bold')<1060,(n,line,width(line,title_size,'bold'))
  s=[f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1630" height="965" viewBox="0 0 1630 965" role="img" aria-label="{html.escape(title)} — Sofiane Ghazal" data-series="metal-color-v1" data-number="{n}" data-title-size="{title_size}" data-subtitle-size="65" data-badge-slot="1240,140,285,300"><title>{html.escape(title)} — Sofiane Ghazal</title><defs>',
@@ -124,7 +124,7 @@ def compose(a):
  s.append('</g>')
  for inset,stroke,sw in [(10,'#050607',16),(12,'url(#chrome)',6),(23,'#06080a',6),(29,'url(#chrome)',2),(38,'#a7adb4',.9)]:
   s.append(f'<rect x="{inset}" y="{inset}" width="{1630-inset*2}" height="{965-inset*2}" rx="{75-inset*.5}" fill="none" stroke="{stroke}" stroke-width="{sw}"/>')
- s.append('</svg>');out=SOURCE/f'badge-{n:02}.svg';out.write_text(''.join(s));return out
+ s.append('</svg>');out=(destination or SOURCE)/f'badge-{n:02}.svg';out.write_text(''.join(s));return out
 if __name__=='__main__':
  (SOURCE/'layout.json').write_text(json.dumps(LAYOUT,indent=2))
  for a in ALL:print(compose(a).relative_to(ROOT))

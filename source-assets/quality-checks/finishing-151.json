@@ -1,0 +1,319 @@
+{
+  "removed_files": [
+    {
+      "path": "dist/assets/gl/models/sotd.glb",
+      "bytes": 29664
+    },
+    {
+      "path": "dist/assets/gl/models/helmet-21.glb",
+      "bytes": 139492
+    },
+    {
+      "path": "dist/assets/gl/models/disco-02.glb",
+      "bytes": 358984
+    },
+    {
+      "path": "dist/assets/gl/models/tracks/tracks-06-test.glb",
+      "bytes": 477540
+    },
+    {
+      "path": "dist/assets/gl/hdri/studio_small_08_1k--light.hdr",
+      "bytes": 386788
+    },
+    {
+      "path": "dist/assets/gl/hdri/studio_small_08_1k--faded.hdr",
+      "bytes": 175712
+    },
+    {
+      "path": "dist/assets/gl/hdri/studio_small_08_1k--dark.hdr",
+      "bytes": 392675
+    },
+    {
+      "path": "dist/assets/gl/textures/head/ktx2/shadow-to-zip-edit.ktx2",
+      "bytes": 316808
+    },
+    {
+      "path": "dist/assets/gl/textures/head/ktx2/roughness.ktx2",
+      "bytes": 224594
+    },
+    {
+      "path": "dist/assets/gl/textures/head/ktx2/alpha.ktx2",
+      "bytes": 172037
+    },
+    {
+      "path": "dist/assets/gl/textures/head/ktx2/shadow.ktx2",
+      "bytes": 319542
+    },
+    {
+      "path": "dist/assets/gl/textures/head/ktx2/shadow-softer-edit.ktx2",
+      "bytes": 321721
+    },
+    {
+      "path": "dist/assets/gl/textures/head/ktx2/depth.ktx2",
+      "bytes": 66599
+    },
+    {
+      "path": "dist/assets/gl/textures/head/ktx2/diffuse.ktx2",
+      "bytes": 334987
+    },
+    {
+      "path": "dist/assets/gl/textures/head/webp/diffuse.webp",
+      "bytes": 292106
+    },
+    {
+      "path": "dist/assets/gl/textures/head/webp/depth.webp",
+      "bytes": 3708
+    },
+    {
+      "path": "dist/assets/gl/textures/head/webp/normal.webp",
+      "bytes": 150168
+    },
+    {
+      "path": "dist/assets/gl/textures/head/webp/shadow.webp",
+      "bytes": 283478
+    },
+    {
+      "path": "dist/assets/gl/textures/head/webp/alpha.webp",
+      "bytes": 38874
+    },
+    {
+      "path": "dist/assets/gl/textures/head/webp/shadow-to-zip-edit.webp",
+      "bytes": 266780
+    },
+    {
+      "path": "dist/assets/gl/textures/head/webp/shadow-softer-edit.webp",
+      "bytes": 285764
+    },
+    {
+      "path": "dist/assets/gl/textures/head/webp/roughness.webp",
+      "bytes": 125378
+    },
+    {
+      "path": "dist/assets/gl/textures/helmet/ktx2/Norris_Helmet_mat_Metallic.ktx2",
+      "bytes": 66610
+    },
+    {
+      "path": "dist/assets/gl/textures/helmet/ktx2/Norris_Helmet_mat_Roughness.ktx2",
+      "bytes": 364243
+    },
+    {
+      "path": "dist/assets/gl/textures/helmet/webp/Norris_Helmet_mat_Metallic.webp",
+      "bytes": 20486
+    },
+    {
+      "path": "dist/assets/gl/textures/helmet/webp/Norris_Helmet_mat_Normal.webp",
+      "bytes": 64804
+    },
+    {
+      "path": "dist/assets/gl/textures/helmet/webp/Norris_Helmet_mat_Roughness.webp",
+      "bytes": 25482
+    },
+    {
+      "path": "dist/assets/gl/textures/helmet/ktx2/gold/Norris_Helmet_mat_BaseColor.ktx2",
+      "bytes": 284653
+    },
+    {
+      "path": "dist/assets/gl/textures/helmet/ktx2/disco/Norris_Helmet_mat_BaseColor.ktx2",
+      "bytes": 96371
+    },
+    {
+      "path": "dist/assets/gl/textures/helmet/ktx2/disco/disco_mask-01.ktx2",
+      "bytes": 470727
+    },
+    {
+      "path": "dist/assets/gl/textures/helmet/webp/gold/Norris_Helmet_mat_BaseColor.webp",
+      "bytes": 321508
+    },
+    {
+      "path": "dist/assets/gl/textures/helmet/webp/disco/disco_mask-01.webp",
+      "bytes": 74998
+    },
+    {
+      "path": "dist/assets/gl/textures/helmet/webp/disco/Norris_Helmet_mat_BaseColor.webp",
+      "bytes": 177136
+    },
+    {
+      "path": "dist/assets/gl/textures/helmet/webp/disco/disco_matcap-01.webp",
+      "bytes": 64602
+    },
+    {
+      "path": "dist/assets/gl/textures/helmet/webp/disco/disco_lens-flare-15.webp",
+      "bytes": 100940
+    },
+    {
+      "path": "dist/assets/gl/textures/glass/ktx2/Norris_Glass_mat_Metallic.ktx2",
+      "bytes": 39065
+    },
+    {
+      "path": "dist/assets/gl/textures/glass/ktx2/Norris_Glass_mat_BaseColor.ktx2",
+      "bytes": 90920
+    },
+    {
+      "path": "dist/assets/gl/textures/glass/ktx2/Norris_Glass_mat_Roughness.ktx2",
+      "bytes": 217570
+    },
+    {
+      "path": "dist/assets/gl/textures/glass/webp/Norris_Glass_mat_Normal.webp",
+      "bytes": 8320
+    },
+    {
+      "path": "dist/assets/gl/textures/glass/webp/Norris_Glass_mat_BaseColor.webp",
+      "bytes": 44358
+    },
+    {
+      "path": "dist/assets/gl/textures/glass/webp/Norris_Glass_mat_Roughness.webp",
+      "bytes": 21898
+    },
+    {
+      "path": "dist/assets/gl/textures/glass/webp/Norris_Glass_mat_Metallic.webp",
+      "bytes": 14748
+    },
+    {
+      "path": "dist/assets/gl/textures/plastic/plastic__matcap-02.webp",
+      "bytes": 65794
+    },
+    {
+      "path": "dist/assets/gl/textures/tracks/lando__matcap-02.webp",
+      "bytes": 54010
+    },
+    {
+      "path": "dist/assets/gl/textures/not-found/webp/not-found-alpha-6.webp",
+      "bytes": 5790
+    },
+    {
+      "path": "dist/assets/chambre-sxsx-mint-walls.glb",
+      "bytes": 10817420
+    },
+    {
+      "path": "dist/chambre-sxsx/textures/model-00.png",
+      "bytes": 1333944
+    },
+    {
+      "path": "dist/chambre-sxsx/textures/model-01.png",
+      "bytes": 5669971
+    },
+    {
+      "path": "dist/chambre-sxsx/textures/model-02.png",
+      "bytes": 7057367
+    },
+    {
+      "path": "dist/chambre-sxsx/textures/model-03.png",
+      "bytes": 560512
+    },
+    {
+      "path": "dist/chambre-sxsx/textures/model-04.png",
+      "bytes": 560512
+    },
+    {
+      "path": "dist/chambre-sxsx/textures/model-05.png",
+      "bytes": 6555953
+    },
+    {
+      "path": "dist/chambre-sxsx/textures/model-06.png",
+      "bytes": 2852241
+    },
+    {
+      "path": "dist/chambre-sxsx/textures/model-15.png",
+      "bytes": 383156
+    },
+    {
+      "path": "dist/d9094ac017a3-signature.riv",
+      "bytes": 30851
+    },
+    {
+      "path": "dist/7def14dcb1ac-circuits.riv",
+      "bytes": 36636
+    },
+    {
+      "path": "dist/4c81fc6225d1-reef.riv",
+      "bytes": 72667
+    },
+    {
+      "path": "dist/53ff56dbbe32-ln4.riv",
+      "bytes": 3770
+    },
+    {
+      "path": "dist/2a46e1822450-mob-landscape.riv",
+      "bytes": 52818
+    },
+    {
+      "path": "index.html.bak-before-badges09-16-20261013",
+      "bytes": 220774
+    }
+  ],
+  "removed_bytes": 44067024,
+  "lossless_shared_textures": [
+    {
+      "source": "textures/model-00.png",
+      "retained": "textures/model-00.lossless.webp",
+      "dimensions": [
+        1440,
+        862
+      ],
+      "rgba_sha256": "350e1538fa583d6a30e18ee35eac07f2ef727dbc808d908806ac9cb894f7c431"
+    },
+    {
+      "source": "textures/model-01.png",
+      "retained": "textures/model-01.lossless.webp",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "rgba_sha256": "835760599b9c19e8b905a136f08d4a01de0ee875a6d891ca78b85dfbb4ca53f3"
+    },
+    {
+      "source": "textures/model-02.png",
+      "retained": "textures/model-02.lossless.webp",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "rgba_sha256": "65b5c35771c47476c625388e6e4194c6d23880b951e49335fba65119300d502a"
+    },
+    {
+      "source": "textures/model-03.png",
+      "retained": "textures/model-03.lossless.webp",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "rgba_sha256": "4969f18545e91afedaf4de6d8cb6b9ad1bcae9e072c927ab6c0de6d3fcef6d36"
+    },
+    {
+      "source": "textures/model-04.png",
+      "retained": "textures/model-04.lossless.webp",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "rgba_sha256": "4969f18545e91afedaf4de6d8cb6b9ad1bcae9e072c927ab6c0de6d3fcef6d36"
+    },
+    {
+      "source": "textures/model-05.png",
+      "retained": "textures/model-05.lossless.webp",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "rgba_sha256": "5778c5d9c93f124f0949e263b229261106b6b7a7164e238ca2a535aea4420a51"
+    },
+    {
+      "source": "textures/model-06.png",
+      "retained": "textures/model-06.lossless.webp",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "rgba_sha256": "e90e40b0f2af3d7123d51976b83e2d3548a3cc94eb21d837c195bf0e2c727be4"
+    },
+    {
+      "source": "textures/model-15.png",
+      "retained": "textures/model-15.lossless.webp",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "rgba_sha256": "cd347a3ce0f4f2e3ec6155f88816a79672a7f429472325add713055ae290c27d"
+    }
+  ]
+}
