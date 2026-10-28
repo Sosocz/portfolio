@@ -1,6 +1,6 @@
-# Illustrations de projets — crédits
+# Galerie projets : images PLACEHOLDER (à remplacer par les vraies captures)
 
-Les 10 fichiers `placeholder-*.webp` sont des **images d'illustration**. Ce ne sont pas des captures des projets de Sofiane.
+Les 10 fichiers `placeholder-*.webp` sont des **images d'illustration temporaires**. Ce ne sont pas des captures des projets de Sofiane.
 Toutes proviennent de **Pexels**, sous **licence Pexels** (https://www.pexels.com/license/) : usage libre, y compris commercial, sans attribution obligatoire. Le crédit est indiqué ci-dessous par correction.
 Elles ont été recadrées en carré 1200x1200 (même ratio pour les 10). Aucun logo ou marque lisible.
 
@@ -17,4 +17,5 @@ Elles ont été recadrées en carré 1200x1200 (même ratio pour les 10). Aucun 
 | 09 | Active Directory (vue de détail) | placeholder-09-active-directory-detail.webp | https://www.pexels.com/photo/monitor-displaying-lines-of-code-6424583/ | Nemuel Sereti |
 | 10 | Cybersécurité (vue de détail) | placeholder-10-cybersecurite-detail.webp | https://www.pexels.com/photo/close-up-shot-of-computer-monitor-9858906/ | Markus Spiske |
 
-Ces illustrations donnent une ambiance visuelle ; elles ne constituent pas des preuves de réalisation ni des photographies de missions.
+Remplacement : dans `index.html`, chercher `data-placeholder=` (ou le commentaire `PLACEHOLDER`), puis remplacer `src`/`srcset`/`alt` de l'image et retirer `data-placeholder` et le commentaire.
+Les 4 vraies captures déjà préparées (lot annulé du 07/10) restent dans ce dossier : active-directory.webp, microsoft-cloud.webp, cisco-network.webp, hyperv.webp.

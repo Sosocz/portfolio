@@ -18,7 +18,7 @@ const controls=new OrbitControls(camera,renderer.domElement);controls.enableDamp
 window.SXSXRoomPageScroll?.bind(controls);
 const ambient=new THREE.HemisphereLight(0xdde9e8,0x967557,.9);scene.add(ambient);
 const wallpaper=createDesktopWallpaper();let screen,motion,steam;
-const ready=new GLTFLoader().loadAsync(base('chambre-sxsx.gltf?v=151')).then(async(asset)=>{
+const ready=new GLTFLoader().loadAsync(base('chambre-sxsx.gltf')).then(async(asset)=>{
   const root=asset.scene;
   root.traverse(node=>{
     if(!node.isMesh)return;
