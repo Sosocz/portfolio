@@ -22,3 +22,42 @@ html{scroll-behavior:smooth}.projects-page{margin:0;background:#171a22;color:#f4
 #bachelor .bachelor-project-mark span{font-size:1.1rem;font-weight:600;line-height:1.1;letter-spacing:-.02em}
 #bachelor .bachelor-project-mark.is-logo img{width:136px;max-width:100%}
 #bachelor .bachelor-project-mark.is-cisco img{width:80px}
+
+/* Engineering explorer: compact marks, native filters and keyboard-accessible stages. */
+#ingenierie .engineering-filters{border:0;padding:0;margin:2.5rem 0 2rem;display:flex;flex-wrap:wrap;gap:.65rem}
+#ingenierie .engineering-filters legend{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;margin-bottom:1rem;color:#42514c}
+#ingenierie .engineering-filters label{position:relative;cursor:pointer}
+#ingenierie .engineering-filters input{position:absolute;opacity:0;width:1px;height:1px}
+#ingenierie .engineering-filters label>span{display:block;border:1px solid #25283240;border-radius:2rem;padding:.7rem 1rem;font-size:.8rem;transition:background .2s,color .2s,border-color .2s}
+#ingenierie .engineering-filters input:checked+span{background:#252832;color:#38e4b2;border-color:#252832}
+#ingenierie .engineering-filters input:focus-visible+span{outline:2px solid #285f4d;outline-offset:4px}
+#ingenierie .engineering-mark{display:flex;align-items:center;gap:12px;height:40px;margin-bottom:1.25rem;color:#38e4b2;flex:none}
+#ingenierie .engineering-mark img{width:40px;height:40px;object-fit:contain;flex:none}
+#ingenierie .engineering-mark>span{font-size:1.1rem;font-weight:600}
+#ingenierie .engineering-mark .engineering-number{font-size:.7rem;font-weight:400;letter-spacing:.1em;margin-left:auto;color:#a8b2c5}
+#ingenierie .engineering-grid{align-items:start}
+#ingenierie .archive-card{border-top:2px solid transparent;transition:transform .25s,border-color .25s,box-shadow .25s}
+#ingenierie .archive-card:focus-within{border-color:#38e4b2}
+#ingenierie .engineering-steps{margin-top:auto}
+#ingenierie .engineering-step{margin-top:0;padding-top:0;border-color:#f4f4ed26}
+#ingenierie .engineering-step summary{list-style:none;display:flex;align-items:center;gap:12px;padding:1rem 0;min-height:68px;color:#f4f4ed}
+#ingenierie .engineering-step summary::-webkit-details-marker{display:none}
+#ingenierie .engineering-step-index{font-size:.65rem;letter-spacing:.05em;color:#38e4b2}
+#ingenierie .engineering-step summary>span:nth-child(2){font-size:.9rem;font-weight:600}
+#ingenierie .engineering-step small{display:block;font-size:.7rem;font-weight:400;line-height:1.4;color:#a8b2c5;margin-top:.2rem}
+#ingenierie .engineering-step-plus{margin-left:auto;color:#38e4b2;font-size:1.3rem;transition:transform .2s}
+#ingenierie .engineering-step[open] .engineering-step-plus{transform:rotate(45deg)}
+#ingenierie .engineering-step[open] summary{color:#38e4b2}
+#ingenierie .engineering-step .detail-body{padding:0 0 1.25rem 28px}
+#ingenierie .engineering-step .detail-body>:first-child{margin-top:0}
+#ingenierie .engineering-step[open] .detail-body{animation:engineering-reveal .24s ease-out}
+@supports selector(:has(*)){
+#ingenierie:has(input[value="disponibilite"]:checked) .archive-card:not([data-engineering-category="disponibilite"]),
+#ingenierie:has(input[value="securite"]:checked) .archive-card:not([data-engineering-category="securite"]),
+#ingenierie:has(input[value="automatisation"]:checked) .archive-card:not([data-engineering-category="automatisation"]),
+#ingenierie:has(input[value="exploitation"]:checked) .archive-card:not([data-engineering-category="exploitation"]){display:none}
+}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){#ingenierie .archive-card:hover{transform:translateY(-4px);border-color:#38e4b2;box-shadow:0 14px 30px #25283218}}
+@keyframes engineering-reveal{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){#ingenierie *,#ingenierie *::before,#ingenierie *::after{animation:none!important;transition:none!important}}
+@media(max-width:520px){#ingenierie .engineering-filters{gap:.5rem}#ingenierie .engineering-filters label>span{padding:.65rem .8rem}#ingenierie .engineering-mark>span{font-size:1rem}#ingenierie .engineering-step .detail-body{padding-left:0}}
