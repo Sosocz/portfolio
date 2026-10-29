@@ -15,3 +15,10 @@ html{scroll-behavior:smooth}.projects-page{margin:0;background:#171a22;color:#f4
 #bts .bts-project-mark span{font-size:1.1rem;font-weight:600;line-height:1.1;letter-spacing:-.02em}
 #bts .bts-project-mark.is-logo img{width:136px;max-width:100%}
 #bts .bts-project-mark.is-cisco img{width:80px}
+
+/* Compact Bachelor identifiers match the BTS cards. */
+#bachelor .bachelor-project-mark{height:40px;display:flex;align-items:center;gap:12px;margin:0 0 1.25rem;color:#38E4B2;flex:none}
+#bachelor .bachelor-project-mark img{display:block;width:40px;height:40px;object-fit:contain;object-position:left center;flex:none}
+#bachelor .bachelor-project-mark span{font-size:1.1rem;font-weight:600;line-height:1.1;letter-spacing:-.02em}
+#bachelor .bachelor-project-mark.is-logo img{width:136px;max-width:100%}
+#bachelor .bachelor-project-mark.is-cisco img{width:80px}
