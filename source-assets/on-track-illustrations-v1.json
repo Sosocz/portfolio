@@ -1,0 +1,13 @@
+{
+  "method": "Built-in image generation; identity and style reference: assets/hover-sofiane/study-v1.webp",
+  "prompts": {
+    "setup": "Square warm 3D illustration of the same curly-haired character, sunglasses atop hair and cream polo, at a dual-monitor IT workstation. Mint screens, full head and equipment, no racing, no logos.",
+    "cyber": "Square warm 3D illustration of the same character in a cybersecurity lab with laptop, server and blue Ethernet cables. Mint network display, generous framing, no racing or logos."
+  },
+  "outputs": [
+    "assets/on-track-illustrations/setup-v1-960.webp",
+    "assets/on-track-illustrations/cyber-v1-960.webp",
+    "assets/on-track-illustrations/setup-v1-480.webp",
+    "assets/on-track-illustrations/cyber-v1-480.webp"
+  ]
+}
