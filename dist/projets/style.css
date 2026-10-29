@@ -61,3 +61,40 @@ html{scroll-behavior:smooth}.projects-page{margin:0;background:#171a22;color:#f4
 @keyframes engineering-reveal{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
 @media(prefers-reduced-motion:reduce){#ingenierie *,#ingenierie *::before,#ingenierie *::after{animation:none!important;transition:none!important}}
 @media(max-width:520px){#ingenierie .engineering-filters{gap:.5rem}#ingenierie .engineering-filters label>span{padding:.65rem .8rem}#ingenierie .engineering-mark>span{font-size:1rem}#ingenierie .engineering-step .detail-body{padding-left:0}}
+
+/* Personal projects use the established compact card system. */
+#personnels .personal-grid{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}
+#personnels .personal-card{border-top:2px solid transparent;transition:transform .25s,border-color .25s}
+#personnels .personal-mark{height:40px;display:flex;align-items:center;gap:12px;color:#38e4b2;margin-bottom:1.25rem;flex:none}
+#personnels .personal-mark img{display:block;width:40px;height:40px;object-fit:contain;flex:none}
+#personnels .personal-mark span{font-size:1.1rem;font-weight:600}
+#personnels .personal-explorer{margin-top:auto}
+#personnels .personal-explorer>summary{display:flex;justify-content:space-between;align-items:center;gap:12px;list-style:none;padding:.25rem 0 .5rem;color:#38e4b2}
+#personnels .personal-explorer>summary::-webkit-details-marker{display:none}
+#personnels .personal-explorer>summary span{transition:transform .2s}
+#personnels .personal-explorer[open]>summary span{transform:rotate(90deg)}
+#personnels .personal-card:focus-within{border-color:#38e4b2}
+#personnels .lab-demo{border:1px solid #f4f4ed26;margin-top:1.5rem;padding:1.25rem;background:#171a2260;border-radius:4px}
+#personnels .lab-demo-label{font-size:.68rem;letter-spacing:.09em;text-transform:uppercase;color:#38e4b2;margin:0 0 1rem}
+#personnels .lab-controls{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:1.25rem}
+#personnels button{font:inherit;cursor:pointer}
+#personnels .lab-controls button,#personnels .lab-actions button{color:#e6e8ed;border:1px solid #f4f4ed30;background:transparent;border-radius:3px;padding:.6rem .7rem;font-size:.75rem;line-height:1.3;min-height:40px;transition:background .2s,border-color .2s,color .2s}
+#personnels .lab-controls button span{font-size:.6rem;opacity:.7;margin-right:.2rem}
+#personnels .lab-controls button[aria-pressed="true"]{background:#38e4b219;border-color:#38e4b2;color:#38e4b2}
+#personnels .lab-views h4{color:#f4f4ed;font-size:1rem;letter-spacing:0;text-transform:none;margin:0 0 .65rem}
+#personnels .lab-views p{font-size:.85rem;line-height:1.7;margin:.5rem 0}
+#personnels .lab-views>[hidden]{display:none}
+#personnels .lab-views>:not([hidden]){animation:personal-reveal .25s ease-out}
+#personnels .lab-trace{border-left:2px solid #38e4b2;padding:.75rem 0 .75rem .75rem;color:#38e4b2;font-family:monospace;font-size:.7rem!important;overflow-wrap:anywhere}
+#personnels .lab-demo-note{font-size:.7rem;line-height:1.6;color:#a8b2c5;margin:1rem 0 0}
+#personnels .lab-input-label{display:block;font-size:.75rem;margin-bottom:.5rem}
+#personnels textarea{width:100%;max-width:100%;min-height:160px;resize:vertical;background:#171a22;border:1px solid #f4f4ed30;color:#e6e8ed;border-radius:3px;padding:.8rem;font: .75rem/1.7 monospace}
+#personnels .lab-actions{display:flex;flex-wrap:wrap;gap:.5rem;margin:.75rem 0}
+#personnels .lab-actions button:first-child{border-color:#38e4b2;color:#38e4b2}
+#personnels .lab-filter-result{margin-top:1rem;font-size:.75rem}
+#personnels .lab-filter-result pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#171a22;padding:.8rem;color:#38e4b2;font-size:.75rem;line-height:1.8}
+#personnels button:focus-visible,#personnels textarea:focus-visible{outline:2px solid #38e4b2;outline-offset:4px}
+@keyframes personal-reveal{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){#personnels .personal-card:hover{transform:translateY(-4px);border-color:#38e4b2}#personnels button:hover{background:#38e4b21a;border-color:#38e4b2}}
+@media(prefers-reduced-motion:reduce){#personnels *,#personnels *::before,#personnels *::after{animation:none!important;transition:none!important}}
+@media(max-width:650px){#personnels .personal-grid{grid-template-columns:1fr}#personnels .lab-demo{padding:1rem}#personnels .personal-mark span{font-size:1rem}}
