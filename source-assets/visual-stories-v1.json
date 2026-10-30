@@ -1,0 +1,393 @@
+{
+  "method": "Built-in image generation with identity/style reference; responsive WebP exports at 480, 960 and 1536 pixels. Illustrative scenes, not photographs of recorded events.",
+  "new_scenes": {
+    "network-room": "Illustration de Sofiane vérifiant le câblage dans une baie réseau",
+    "incident-analysis": "Illustration de Sofiane analysant des événements dans son laboratoire cybersécurité",
+    "diagnostic-av": "Illustration de Sofiane diagnostiquant une connexion USB en salle de visioconférence",
+    "knowledge-transfer": "Illustration de Sofiane échangeant une méthode de résolution avec un collègue",
+    "hardware-detail": "Illustration de composants serveur, module NVMe et outillage sur un tapis antistatique",
+    "documentation": "Illustration d’un carnet de documentation technique et d’un support de sauvegarde"
+  },
+  "changes": [
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/05-reseau-v3-960.webp",
+      "to": "/assets/visual-stories-v1/network-room-960.webp",
+      "alt": "Illustration de Sofiane vérifiant le câblage dans une baie réseau"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/04-etudes-v2-960.webp",
+      "to": "/assets/visual-stories-v1/hardware-detail-960.webp",
+      "alt": "Illustration de composants serveur, module NVMe et outillage sur un tapis antistatique"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/02-helpline-v2-960.webp",
+      "to": "/assets/character-scenes/02-helpline-v2-960.webp",
+      "alt": "Illustration du parcours professionnel de Sofiane chez HELPLINE"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/04-etudes-v2-960.webp",
+      "to": "/assets/hover-sofiane/study-v1.webp",
+      "alt": "Illustration de Sofiane prenant des notes pendant ses révisions"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/01-franklin-v2-960.webp",
+      "to": "/assets/visual-stories-v1/diagnostic-av-960.webp",
+      "alt": "Illustration de Sofiane diagnostiquant une connexion USB en salle de visioconférence"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/07-pause-wavestone-960.webp",
+      "to": "/assets/character-scenes/07-pause-wavestone-960.webp",
+      "alt": "Illustration de Sofiane pendant une pause"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/04-etudes-v2-960.webp",
+      "to": "/assets/visual-stories-v1/documentation-960.webp",
+      "alt": "Illustration d’un carnet de documentation technique et d’un support de sauvegarde"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/experience-art/mrg-maintenance-v1-960.webp",
+      "to": "/assets/hover-sofiane/support-v1.webp",
+      "alt": "Illustration de Sofiane présentant un équipement de visioconférence"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/experience-art/sg-kiosque-v1-960.webp",
+      "to": "/assets/visual-stories-v1/knowledge-transfer-960.webp",
+      "alt": "Illustration de Sofiane échangeant une méthode de résolution avec un collègue"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/02-helpline-v2-960.webp",
+      "to": "/assets/hover-sofiane/network-v1.webp",
+      "alt": "Illustration de Sofiane testant des connexions réseau"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/experience-art/sg-kiosque-v1-960.webp",
+      "to": "/assets/experience-art/sg-kiosque-v1-960.webp",
+      "alt": "Illustration de Sofiane en assistance utilisateurs au kiosque IT"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/06-support-reunion-v2-960.webp",
+      "to": "/assets/character-scenes/06-support-reunion-v2-960.webp",
+      "alt": "Illustration de Sofiane testant une salle de réunion"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/experience-art/wavestone-av-v1-960.webp",
+      "to": "/assets/visual-stories-v1/diagnostic-av-960.webp",
+      "alt": "Illustration de Sofiane diagnostiquant une connexion USB en salle de visioconférence"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/07-pause-wavestone-960.webp",
+      "to": "/assets/experience-art/mrg-maintenance-v1-960.webp",
+      "alt": "Illustration de Sofiane réalisant une maintenance matérielle en atelier"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/01-franklin-v2-960.webp",
+      "to": "/assets/visual-stories-v1/network-room-960.webp",
+      "alt": "Illustration de Sofiane vérifiant le câblage dans une baie réseau"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/02-helpline-v2-960.webp",
+      "to": "/assets/experience-art/sg-kiosque-v1-960.webp",
+      "alt": "Illustration de Sofiane en assistance utilisateurs au kiosque IT"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/03-societe-generale-v2-960.webp",
+      "to": "/assets/visual-stories-v1/knowledge-transfer-960.webp",
+      "alt": "Illustration de Sofiane échangeant une méthode de résolution avec un collègue"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/04-etudes-v2-960.webp",
+      "to": "/assets/experience-art/wavestone-av-v1-960.webp",
+      "alt": "Illustration de Sofiane préparant une salle de visioconférence"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/05-reseau-v2-960.webp",
+      "to": "/assets/visual-stories-v1/hardware-detail-960.webp",
+      "alt": "Illustration de composants serveur, module NVMe et outillage sur un tapis antistatique"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/05-reseau-v3-960.webp",
+      "to": "/assets/character-scenes/01-franklin-v2-960.webp",
+      "alt": "Illustration de Sofiane devant la Tour Franklin"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/06-support-reunion-v2-960.webp",
+      "to": "/assets/character-scenes/02-helpline-v2-960.webp",
+      "alt": "Illustration du parcours professionnel de Sofiane chez HELPLINE"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/07-pause-wavestone-960.webp",
+      "to": "/assets/character-scenes/07-pause-wavestone-960.webp",
+      "alt": "Illustration de Sofiane pendant une pause"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/02-helpline-v2-640.webp",
+      "to": "/assets/character-scenes/02-helpline-v2-960.webp",
+      "alt": "Illustration du parcours professionnel de Sofiane chez HELPLINE"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/03-societe-generale-v2-640.webp",
+      "to": "/assets/visual-stories-v1/network-room-960.webp",
+      "alt": "Illustration de Sofiane vérifiant le câblage dans une baie réseau"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/experience-art/sg-kiosque-v1-960.webp",
+      "to": "/assets/experience-art/sg-kiosque-v1-960.webp",
+      "alt": "Illustration de Sofiane en assistance utilisateurs au kiosque IT"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/01-franklin-v2-640.webp",
+      "to": "/assets/visual-stories-v1/knowledge-transfer-960.webp",
+      "alt": "Illustration de Sofiane échangeant une méthode de résolution avec un collègue"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/experience-art/wavestone-av-v1-960.webp",
+      "to": "/assets/visual-stories-v1/diagnostic-av-960.webp",
+      "alt": "Illustration de Sofiane diagnostiquant une connexion USB en salle de visioconférence"
+    },
+    {
+      "page": "off-track",
+      "from": "/assets/character-scenes/07-pause-wavestone-640.webp",
+      "to": "/assets/visual-stories-v1/documentation-960.webp",
+      "alt": "Illustration d’un carnet de documentation technique et d’un support de sauvegarde"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/hover-sofiane/support-v1.webp",
+      "to": "/assets/visual-stories-v1/incident-analysis-960.webp",
+      "alt": "Illustration de Sofiane analysant des événements dans son laboratoire cybersécurité"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/hover-sofiane/study-v1.webp",
+      "to": "/assets/on-track-illustrations/cyber-v1-960.webp",
+      "alt": "Illustration de Sofiane dans son laboratoire cybersécurité"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/hover-sofiane/network-v1.webp",
+      "to": "/assets/visual-stories-v1/documentation-960.webp",
+      "alt": "Illustration d’un carnet de documentation technique et d’un support de sauvegarde"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/character-scenes/01-franklin-v2-960.webp",
+      "to": "/assets/hover-sofiane/network-v1.webp",
+      "alt": "Illustration de Sofiane testant des connexions réseau"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/character-scenes/02-helpline-v2-960.webp",
+      "to": "/assets/on-track-illustrations/setup-v1-960.webp",
+      "alt": "Illustration du setup de Sofiane et de ses écrans de travail"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/character-scenes/03-societe-generale-v2-960.webp",
+      "to": "/assets/visual-stories-v1/hardware-detail-960.webp",
+      "alt": "Illustration de composants serveur, module NVMe et outillage sur un tapis antistatique"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/character-scenes/04-etudes-v2-960.webp",
+      "to": "/assets/character-scenes/04-etudes-v2-960.webp",
+      "alt": "Illustration de Sofiane révisant les systèmes et réseaux"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/character-scenes/05-reseau-v2-960.webp",
+      "to": "/assets/hover-sofiane/study-v1.webp",
+      "alt": "Illustration de Sofiane prenant des notes pendant ses révisions"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/character-scenes/06-support-reunion-v2-960.webp",
+      "to": "/assets/character-scenes/05-reseau-v3-960.webp",
+      "alt": "Illustration de Sofiane configurant un switch réseau"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/character-scenes/07-pause-wavestone-960.webp",
+      "to": "/assets/visual-stories-v1/network-room-960.webp",
+      "alt": "Illustration de Sofiane vérifiant le câblage dans une baie réseau"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/character-scenes/06-support-reunion-v2-960.webp",
+      "to": "/assets/visual-stories-v1/incident-analysis-960.webp",
+      "alt": "Illustration de Sofiane analysant des événements dans son laboratoire cybersécurité"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/hover-sofiane/support-v1.webp",
+      "to": "/assets/on-track-illustrations/cyber-v1-960.webp",
+      "alt": "Illustration de Sofiane dans son laboratoire cybersécurité"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/on-track-illustrations/setup-v1-960.webp",
+      "to": "/assets/on-track-illustrations/setup-v1-960.webp",
+      "alt": "Illustration du setup de Sofiane et de ses écrans de travail"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/hover-sofiane/study-v1.webp",
+      "to": "/assets/hover-sofiane/study-v1.webp",
+      "alt": "Illustration de Sofiane prenant des notes pendant ses révisions"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/on-track-illustrations/cyber-v1-960.webp",
+      "to": "/assets/visual-stories-v1/incident-analysis-960.webp",
+      "alt": "Illustration de Sofiane analysant des événements dans son laboratoire cybersécurité"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/hover-sofiane/network-v1.webp",
+      "to": "/assets/hover-sofiane/network-v1.webp",
+      "alt": "Illustration de Sofiane testant des connexions réseau"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/hover-sofiane/support-v1.webp",
+      "to": "/assets/visual-stories-v1/hardware-detail-960.webp",
+      "alt": "Illustration de composants serveur, module NVMe et outillage sur un tapis antistatique"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/character-scenes/05-reseau-v3-640.webp",
+      "to": "/assets/character-scenes/05-reseau-v3-960.webp",
+      "alt": "Illustration de Sofiane configurant un switch réseau"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/hover-sofiane/network-v1.webp",
+      "to": "/assets/visual-stories-v1/network-room-960.webp",
+      "alt": "Illustration de Sofiane vérifiant le câblage dans une baie réseau"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/character-scenes/04-etudes-v2-640.webp",
+      "to": "/assets/character-scenes/04-etudes-v2-960.webp",
+      "alt": "Illustration de Sofiane révisant les systèmes et réseaux"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/on-track-illustrations/cyber-v1-960.webp",
+      "to": "/assets/on-track-illustrations/cyber-v1-960.webp",
+      "alt": "Illustration de Sofiane dans son laboratoire cybersécurité"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/experience-art/mrg-maintenance-v1-960.webp",
+      "to": "/assets/visual-stories-v1/hardware-detail-960.webp",
+      "alt": "Illustration de composants serveur, module NVMe et outillage sur un tapis antistatique"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/hover-sofiane/study-v1.webp",
+      "to": "/assets/visual-stories-v1/documentation-960.webp",
+      "alt": "Illustration d’un carnet de documentation technique et d’un support de sauvegarde"
+    },
+    {
+      "page": "on-track",
+      "from": "/assets/on-track-illustrations/setup-v1-960.webp",
+      "to": "/assets/on-track-illustrations/setup-v1-960.webp",
+      "alt": "Illustration du setup de Sofiane et de ses écrans de travail"
+    },
+    {
+      "page": "home",
+      "from": "/assets/projects/editorial/architecture.webp",
+      "to": "/assets/visual-stories-v1/hardware-detail-960.webp",
+      "alt": "Illustration de composants serveur, module NVMe et outillage sur un tapis antistatique"
+    },
+    {
+      "page": "home",
+      "from": "/assets/projects/editorial/detail.webp",
+      "to": "/assets/visual-stories-v1/documentation-960.webp",
+      "alt": "Illustration d’un carnet de documentation technique et d’un support de sauvegarde"
+    },
+    {
+      "page": "home",
+      "from": "/assets/character-scenes/01-franklin-v2-640.webp",
+      "to": "/assets/character-scenes/01-franklin-v2-960.webp",
+      "alt": "Illustration de Sofiane devant la Tour Franklin"
+    },
+    {
+      "page": "home",
+      "from": "/assets/experience-art/sg-kiosque-v1-960.webp",
+      "to": "/assets/experience-art/sg-kiosque-v1-960.webp",
+      "alt": "Illustration de Sofiane en assistance utilisateurs au kiosque IT"
+    },
+    {
+      "page": "home",
+      "from": "/assets/character-scenes/04-etudes-v2-640.webp",
+      "to": "/assets/character-scenes/04-etudes-v2-960.webp",
+      "alt": "Illustration de Sofiane révisant les systèmes et réseaux"
+    },
+    {
+      "page": "home",
+      "from": "/assets/character-scenes/05-reseau-v3-640.webp",
+      "to": "/assets/visual-stories-v1/network-room-960.webp",
+      "alt": "Illustration de Sofiane vérifiant le câblage dans une baie réseau"
+    },
+    {
+      "page": "home",
+      "from": "/assets/character-scenes/07-pause-wavestone-640.webp",
+      "to": "/assets/visual-stories-v1/knowledge-transfer-960.webp",
+      "alt": "Illustration de Sofiane échangeant une méthode de résolution avec un collègue"
+    }
+  ],
+  "prompts": [
+    {
+      "key": "network-room",
+      "prompt": "Create one finished landscape 3:2 illustration for Sofiane's portfolio. Use the reference image ONLY to preserve the same stylized 3D animated-film rendering and the character identity: young North African man, curly brown hair, short trimmed dark beard, round brown eyes, sunglasses resting on his head, cream knit collared sweater. Create a completely NEW composition and setting, not a desk portrait. Cohesive high-end soft 3D materials and believable objects. No readable text, no fake UI text, no logos, no racing, no watermark. Keep main action comfortably inside central 70% so portrait and landscape crops both work.\nNEW SCENE: Wide environmental shot in a cool blue small network equipment room. Sofiane is standing, seen three quarters from behind, tracing a blue patch cable between a neat patch panel and rack switch. Clear different scale: full upper body and tall rack, flashlight catching cable connectors. Cool daylight, teal indicator lights, composed practical focused mood. No laptop foreground."
+    },
+    {
+      "key": "incident-analysis",
+      "prompt": "Create one finished landscape 3:2 illustration for Sofiane's portfolio. Use the reference image ONLY to preserve the same stylized 3D animated-film rendering and the character identity: young North African man, curly brown hair, short trimmed dark beard, round brown eyes, sunglasses resting on his head, cream knit collared sweater. Create a completely NEW composition and setting, not a desk portrait. Cohesive high-end soft 3D materials and believable objects. No readable text, no fake UI text, no logos, no racing, no watermark. Keep main action comfortably inside central 70% so portrait and landscape crops both work.\nNEW SCENE: Over-the-shoulder cinematic night scene: Sofiane investigating an alert in his personal cybersecurity lab. Three screens contain abstract dark timelines and sparse teal/amber event markers, without readable text. Face in profile on one side, screen reflections, violet-blue ambient light, not warm golden light. Focus on reasoning and detection, no skulls or hacker clichés."
+    },
+    {
+      "key": "diagnostic-av",
+      "prompt": "Create one finished landscape 3:2 illustration for Sofiane's portfolio. Use the reference image ONLY to preserve the same stylized 3D animated-film rendering and the character identity: young North African man, curly brown hair, short trimmed dark beard, round brown eyes, sunglasses resting on his head, cream knit collared sweater. Create a completely NEW composition and setting, not a desk portrait. Cohesive high-end soft 3D materials and believable objects. No readable text, no fake UI text, no logos, no racing, no watermark. Keep main action comfortably inside central 70% so portrait and landscape crops both work.\nNEW SCENE: Daylight modern empty meeting room, low close side angle. Sofiane crouches beside a room display, checking a USB connection to a video conference bar with a small cable tester. Display, speaker bar and connector clearly present. Mint glass reflections and bright neutral stone, no skyline and no tower exterior. Show a precise troubleshooting action, different from presenting at the screen."
+    },
+    {
+      "key": "knowledge-transfer",
+      "prompt": "Create one finished landscape 3:2 illustration for Sofiane's portfolio. Use the reference image ONLY to preserve the same stylized 3D animated-film rendering and the character identity: young North African man, curly brown hair, short trimmed dark beard, round brown eyes, sunglasses resting on his head, cream knit collared sweater. Create a completely NEW composition and setting, not a desk portrait. Cohesive high-end soft 3D materials and believable objects. No readable text, no fake UI text, no logos, no racing, no watermark. Keep main action comfortably inside central 70% so portrait and landscape crops both work.\nNEW SCENE: Wide side view in a bright airy work area: Sofiane explaining a solution to a colleague, using a small physical whiteboard with simple unlabeled shapes and a test device on a round table. Both engaged, calm collaborative troubleshooting, colleague seen from back. Natural midday lighting, soft sage and cream. No workstation monitor wall. This is an illustrative scene, not evidence of an event."
+    },
+    {
+      "key": "hardware-detail",
+      "prompt": "Create one finished landscape 3:2 illustration for Sofiane's portfolio. Use the reference image ONLY to preserve the same stylized 3D animated-film rendering and the character identity: young North African man, curly brown hair, short trimmed dark beard, round brown eyes, sunglasses resting on his head, cream knit collared sweater. Create a completely NEW composition and setting, not a desk portrait. Cohesive high-end soft 3D materials and believable objects. No readable text, no fake UI text, no logos, no racing, no watermark. Keep main action comfortably inside central 70% so portrait and landscape crops both work.\nNEW SCENE: A character-free 3D still life, editorial macro angle, of an open small server / mini PC, an NVMe module, an Ethernet connector, and a precise screwdriver on a pale mint anti-static mat. Beautiful metal, green circuit board, shallow depth of field and crisp central detail. No people, no text, no giant monitor, no red neon."
+    },
+    {
+      "key": "documentation",
+      "prompt": "Create one finished landscape 3:2 illustration for Sofiane's portfolio. Use the reference image ONLY to preserve the same stylized 3D animated-film rendering and the character identity: young North African man, curly brown hair, short trimmed dark beard, round brown eyes, sunglasses resting on his head, cream knit collared sweater. Create a completely NEW composition and setting, not a desk portrait. Cohesive high-end soft 3D materials and believable objects. No readable text, no fake UI text, no logos, no racing, no watermark. Keep main action comfortably inside central 70% so portrait and landscape crops both work.\nNEW SCENE: A character-free top-down 3D editorial still life showing a paper notebook with neat abstract unlabeled network symbols and checklist shapes, a green pen, a closed charcoal laptop and a small storage drive on an ivory table. Late afternoon side light, long geometric shadows, sage accents, uncluttered. Focus on documentation, recovery planning and careful engineering; no readable text."
+    }
+  ]
+}
