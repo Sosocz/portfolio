@@ -1,0 +1,26 @@
+/* On Track visual corrections, scoped to the retained template. */
+.on-track .on-track-topic-icon{display:block;width:100%;height:100%;object-fit:contain;filter:none}
+.on-track .icon-svg-closed-reef.pre-f1-car{width:clamp(2.25rem,3.5vw,3.5rem);height:clamp(2.25rem,3.5vw,3.5rem);flex:none}
+.on-track .on-t-hero-stats-ui-box1-row.is-2 .base-helmet-rive-w{width:3.25rem;height:3.25rem;flex:none}
+.on-track .on-t-hero-stats-ui-box1-row.is-2 .base-helmet-rive{width:100%;height:100%}
+.on-track .on-t-countdown-phrase-rive-w{inset:auto 0 100%;height:5rem;pointer-events:none}
+.on-track .on-t-countdown-phrase-rive{width:3.25rem;height:3.6rem}
+.on-track .on-track-season-mark{width:100%;height:100%;object-fit:contain}
+.on-track .on-t-countdown-digits-w{margin-top:6rem}
+.on-track .on-track-impact-mark{display:block;width:100%;height:100%;object-fit:contain;filter:none}
+.on-track .on-track-impact-reef-rive:not(.display-none){width:clamp(5rem,10vw,10rem);height:clamp(5rem,10vw,10rem);margin:auto}
+.on-track .calendar-track-gl-target.htb-rank-display{inset:20% 25% 10%;gap:1rem;pointer-events:none}
+.on-track .on-track-machine-main{display:block;width:clamp(9rem,18vw,18rem);height:clamp(9rem,18vw,18rem);max-width:100%;max-height:70%;object-fit:contain;filter:none;border-radius:50%}
+.on-track .htb-rank-caption{max-width:100%;text-align:center;line-height:1.4;letter-spacing:.08em}
+.on-track .calendar-f1-logo-svg{width:3rem;height:3.2rem}
+.on-track .calendar-f1-logo-svg svg{overflow:visible}
+.on-track .on-track-machine-hover{width:10rem;height:11.5rem;border:1px solid #38e4b250;border-radius:.3rem;background:#111318;pointer-events:none!important}
+.on-track .on-track-machine-hover>.eyebrow-w{padding:.65rem .7rem .25rem}
+.on-track .on-track-machine-hover .text-eyebrow{font-size:.55rem;line-height:1.4;color:#f4f4ed}
+.on-track .on-track-machine-hover .f1-highlight-circuit-rive-w{width:100%;height:9rem}
+.on-track .on-track-machine-hover .f1-highlight-circuit-rive{width:8rem;height:8rem}
+.on-track .on-track-machine-preview{width:100%;height:100%;object-fit:contain;filter:none;border-radius:50%;padding:.25rem}
+.on-track .on-track-machine-hover .f1-highlight-circuit-rive-bg{display:none}
+.on-track .on-track-machine-hover .f1-highlight-mouse-over-reveal{background:#38e4b2!important}
+@media(max-width:767px){.on-track .calendar-track-gl-target.htb-rank-display{inset:32% 15% 20%}.on-track .on-track-machine-main{width:8rem;height:8rem}.on-track .htb-rank-caption{font-size:.65rem}.on-track .on-t-countdown-phrase-rive{width:2.5rem;height:2.8rem}.on-track .on-t-countdown-digits-w{margin-top:4.5rem}.on-track .calendar-f1-logo-svg{width:2rem;height:2.2rem}}
+@media(hover:none),(prefers-reduced-motion:reduce){.on-track .on-track-machine-hover{display:none!important}}
