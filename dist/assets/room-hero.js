@@ -7,7 +7,7 @@
   about:{label:'À propos',href:'#parcours'},
   contact:{label:'Me contacter',href:'mailto:sofiane.ghazal2@gmail.com'},
   github:{label:'GitHub',href:'https://github.com/Sosocz'},
-  linkedin:{label:'LinkedIn',href:'https://www.linkedin.com/in/sofiane-ghazal-6b561639a'},
+  linkedin:{label:'LinkedIn',href:'https://www.linkedin.com/in/sofiane-g-926008448'},
   htb:{label:'Hack The Box',href:'https://app.hackthebox.com/users/3594825?profile-top-tab=machines&ownership-period=1M&profile-bottom-tab=prolabs'}
  };
  function linkFor(name){
