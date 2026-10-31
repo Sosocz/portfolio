@@ -58,12 +58,25 @@
     return replace(stateWithId(state, currentId), title, url);
   };
   window.addEventListener('popstate', event => {
-    remember(); stopRestore();
     const previousRoute = currentRoute;
+    // Fragment scrolling may start before popstate. The capture-phase click
+    // already saved the departure point; do not overwrite it mid-scroll.
+    if (previousRoute !== location.pathname + location.search) remember();
+    stopRestore();
     currentId = event.state?.[field] || newId();
     currentRoute = location.pathname + location.search;
     if (!event.state?.[field]) replace(stateWithId(event.state, currentId), '', location.href);
     pending = positions.get(currentId) || {x:0, y:0};
+    // A native fragment navigation has no recorded entry yet. Honour its
+    // destination instead of treating it as a request to return to the top.
+    if (previousRoute === currentRoute && !positions.has(currentId) && location.hash) {
+      let target = null;
+      try { target = document.getElementById(decodeURIComponent(location.hash.slice(1))); } catch (_) {}
+      if (target) {
+        const margin = parseFloat(getComputedStyle(target).scrollMarginTop) || 0;
+        pending = {x:0, y:Math.max(0, target.getBoundingClientRect().top + window.scrollY - margin)};
+      }
+    }
     suspended = true;
     if (previousRoute === currentRoute) {
       suspended = false; restore(pending);

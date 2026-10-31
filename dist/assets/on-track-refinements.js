@@ -19,7 +19,7 @@
       const text = i => cells[i]?.querySelector('.text-on-t-stat-label-major')?.textContent.trim() || '';
       const week = text(0), os = text(2), difficulty = text(3);
       const flags = (cells[4]?.querySelector('.text-on-t-stat-label-reg')?.textContent || '— / —').split('/').map(value => value.trim());
-      const status = flag => flag === '☑' ? 'validé' : flag === '☐' ? 'non validé' : 'pas encore disponible';
+      const status = flag => flag === '☑' ? 'validé' : flag === '☐' ? 'non validé' : 'non renseigné au 23.10.2026';
       const fields = {
         'date-from-to-num':week, 'date-from-to-month':'SEMAINE',
         'circuit-lap-length':flags[0], 'first-competed-date':difficulty,
@@ -28,7 +28,7 @@
         'circuit-about':`${item.image.alt} · ${os} · ${difficulty}. Mon flag user : ${status(flags[0])}. Mon flag root : ${status(flags[1])}.`,
         'prac1-date':'HTB', 'prac1-time':'LABS', 'prac2-date':os, 'prac2-time':'OS',
         'prac3-date':difficulty, 'prac3-time':'NIVEAU',
-        'qual-date':flags.includes('—') ? 'Pas encore sortie' : 'Publiée', 'qual-time':'MACHINE',
+        'qual-date':flags.includes('—') ? 'Non renseignée au relevé' : 'Publiée', 'qual-time':'MACHINE',
         'race-date':'12', 'race-time':'AERO'
       };
       Object.entries(fields).forEach(([key,value]) => page.querySelectorAll(`[data-cal-target="${key}"]`).forEach(el => { el.textContent = value; }));
