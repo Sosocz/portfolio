@@ -9,7 +9,7 @@ const base=p=>new URL(p,document.baseURI).href;
 const params=new URLSearchParams(location.search);
 document.querySelector('#theme')?.remove();
 if(params.has('embed'))document.body.classList.add('embed');
-const renderer=new THREE.WebGLRenderer({alpha:true,antialias:true,preserveDrawingBuffer:true});
+const renderer=new THREE.WebGLRenderer({alpha:true,antialias:true,preserveDrawingBuffer:false});
 renderer.setClearColor(0,0);renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(innerWidth,innerHeight);document.body.append(renderer.domElement);
 const scene=new THREE.Scene();scene.background=null;
 const camera=new THREE.PerspectiveCamera(40,innerWidth/innerHeight,.1,150);
@@ -46,4 +46,4 @@ const ready=new GLTFLoader().loadAsync(base('chambre-sxsx.gltf')).then(async(ass
   return root;
 }).catch(error=>{document.querySelector('#status').textContent=error.message;console.error(error);});
 addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);});
-const clock=new THREE.Clock();renderer.setAnimationLoop(()=>{const time=clock.getElapsedTime();wallpaper.update(time);controls.update();motion?.update(time);steam?.update(time);renderer.render(scene,camera);});
+const clock=new THREE.Clock();let lastRender=null;renderer.setAnimationLoop(now=>{if(lastRender!==null){const elapsed=now-lastRender;if(elapsed<1000/60-.25)return;lastRender=elapsed>=1000/60?now-elapsed%(1000/60):now}else lastRender=now;const time=clock.getElapsedTime();wallpaper.update(time);controls.update();motion?.update(time);steam?.update(time);renderer.render(scene,camera);});
