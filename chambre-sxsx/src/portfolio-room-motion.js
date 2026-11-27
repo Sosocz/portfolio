@@ -15,10 +15,10 @@ export function createRoomMotion(root,camera,canvas,{onActivate=()=>{},isBlocked
     if(node.name.includes('Minute_Hand'))minute=node;
     if(node.name.includes('Hover')&&!node.name.includes('Key'))interactive.push(node);
   });
-  const pointer=new THREE.Vector2(5,5),ray=new THREE.Raycaster();let hovered,down;
+  const pointer=new THREE.Vector2(5,5),ray=new THREE.Raycaster();let hovered,down,pointerInside=false,pointerDirty=true,lastPick=-Infinity;
   function pick(event){
-    if(event){const r=canvas.getBoundingClientRect();pointer.set((event.clientX-r.left)/r.width*2-1,-(event.clientY-r.top)/r.height*2+1);}
-    if(isBlocked())return;
+    if(event){pointerInside=true;const r=canvas.getBoundingClientRect();pointer.set((event.clientX-r.left)/r.width*2-1,-(event.clientY-r.top)/r.height*2+1);}
+    if(!pointerInside||isBlocked())return;
     root.updateMatrixWorld(true);camera.updateMatrixWorld(true);ray.setFromCamera(pointer,camera);
     let target=ray.intersectObjects(interactive,true)[0]?.object;
     while(target&&!interactive.includes(target))target=target.parent;
@@ -30,8 +30,8 @@ export function createRoomMotion(root,camera,canvas,{onActivate=()=>{},isBlocked
     if(down&&!down.moved&&down.id===event.pointerId&&Math.hypot(event.clientX-down.x,event.clientY-down.y)<7){const target=pick(event);if(target)onActivate(target);}
     down=null;
   });
-  canvas.addEventListener('pointermove',event=>{if(down&&Math.hypot(event.clientX-down.x,event.clientY-down.y)>=7)down.moved=true;const r=canvas.getBoundingClientRect();pointer.set((event.clientX-r.left)/r.width*2-1,-(event.clientY-r.top)/r.height*2+1);});
-  canvas.addEventListener('pointerleave',()=>pointer.set(5,5));
+  canvas.addEventListener('pointermove',event=>{pointerInside=true;pointerDirty=true;if(down&&Math.hypot(event.clientX-down.x,event.clientY-down.y)>=7)down.moved=true;const r=canvas.getBoundingClientRect();pointer.set((event.clientX-r.left)/r.width*2-1,-(event.clientY-r.top)/r.height*2+1);});
+  canvas.addEventListener('pointerleave',()=>{pointerInside=false;pointerDirty=true;pointer.set(5,5);});
   function hover(node,on){
     if(!node)return;const original=base.get(node),factor=on?(node===fish?1.2:1.4):1;
     gsap.to(node.scale,{x:original.scale.x*factor,y:original.scale.y*factor,z:original.scale.z*factor,duration:on?.5:.3,ease:'back.out(2)',overwrite:true});
@@ -56,7 +56,9 @@ export function createRoomMotion(root,camera,canvas,{onActivate=()=>{},isBlocked
       if(fish){const s=Math.sin(time*1.5);fish.position.y=base.get(fish).position.y+.12*s*(1-Math.abs(s)*.1);}
     }
     const now=new Date();if(minute)minute.rotation.x=-(now.getMinutes()+now.getSeconds()/60)*Math.PI*2/60;if(hour)hour.rotation.x=-(now.getHours()%12+now.getMinutes()/60)*Math.PI*2/12;
-    const next=pick();
+    const shouldPick=pointerDirty||time-lastPick>=.08;
+    if(shouldPick){pointerDirty=false;lastPick=time;}
+    const next=shouldPick?pick():hovered;
     if(next!==hovered){hover(hovered,false);hovered=next;hover(hovered,true);canvas.style.cursor=hovered?'pointer':'grab';}
   }};
 }
