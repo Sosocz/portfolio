@@ -1,3 +1,4 @@
+import {freezeRoomTransforms,roomMaterialFor,installRoomResize} from './room-performance.js';
 import * as THREE from 'three';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
@@ -19,23 +20,25 @@ window.SXSXRoomPageScroll?.bind(controls);
 const ambient=new THREE.HemisphereLight(0xdde9e8,0x967557,.9);scene.add(ambient);
 const wallpaper=createDesktopWallpaper();let screen,motion,steam;
 const ready=new GLTFLoader().loadAsync(base('chambre-sxsx.gltf')).then(async(asset)=>{
-  const root=asset.scene;
+  const root=asset.scene,roomMaterials=new WeakMap();
   root.traverse(node=>{
     if(!node.isMesh)return;
     if(node.name.includes('Screen')){screen=new THREE.MeshBasicMaterial({map:wallpaper.texture,toneMapped:false});node.material=screen;}
     const label=node.userData.roomTextureSet;
     if(label && node.material.map){
       const day=node.material.map;
-        node.material=new THREE.ShaderMaterial({uniforms:{day:{value:day},uRugPalette:{value:node.name==='Third'?1:0}},
+        node.material=roomMaterialFor(roomMaterials,day,node.name==='Third'?1:0,()=>new THREE.ShaderMaterial({uniforms:{day:{value:day},uRugPalette:{value:node.name==='Third'?1:0}},
           vertexShader:"varying vec2 vUv;varying vec3 vRoomPosition;void main(){vUv=uv;vRoomPosition=(modelMatrix*vec4(position,1.)).xyz;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}",
           fragmentShader:"varying vec2 vUv;varying vec3 vRoomPosition;uniform sampler2D day;uniform float uRugPalette;\nvoid main(){\n vec3 color=pow(texture2D(day,vUv).rgb,vec3(1./2.2));\n bool rug=uRugPalette>.5&&vRoomPosition.x>.45&&vRoomPosition.x<2.45&&vRoomPosition.z> -1.45&&vRoomPosition.z<1.55&&vRoomPosition.y>.50&&vRoomPosition.y<.70;\n if(rug){\n  vec3 mint=vec3(56.,228.,178.)/255.;\n  vec3 rose=vec3(242.,166.,194.)/255.;\n  vec3 tint=vRoomPosition.y>.60425?rose:mint;\n  float shade=clamp(dot(color,vec3(.2126,.7152,.0722))/.80,.20,1.12);\n  color=clamp(tint*shade,0.,1.);\n }\n gl_FragColor=vec4(color,1.);\n}",
-        });
+        }));
     }
   });
   scene.add(root);
   const bounds=new THREE.Box3().setFromObject(root),center=bounds.getCenter(new THREE.Vector3()),size=bounds.getSize(new THREE.Vector3());
   if(size.x>25||size.z>25||size.y>15)throw new Error('Dimensions du modèle inattendues');
   controls.target.copy(center);camera.position.copy(center).add(roomViewOffset);controls.update();
+  freezeRoomTransforms(scene,root);
+  if(typeof renderer.compileAsync==='function')await renderer.compileAsync(scene,camera).catch(()=>{});
   const interactions=await createRoomInteractions(controls);
   motion=createRoomMotion(root,camera,renderer.domElement,{onActivate:interactions.activate,isBlocked:interactions.isBlocked});
   steam=await createRoomSteam(root).catch(error=>{console.warn(error);return null;});
@@ -45,5 +48,5 @@ const ready=new GLTFLoader().loadAsync(base('chambre-sxsx.gltf')).then(async(ass
   document.dispatchEvent(new CustomEvent('room-ready'));
   return root;
 }).catch(error=>{document.querySelector('#status').textContent=error.message;console.error(error);});
-addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);});
-const clock=new THREE.Clock();let lastRender=null;renderer.setAnimationLoop(now=>{if(lastRender!==null){const elapsed=now-lastRender;if(elapsed<1000/60-.25)return;lastRender=elapsed>=1000/60?now-elapsed%(1000/60):now}else lastRender=now;const time=clock.getElapsedTime();wallpaper.update(time);controls.update();motion?.update(time);steam?.update(time);renderer.render(scene,camera);});
+installRoomResize(renderer,camera);
+const clock=new THREE.Clock();let lastRender=null;renderer.setAnimationLoop(now=>{if(lastRender!==null){const elapsed=now-lastRender;if(elapsed<1000/60-.25)return;lastRender=elapsed>=1000/60?now-elapsed%(1000/60):now}else lastRender=now;const time=clock.getElapsedTime();if(!motion)return;wallpaper.update(time);controls.update();motion?.update(time);steam?.update(time);renderer.render(scene,camera);});

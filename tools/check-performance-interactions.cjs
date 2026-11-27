@@ -5,11 +5,11 @@ const authored=fs.readFileSync(path.join(dist,'chambre-sxsx/src/portfolio-room-m
 class Vector {constructor(x=1,y=1,z=1){Object.assign(this,{x,y,z});}clone(){return new Vector(this.x,this.y,this.z);}set(x,y,z){Object.assign(this,{x,y,z});return this;}copy(v){Object.assign(this,v);return this;}}
 function verifyMotion(source,compiledVersion){
  let rays=0,matrixUpdates=0,activations=0;
- const target={name:'About_Button_Raycaster_Hover',isMesh:true,parent:{name:'Root'},rotation:new Vector(0,0,0),position:new Vector(0,0,0),scale:new Vector};
+ const target={updateMatrix(){matrixUpdates++;},name:'About_Button_Raycaster_Hover',isMesh:true,parent:{name:'Root'},rotation:new Vector(0,0,0),position:new Vector(0,0,0),scale:new Vector};
  class Raycaster {setFromCamera(){}intersectObjects(){rays++;return[{object:target}];}}
  const events=new Map(),canvas={style:{},getBoundingClientRect:()=>({left:0,top:0,width:100,height:100}),addEventListener:(t,f)=>events.set(t,f)};
  const root={traverse:f=>f(target),updateMatrixWorld:()=>matrixUpdates++},camera={updateMatrixWorld(){}};
- const tween={to(){},killTweensOf(){}};
+ const tween={to(target,options){options.onUpdate?.();},killTweensOf(){}};
  const context={THREE:{Vector2:Vector,Raycaster},gsap:tween,Ee:Vector,e_:Raycaster,br:tween,Date,Math,Map,matchMedia:()=>({matches:false})};
  vm.createContext(context);
  vm.runInContext(source+';globalThis.createMotion='+(compiledVersion?'eS':'createRoomMotion')+';',context);
@@ -31,7 +31,7 @@ verifyMotion(compiled.slice(compiled.indexOf('function eS('),compiled.indexOf('c
 // Run the exact production scheduling block at representative refresh rates.
 const tick=compiled.slice(compiled.indexOf('const roomTick=now=>'),compiled.indexOf('\nlet roomViewportVisible=',compiled.indexOf('const roomTick=now=>')));
 for(const hz of [60,120,144]){
- let renders=0;const context={Math,Td:{update(){}},Un:{update(){}},As:null,Pa:null,ui:{render(){renders++;}},Ka:{},tr:{}};
+ let renders=0;const context={Math,Td:{update(){}},Un:{update(){}},As:{update(){}},Pa:null,ui:{render(){renders++;}},Ka:{},tr:{}};
  vm.createContext(context);vm.runInContext('let roomLastFrame=0,roomLastRender=null,roomElapsed=0;'+tick+';globalThis.tick=roomTick;',context);
  for(let n=0;n<hz;n++)context.tick(1000+n*1000/hz);
  assert(renders>=59&&renders<=61,`60 Hz output expected on ${hz} Hz, got ${renders}`);
@@ -52,6 +52,6 @@ console.log('PASS: hidden legacy helmet pass skipped for room; original other-pa
 for(const page of ['index.html','on-track/index.html']){
  const html=fs.readFileSync(path.join(dist,page),'utf8');
  const images=[...html.matchAll(/<img\b[^>]*class="[^"]*helmet-grid-item-reveal-img[^"]*"[^>]*>/g)];
- assert.equal(images.length,16);assert(images.every(m=>m[0].includes('loading="eager"')));assert(html.includes('certificate-readiness.js'));
+ assert.equal(images.length,16);assert(images.every(m=>m[0].includes('loading="lazy"')&&m[0].includes('data-certificate-src="')));assert(html.includes('certificate-readiness.js'));
 }
-console.log('PASS: all 16 certificate reveal images fetched before hover on both pages.');
+console.log('PASS: all 16 original certificate reveal images deferred and prepared before hover on both pages.');
