@@ -3,7 +3,7 @@
  const mounted=new WeakMap();
  const clamp=(v,min,max)=>Math.max(min,Math.min(max,v));
  const urls={
-  projects:{label:'Mes projets',href:'/projets/'},
+  projects:{label:'Mes projets',href:'/portfolio/projets/'},
   about:{label:'À propos',href:'#parcours'},
   contact:{label:'Me contacter',href:'mailto:sofiane.ghazal2@gmail.com'},
   github:{label:'GitHub',href:'https://github.com/Sosocz'},

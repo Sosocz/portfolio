@@ -2078,7 +2078,7 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: Brier;
-  src: url("/assets/vendor/ef0cde57907c.woff2") format("woff2");
+  src: url("/portfolio/assets/vendor/ef0cde57907c.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -2086,7 +2086,7 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: Mona Sans Variable;
-  src: url("/assets/vendor/e59cf54669a4.woff2") format("woff2");
+  src: url("/portfolio/assets/vendor/e59cf54669a4.woff2") format("woff2");
   font-weight: 200 900;
   font-style: normal;
   font-display: swap;
@@ -4106,7 +4106,7 @@ blockquote {
 
 .helmet-grid-item-reveal-img {
   clip-path: ellipse(100% 0% at 50% 0);
-  background-image: url("/assets/home-media/cbbb63e749e73f95.webp");
+  background-image: url("/portfolio/assets/home-media/cbbb63e749e73f95.webp");
   background-position: 50%;
   background-size: cover;
   width: 100%;
@@ -5263,7 +5263,7 @@ blockquote {
 }
 
 .on-t-hero-stats-ui-img-fill {
-  background-image: url("/assets/home-media/1c09ea54c0ee26a6.webp");
+  background-image: url("/portfolio/assets/home-media/1c09ea54c0ee26a6.webp");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto 130%;
@@ -6090,7 +6090,7 @@ blockquote {
 }
 
 .menu-img-no-blend.is-2 {
-  background-image: url("/assets/hover-sofiane/support-v1.webp");
+  background-image: url("/portfolio/assets/hover-sofiane/support-v1.webp");
 }
 
 .nav-menu-img-w {
@@ -6141,7 +6141,7 @@ blockquote {
 }
 
 .menu-img-top.is-2 {
-  background-image: url("/assets/hover-sofiane/support-v1.webp");
+  background-image: url("/portfolio/assets/hover-sofiane/support-v1.webp");
 }
 
 .nav-menu-w {
@@ -6323,7 +6323,7 @@ blockquote {
 .nav-menu-bg {
   z-index: -1;
   opacity: .12;
-  background-image: url("/assets/home-media/8b61eba13fdd8fc0.svg");
+  background-image: url("/portfolio/assets/home-media/8b61eba13fdd8fc0.svg");
   background-position: 50%;
   background-repeat: repeat-x;
   background-size: auto 170%;
@@ -6436,7 +6436,7 @@ blockquote {
 }
 
 .off-t-hero-img {
-  background-image: url("/assets/character-scenes/06-support-reunion-v2-960.webp");
+  background-image: url("/portfolio/assets/character-scenes/06-support-reunion-v2-960.webp");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6727,7 +6727,7 @@ blockquote {
 .part-i-video-w {
   z-index: 10;
   aspect-ratio: 68.25 / 36.5625;
-  background-image: url("/assets/home-media/03f5488c0c0ea48c.svg");
+  background-image: url("/portfolio/assets/home-media/03f5488c0c0ea48c.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;

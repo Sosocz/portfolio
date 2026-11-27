@@ -35,7 +35,7 @@
    const lenis=window.lenis||window.landoGL?.lenis?.instance;
    if(lenis?.scrollTo)lenis.scrollTo(target,{offset:-80,force:true});else target.scrollIntoView({behavior:'smooth'});
   }else if(action==='work'){
-   const link=document.querySelector('a[href="/projets/"]');if(link)link.click();else location.assign('/projets/');
+   const link=document.querySelector('a[href="/portfolio/projets/"]');if(link)link.click();else location.assign('/portfolio/projets/');
   }else if(action==='contact'){
    location.assign('mailto:sofiane.ghazal2@gmail.com');
   }
