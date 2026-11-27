@@ -34,9 +34,9 @@ export function createRoomMotion(root,camera,canvas,{onActivate=()=>{},isBlocked
   canvas.addEventListener('pointerleave',()=>{pointerInside=false;pointerDirty=true;pointer.set(5,5);});
   function hover(node,on){
     if(!node)return;const original=base.get(node),factor=on?(node===fish?1.2:1.4):1;
-    gsap.to(node.scale,{x:original.scale.x*factor,y:original.scale.y*factor,z:original.scale.z*factor,duration:on?.5:.3,ease:'back.out(2)',overwrite:true});
-    if(/About_Button|Contact_Button|My_Work_Button|GitHub|YouTube|Twitter/.test(node.name))gsap.to(node.rotation,{x:original.rotation.x+(on?(node.name.includes('About_Button')?-1:1)*Math.PI/10:0),duration:.5,overwrite:true});
-    if(/Boba|sxsx_/.test(node.name))gsap.to(node.position,{y:original.position.y+(on?.2:0),duration:.5,overwrite:true});
+    gsap.to(node.scale,{x:original.scale.x*factor,y:original.scale.y*factor,z:original.scale.z*factor,duration:on?.5:.3,ease:'back.out(2)',overwrite:true,onUpdate:()=>node.updateMatrix()});
+    if(/About_Button|Contact_Button|My_Work_Button|GitHub|YouTube|Twitter/.test(node.name))gsap.to(node.rotation,{x:original.rotation.x+(on?(node.name.includes('About_Button')?-1:1)*Math.PI/10:0),duration:.5,overwrite:true,onUpdate:()=>node.updateMatrix()});
+    if(/Boba|sxsx_/.test(node.name))gsap.to(node.position,{y:original.position.y+(on?.2:0),duration:.5,overwrite:true,onUpdate:()=>node.updateMatrix()});
   }
   const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
   function replay(){
@@ -44,8 +44,8 @@ export function createRoomMotion(root,camera,canvas,{onActivate=()=>{},isBlocked
     const groups=['Hanging_Plank','Button','Frame_','Boba','GitHub','YouTube','Twitter','Flower_','Box_','Lamp_','Slipper_','Egg_','Fish_Fourth'];
     for(const[node,original]of base){
       const i=groups.findIndex(pattern=>node.name.includes(pattern));if(i<0)continue;
-      gsap.killTweensOf(node.scale);node.scale.set(0,0,0);
-      gsap.to(node.scale,{...original.scale,duration:.8,delay:i*.12,ease:'back.out(1.8)',overwrite:true});
+      gsap.killTweensOf(node.scale);node.scale.set(0,0,0);node.updateMatrix();
+      gsap.to(node.scale,{...original.scale,duration:.8,delay:i*.12,ease:'back.out(1.8)',overwrite:true,onUpdate:()=>node.updateMatrix()});
     }
   }
   replay();
